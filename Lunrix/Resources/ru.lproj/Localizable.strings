@@ -1,0 +1,1550 @@
+/* Lynrix v2.5 — Русская локализация */
+
+// ==========================================
+// MARK: - Брендинг
+// ==========================================
+"app.name" = "LYNRIX";
+"app.nameTitleCase" = "Lynrix";
+"app.version" = "v2.5.0";
+"app.copyright" = "Copyright © 2026 Lynrix. Все права защищены.";
+"app.about.credits" = "Торговая HFT-платформа\nC++23 Core • SwiftUI Glassmorphism 2026\nХаос-тестирование • Детерминированный реплей\n© 2026 Lynrix";
+"app.about.build" = "Сборка 1 — Sprint 6 Release";
+"app.launching" = "Lynrix v2.5.0 запускается…";
+"app.ready" = "Lynrix готов";
+
+// ==========================================
+// MARK: - Меню
+// ==========================================
+"menu.trading" = "Торговля";
+"menu.startEngine" = "Запустить движок";
+"menu.stopEngine" = "Остановить движок";
+"menu.toggleMode" = "Переключить Paper / Live";
+"menu.emergencyStop" = "Экстренная остановка";
+"menu.observability" = "Наблюдаемость";
+"menu.exportFlamegraph" = "Экспорт Flamegraph…";
+"menu.exportHistograms" = "Экспорт гистограмм CSV…";
+"menu.enableChaos" = "Включить хаос (ночной профиль)";
+"menu.disableChaos" = "Выключить хаос";
+"menu.loadReplay" = "Загрузить файл реплея…";
+"menu.export" = "Экспорт";
+"menu.exportLogs" = "Экспорт логов…";
+"menu.exportTradesCSV" = "Экспорт сделок CSV…";
+"menu.exportSignalsCSV" = "Экспорт сигналов CSV…";
+"menu.clearLogs" = "Очистить логи";
+"menu.about" = "О Lynrix…";
+"menu.toggleSidebar" = "Показать/скрыть боковую панель";
+"menu.replayMessage" = "Выберите дамп BlackBoxRecorder (.bin) для детерминированного воспроизведения";
+
+// ==========================================
+// MARK: - Разделы боковой панели
+// ==========================================
+"section.trading" = "ТОРГОВЛЯ";
+"section.execution" = "ИСПОЛНЕНИЕ И РИСК";
+"section.observability" = "НАБЛЮДАЕМОСТЬ";
+"section.system" = "СИСТЕМА";
+
+// ==========================================
+// MARK: - Вкладки
+// ==========================================
+"tab.dashboard" = "Дашборд";
+"tab.ai" = "AI-модель";
+"tab.orderbook" = "Стакан";
+"tab.trades" = "Лента сделок";
+"tab.portfolio" = "Портфель";
+"tab.signals" = "Сигналы";
+"tab.strategy" = "Стратегия";
+"tab.orderFSM" = "FSM ордеров";
+"tab.varRisk" = "Риск VaR";
+"tab.rlTraining" = "RL-обучение";
+"tab.chaos" = "Хаос-тест";
+"tab.replay" = "Реплей";
+"tab.system" = "Система";
+"tab.mlDiag" = "ML-диаг.";
+"tab.settings" = "Настройки";
+"tab.logs" = "Логи";
+"tab.diagnostics" = "Диагностика";
+
+// ==========================================
+// MARK: - Палитра команд (D-A1)
+// ==========================================
+"palette.placeholder" = "Введите команду...";
+"palette.noResults" = "Нет совпадений";
+"palette.goTo" = "Перейти";
+"palette.engine" = "Движок";
+"palette.theme" = "Оформление";
+"palette.startEngine" = "Запустить движок";
+"palette.stopEngine" = "Остановить движок";
+"palette.emergencyStop" = "Аварийная остановка";
+"settings.section.general" = "Общие";
+"settings.section.trading" = "Торговля";
+"settings.section.ai" = "AI / ML";
+"settings.section.prefs" = "Настройки";
+
+// ==========================================
+// MARK: - Общие
+// ==========================================
+"common.start" = "Старт";
+"common.stop" = "Стоп";
+"common.restart" = "Перезапуск";
+"common.dismiss" = "Закрыть";
+"common.save" = "Сохранить";
+"common.cancel" = "Отмена";
+"common.apply" = "Применить";
+"common.yes" = "Да";
+"common.no" = "Нет";
+"common.on" = "ВКЛ";
+"common.off" = "ВЫКЛ";
+"common.ok" = "OK";
+"common.paper" = "PAPER";
+"common.live" = "LIVE";
+"common.active" = "АКТИВЕН";
+"common.idle" = "ОЖИДАНИЕ";
+"common.long" = "LONG";
+"common.short" = "SHORT";
+"common.flat" = "FLAT";
+"common.buy" = "ПОКУПКА";
+"common.sell" = "ПРОДАЖА";
+"common.enabled" = "Включено";
+"common.disabled" = "отключено";
+"common.mode" = "Режим";
+"common.score" = "Оценка";
+"common.activity" = "Активность";
+"common.all" = "Все";
+"common.entries" = "записей";
+"common.stages" = "стадий";
+
+// ==========================================
+// MARK: - Движок и статус
+// ==========================================
+"engine.panic" = "ПАНИКА";
+"engine.reconnecting" = "ПЕРЕПОДКЛЮЧЕНИЕ";
+"engine.chaos" = "ХАОС";
+"engine.manualStop" = "Ручная экстренная остановка";
+
+// ==========================================
+// MARK: - Дашборд
+// ==========================================
+"dashboard.midPrice" = "СРЕДНЯЯ ЦЕНА";
+"dashboard.spread" = "СПРЕД";
+"dashboard.regime" = "РЕЖИМ";
+"dashboard.engine" = "ДВИЖОК";
+"dashboard.position" = "ПОЗИЦИЯ";
+"dashboard.unrealized" = "НЕРЕАЛИЗОВ.";
+"dashboard.realized" = "РЕАЛИЗОВ.";
+"dashboard.netPnl" = "ЧИСТЫЙ PnL";
+"dashboard.var99" = "VaR 99%";
+"dashboard.rlReward" = "RL НАГРАДА";
+"dashboard.osmActive" = "OSM АКТИВН.";
+"dashboard.chaos" = "ХАОС";
+"dashboard.risk" = "риск";
+"dashboard.avg" = "средн.";
+"dashboard.orders" = "ордера";
+"dashboard.inj" = "инъ.";
+"dashboard.equityCurve" = "Кривая капитала";
+"dashboard.throughput" = "Пропускная способность";
+"dashboard.latency" = "Задержка";
+"dashboard.obUpdates" = "Обн. стакана";
+"dashboard.trades" = "Сделки";
+"dashboard.signals" = "Сигналы";
+"dashboard.ordersSent" = "Ордеров отпр.";
+"dashboard.ordersFilled" = "Ордеров исп.";
+"dashboard.wsReconnects" = "WS переподкл.";
+"dashboard.e2eP50" = "E2E p50";
+"dashboard.e2eP99" = "E2E p99";
+"dashboard.featureP50" = "Фичи p50";
+"dashboard.featureP99" = "Фичи p99";
+"dashboard.modelP50" = "Модель p50";
+"dashboard.modelP99" = "Модель p99";
+"dashboard.aiPrediction" = "AI-прогноз";
+"dashboard.confidence" = "УВЕРЕННОСТЬ";
+"dashboard.pUp" = "P(РОСТ)";
+"dashboard.pDown" = "P(ПАДЕНИЕ)";
+"dashboard.circuitBreaker" = "Размыкатель";
+"dashboard.tripped" = "СРАБОТАЛ";
+"dashboard.cooldown" = "ОХЛАЖДЕНИЕ";
+"dashboard.drawdown" = "Просадка";
+"dashboard.consecLosses" = "Убытков подряд";
+"dashboard.peakPnl" = "Пик PnL";
+"dashboard.recentLogs" = "Последние логи";
+"dashboard.volatility" = "Волатильность";
+
+// ==========================================
+// MARK: - Стакан
+// ==========================================
+"orderbook.title" = "СТАКАН ЗАЯВОК";
+"orderbook.bid" = "Бид";
+"orderbook.ask" = "Аск";
+"orderbook.imbalance" = "ДИСБАЛАНС";
+"orderbook.depth" = "ГЛУБИНА";
+"orderbook.price" = "Цена";
+"orderbook.size" = "Объём";
+"orderbook.total" = "Итого";
+"orderbook.bidSide" = "БИД";
+"orderbook.askSide" = "АСК";
+"orderbook.levels" = "уровней";
+"orderbook.noData" = "Ожидание данных стакана…";
+
+// ==========================================
+// MARK: - Сигналы
+// ==========================================
+"signals.title" = "ТОРГОВЫЕ СИГНАЛЫ";
+"signals.noSignals" = "Нет сигналов";
+"signals.waitingForSignals" = "Сигналы появятся после запуска движка";
+"signals.time" = "ВРЕМЯ";
+"signals.side" = "СТОРОНА";
+"signals.price" = "ЦЕНА";
+"signals.qty" = "КОЛ-ВО";
+"signals.confidence" = "УВЕРЕН.";
+
+// ==========================================
+// MARK: - Лента сделок
+// ==========================================
+"tradeTape.title" = "ЛЕНТА СДЕЛОК";
+"tradeTape.trades" = "сделок";
+"tradeTape.autoScroll" = "Автопрокрутка";
+"tradeTape.csv" = "CSV";
+"tradeTape.time" = "ВРЕМЯ";
+"tradeTape.side" = "СТОРОНА";
+"tradeTape.price" = "ЦЕНА";
+"tradeTape.qty" = "КОЛ-ВО";
+"tradeTape.notional" = "НОМИНАЛ";
+"tradeTape.noTrades" = "Нет сделок";
+"tradeTape.waitingForTrades" = "Сделки появятся после запуска движка";
+"tradeTape.buy" = "Покупка:";
+"tradeTape.sell" = "Продажа:";
+"tradeTape.volume" = "Объём:";
+"tradeTape.avgPrice" = "Средн. цена:";
+
+// ==========================================
+// MARK: - Портфель
+// ==========================================
+"portfolio.currentPosition" = "Текущая позиция";
+"portfolio.size" = "Размер";
+"portfolio.entry" = "Вход";
+"portfolio.unrealized" = "Нереализов.";
+"portfolio.realized" = "Реализов.";
+"portfolio.pnlMetrics" = "Метрики PnL";
+"portfolio.netPnl" = "Чистый PnL";
+"portfolio.winRate" = "Доля побед";
+"portfolio.profitFactor" = "Профит-фактор";
+"portfolio.executionStats" = "Статистика исполнения";
+"portfolio.latency" = "Задержка";
+"portfolio.slippage" = "Проскальзывание";
+"portfolio.fillRate" = "Доля исполнения";
+"portfolio.totalTrades" = "Всего сделок";
+
+// ==========================================
+// MARK: - Производительность стратегии
+// ==========================================
+"strategy.health" = "ЗДОРОВЬЕ СТРАТЕГИИ";
+"strategy.keyMetrics" = "Ключевые метрики";
+"strategy.sharpe" = "Шарп";
+"strategy.sortino" = "Сортино";
+"strategy.profitFactor" = "Профит-фактор";
+"strategy.riskMetrics" = "Метрики риска";
+"strategy.maxDrawdown" = "Макс. просадка";
+"strategy.bestTrade" = "Лучшая сделка";
+"strategy.worstTrade" = "Худшая сделка";
+"strategy.tradeStats" = "Торговая статистика";
+"strategy.totalTrades" = "Всего сделок";
+"strategy.winRate" = "Доля побед";
+"strategy.avgWin" = "Средн. прибыль";
+"strategy.avgLoss" = "Средн. убыток";
+"strategy.healthComponents" = "Компоненты здоровья";
+"strategy.accuracy" = "Точность";
+"strategy.pnl" = "PnL";
+"strategy.drawdownComponent" = "Просадка";
+"strategy.pnlHistory" = "История PnL";
+"strategy.rlOptimizer" = "RL-оптимизатор";
+"strategy.accDeclining" = "Точн↓";
+"strategy.ddWarning" = "ПР!";
+
+// ==========================================
+// MARK: - AI-панель
+// ==========================================
+"ai.title" = "AI ПАНЕЛЬ";
+"ai.marketRegime" = "Рыночный режим";
+"ai.modelPredictions" = "Прогнозы модели";
+"ai.shortHorizon" = "Короткий горизонт";
+"ai.mediumHorizon" = "Средний горизонт";
+"ai.longHorizon" = "Длинный горизонт";
+"ai.adaptiveThresholds" = "Адаптивные пороги";
+"ai.signalThreshold" = "Порог сигнала";
+"ai.positionScale" = "Масштаб позиции";
+"ai.cancelMs" = "Отмена мс";
+"ai.circuitBreaker" = "Размыкатель";
+"ai.multiHorizon" = "Многогоризонтные прогнозы";
+"ai.accuracy" = "Точность";
+"ai.rollingAccuracy" = "Скользящая точность";
+"ai.pnlHistory" = "История PnL";
+"ai.drawdownHistory" = "История просадки";
+"ai.confidence" = "Уверенность";
+"ai.probUp" = "P(Рост)";
+"ai.probDown" = "P(Падение)";
+"ai.usingOnnx" = "ONNX";
+
+// ==========================================
+// MARK: - RL-обучение
+// ==========================================
+"rl.title" = "RL-ОБУЧЕНИЕ";
+"rl.stateVector" = "Вектор состояния";
+"rl.dims" = "измер.";
+"rl.actionVector" = "Вектор действий";
+"rl.rewardHistory" = "История наград";
+"rl.avgReward" = "Средн. награда";
+"rl.totalSteps" = "Всего шагов";
+"rl.ppoDiagnostics" = "Диагностика PPO";
+"rl.policyLoss" = "Потеря политики";
+"rl.valueLoss" = "Потеря значения";
+"rl.entropy" = "Энтропия";
+"rl.klDivergence" = "KL-дивергенция";
+"rl.learningRate" = "Скорость обучения";
+"rl.training" = "Обучение";
+"rl.notTraining" = "Не обучается";
+"rl.brainPanel" = "Нейропанель";
+"rl.episode" = "Эпизод";
+
+// ==========================================
+// MARK: - VaR
+// ==========================================
+"var.title" = "СТОИМОСТЬ ПОД РИСКОМ";
+"var.var95" = "VaR 95%";
+"var.var99" = "VaR 99%";
+"var.cvar95" = "CVaR 95%";
+"var.cvar99" = "CVaR 99%";
+"var.methodComparison" = "Сравнение методов";
+"var.parametric" = "Параметрический";
+"var.historical" = "Исторический";
+"var.monteCarlo" = "Монте-Карло";
+"var.stressScenarios" = "Стресс-сценарии";
+"var.riskSummary" = "Сводка по рискам";
+"var.positionLimit" = "Лимит позиции";
+"var.returnCount" = "Кол-во доходностей";
+"var.meanReturn" = "Средн. доходность";
+"var.returnStddev" = "Ст. откл. доходн.";
+
+// ==========================================
+// MARK: - Хаос-тестирование
+// ==========================================
+"chaos.title" = "ХАОС-ДВИЖОК";
+"chaos.enabled" = "Хаос включён";
+"chaos.totalInjections" = "Всего инъекций";
+"chaos.latencySpikes" = "Скачки задержки";
+"chaos.packetLoss" = "Потеря пакетов";
+"chaos.fakeDeltas" = "Фиктивные дельты";
+"chaos.oomSimulations" = "Симуляции OOM";
+"chaos.corruptedJson" = "Повреждённый JSON";
+"chaos.clockSkew" = "Смещение часов";
+"chaos.enableNightly" = "Включить ночной профиль";
+"chaos.enableFlashCrash" = "Включить Flash Crash";
+"chaos.disable" = "Выключить хаос";
+"chaos.faultCards" = "Карты неисправностей";
+"chaos.injections" = "инъекций";
+
+// ==========================================
+// MARK: - Реплей
+// ==========================================
+"replay.title" = "ДЕТЕРМИНИРОВАННЫЙ РЕПЛЕЙ";
+"replay.loadFile" = "Загрузить файл";
+"replay.loaded" = "Загружен";
+"replay.notLoaded" = "Не загружен";
+"replay.events" = "Событий";
+"replay.progress" = "Прогресс";
+"replay.speed" = "Скорость";
+"replay.play" = "Воспроизвести";
+"replay.pause" = "Пауза";
+"replay.stopReplay" = "Стоп";
+"replay.reset" = "Сброс";
+"replay.integrity" = "Целостность CRC32";
+"replay.verified" = "Подтверждена";
+"replay.pending" = "Ожидание";
+"replay.selectFile" = "Выберите файл реплея (.bin)";
+"replay.eventCount" = "Кол-во событий";
+"replay.duration" = "Длительность";
+
+// ==========================================
+// MARK: - FSM ордеров
+// ==========================================
+"osm.title" = "МАШИНА СОСТОЯНИЙ ОРДЕРОВ";
+"osm.activeOrders" = "Активные ордера";
+"osm.totalFills" = "Всего исполнений";
+"osm.avgSlippage" = "Средн. проскальз.";
+"osm.marketImpact" = "Рыночное влияние";
+"osm.fsmStates" = "Состояния FSM";
+"osm.icebergProgress" = "Прогресс Iceberg";
+"osm.twapProgress" = "Прогресс TWAP";
+"osm.filledSlices" = "Исполн. частей";
+"osm.remainingQty" = "Остаток";
+"osm.orderTable" = "Таблица ордеров";
+"osm.orderId" = "ID ордера";
+"osm.state" = "Состояние";
+"osm.side" = "Сторона";
+"osm.price" = "Цена";
+"osm.qty" = "Кол-во";
+"osm.filled" = "Исполнено";
+
+// ==========================================
+// MARK: - ML-диагностика
+// ==========================================
+"ml.title" = "ML-ДИАГНОСТИКА";
+"ml.modelAccuracy" = "Точность модели";
+"ml.overall" = "Общая";
+"ml.perClass" = "По классам";
+"ml.precision" = "Точность";
+"ml.recall" = "Полнота";
+"ml.f1Score" = "F1-мера";
+"ml.horizonAccuracy" = "Точность по горизонтам";
+"ml.accuracyTrend" = "Тренд точности";
+"ml.featureImportance" = "Важность признаков";
+"ml.noData" = "Нет данных ML…";
+
+// ==========================================
+// MARK: - Системный монитор
+// ==========================================
+"sysmon.resources" = "Ресурсы";
+"sysmon.cpu" = "CPU";
+"sysmon.cpuCores" = "Ядра CPU";
+"sysmon.memory" = "Память";
+"sysmon.peakMemory" = "Пик памяти";
+"sysmon.uptime" = "Время работы";
+"sysmon.gpu" = "GPU";
+"sysmon.gpuUsage" = "Загрузка GPU";
+"sysmon.throughput" = "Пропускная способность";
+"sysmon.ticksSec" = "Тиков/сек";
+"sysmon.signalsSec" = "Сигналов/сек";
+"sysmon.ordersSec" = "Ордеров/сек";
+"sysmon.latency" = "Задержка (мкс)";
+"sysmon.websocket" = "WebSocket";
+"sysmon.features" = "Фичи";
+"sysmon.model" = "Модель";
+"sysmon.endToEnd" = "Сквозная";
+"sysmon.exchangeRtt" = "RTT биржи";
+"sysmon.network" = "Сеть";
+"sysmon.drawdownHistory" = "История просадки";
+"sysmon.mlInference" = "ML-инференс";
+"sysmon.inferenceP50" = "Инференс p50";
+"sysmon.inferenceP99" = "Инференс p99";
+"sysmon.gpuAvailable" = "GPU доступен";
+"sysmon.gpuName" = "Имя GPU";
+"sysmon.stageHistograms" = "HdrHistogram по стадиям";
+"sysmon.noHistogramData" = "Нет данных гистограмм…";
+"sysmon.jitterAlerts" = "АЛЕРТЫ ДЖИТТЕРА";
+"sysmon.ordersCancelled" = "Ордеров отменено";
+
+// ==========================================
+// MARK: - Панель логов
+// ==========================================
+"logs.title" = "СИСТЕМНЫЙ ЛОГ";
+"logs.filter" = "Фильтр…";
+"logs.info" = "ИНФО";
+"logs.warn" = "ВНИМАНИЕ";
+"logs.error" = "ОШИБКА";
+"logs.autoScroll" = "Автопрокрутка";
+"logs.noEntries" = "Нет записей";
+
+// ==========================================
+// MARK: - Диагностика
+// ==========================================
+"diag.systemDiag" = "Системная диагностика";
+"diag.version" = "Версия";
+"diag.macos" = "macOS";
+"diag.cpuCores" = "Ядра CPU";
+"diag.ram" = "ОЗУ";
+"diag.processId" = "ID процесса";
+"diag.uptime" = "Время работы";
+"diag.engineState" = "Состояние движка";
+"diag.status" = "Статус";
+"diag.mode" = "Режим";
+"diag.symbol" = "Символ";
+"diag.orderQty" = "Объём ордера";
+"diag.signalThreshold" = "Порог сигнала";
+"diag.reconnecting" = "Переподключение";
+"diag.chaosEnabled" = "Хаос включён";
+"diag.replayLoaded" = "Реплей загружен";
+"diag.rlTraining" = "RL-обучение";
+"diag.dataState" = "Состояние данных";
+"diag.obValid" = "Стакан валиден";
+"diag.bidLevels" = "Уровней бид";
+"diag.askLevels" = "Уровней аск";
+"diag.bestBid" = "Лучший бид";
+"diag.bestAsk" = "Лучший аск";
+"diag.logEntries" = "Записей логов";
+"diag.signals" = "Сигналов";
+"diag.trades" = "Сделок";
+"diag.activeOrdersOSM" = "Активных ордеров (OSM)";
+"diag.stageHistograms" = "Гистограммы стадий";
+"diag.performance" = "Производительность";
+"diag.obUpdates" = "Обновлений стакана";
+"diag.totalTrades" = "Всего сделок";
+"diag.totalSignals" = "Всего сигналов";
+"diag.ordersSent" = "Ордеров отправлено";
+"diag.wsReconnects" = "WS переподключений";
+"diag.e2eP50" = "E2E p50";
+"diag.e2eP99" = "E2E p99";
+"diag.var99" = "VaR 99%";
+"diag.chaosInjections" = "Хаос-инъекций";
+
+// ==========================================
+// MARK: - Настройки
+// ==========================================
+"settings.title" = "НАСТРОЙКИ";
+"settings.apiKeys" = "API-КЛЮЧИ";
+"settings.keychain" = "Связка ключей";
+"settings.apiKey" = "API-ключ";
+"settings.apiSecret" = "API-секрет";
+"settings.showKey" = "Показать ключ";
+"settings.saveToKeychain" = "Сохранить в связку ключей";
+"settings.tradingMode" = "РЕЖИМ ТОРГОВЛИ";
+"settings.paperMode" = "Бумажная торговля";
+"settings.liveWarning" = "ВНИМАНИЕ: Live-режим использует реальные средства";
+"settings.tradingParams" = "ТОРГОВЫЕ ПАРАМЕТРЫ";
+"settings.orderQty" = "Объём ордера";
+"settings.symbol" = "Символ";
+"settings.signalThreshold" = "Порог сигнала";
+"settings.riskLimits" = "ЛИМИТЫ РИСКА";
+"settings.maxPosition" = "Макс. позиция";
+"settings.maxDrawdown" = "Макс. просадка %";
+"settings.maxLossDay" = "Макс. убыток/день";
+"settings.aiSettings" = "НАСТРОЙКИ AI";
+"settings.enableOnnx" = "Включить ONNX";
+"settings.enableRL" = "Включить RL-оптимизатор";
+"settings.updateInterval" = "Интервал обновления";
+"settings.ticks" = "тиков";
+"settings.circuitBreaker" = "РАЗМЫКАТЕЛЬ";
+"settings.cbMaxDrawdown" = "Макс. просадка";
+"settings.cbMaxConsecLosses" = "Макс. убытков подряд";
+"settings.cbCooldown" = "Охлаждение (сек)";
+"settings.applySettings" = "Применить настройки";
+"settings.language" = "ЯЗЫК";
+"settings.selectLanguage" = "Язык интерфейса";
+"settings.languageNote" = "Изменения языка применяются мгновенно";
+
+// ==========================================
+// MARK: - Дополнительные ключи (Views)
+// ==========================================
+"chaos.disabled" = "ОТКЛЮЧЁН";
+"chaos.summary" = "Сводка инъекций";
+"replay.loadedFile" = "Загруженный файл";
+"replay.noFile" = "Файл не загружен";
+"replay.load" = "Загрузить…";
+"rl.idle" = "ОЖИДАНИЕ";
+"rl.waitingForData" = "Ожидание данных обучения…";
+"rl.agentStatus" = "Статус агента";
+"var.portfolio" = "ПОРТФЕЛЬ";
+"var.methodsComparison" = "Сравнение методов VaR";
+"ml.perClassMetrics" = "Метрики по классам";
+"sysmon.stages" = "стадий";
+"sysmon.noHistograms" = "Нет данных гистограмм…";
+"log.title" = "СИСТЕМНЫЙ ЛОГ";
+"log.noEntries" = "Нет записей";
+"diag.systemDiagnostics" = "Системная диагностика";
+
+// ==========================================
+// MARK: - Настройки внешнего вида
+// ==========================================
+"settings.appearance" = "ВНЕШНИЙ ВИД";
+"settings.appearanceNote" = "Выберите светлую, тёмную тему или следуйте за настройкой macOS.";
+"settings.appearanceSystem" = "Система";
+"settings.appearanceLight" = "Светлая";
+"settings.appearanceDark" = "Тёмная";
+
+// ==========================================
+// MARK: - Дополнительные недостающие ключи
+// ==========================================
+"settings.keychainNote" = "API-ключи безопасно хранятся в связке ключей macOS.";
+"settings.stopEngineWarning" = "Остановите движок для изменения настроек";
+"settings.onnxRuntime" = "ONNX Runtime";
+
+"ai.direction" = "Направление";
+"ai.horizon" = "Горизонт";
+"ai.pFlat" = "P(Флэт)";
+"ai.move" = "Движ.";
+"ai.dir" = "Напр.";
+"ai.noData" = "Нет данных";
+"ai.inference" = "Инференс";
+
+"chaos.subtitle" = "Инъекция неисправностей для тестирования устойчивости";
+
+"logs.all" = "Все";
+
+"ml.current" = "Текущая:";
+"ml.multiHorizonProb" = "Многогоризонтные вероятности";
+
+"osm.subtitle" = "8-стадийная FSM с LUT-переходами, iceberg/TWAP/VWAP";
+"osm.slices" = "частей";
+"osm.marketImpactLabel" = "Рыночное влияние:";
+"osm.fillPct" = "Исп%";
+"osm.cx" = "Отм";
+"osm.icebergOrder" = "Ордер Iceberg";
+"osm.twapSchedule" = "Расписание TWAP/VWAP";
+"osm.fsmStatesLut" = "Состояния FSM (8-стадийная LUT)";
+
+"rl.subtitle" = "32-мерное состояние, 4-мерное действие, GAE-λ";
+
+"replay.subtitle" = "Побитовый реплей событий BlackBoxRecorder";
+"replay.crc32" = "CRC32";
+"replay.speedLabel" = "СКОРОСТЬ";
+"replay.speedName" = "Скорость";
+"replay.speedMax" = "0x (макс.)";
+"replay.speedRealtime" = "10x (реальное время)";
+
+"var.subtitle" = "Параметрический / Исторический / Монте-Карло VaR + CVaR";
+
+"sysmon.drawdownHistory" = "История просадки";
+"sysmon.stage" = "Стадия";
+"sysmon.count" = "Счёт";
+"sysmon.mean" = "Средн.";
+"sysmon.p50" = "p50";
+"sysmon.p90" = "p90";
+"sysmon.p99" = "p99";
+"sysmon.p999" = "p99.9";
+"sysmon.max" = "Макс.";
+"sysmon.stddev" = "Ст.откл.";
+
+// ==========================================
+// MARK: - Настройки (доп. поля)
+// ==========================================
+"settings.entryOffset" = "Смещение входа (bps)";
+"settings.obLevels" = "Уровни OB";
+"settings.ioThreads" = "IO потоки";
+"settings.maxLeverage" = "Макс. плечо";
+"settings.maxOrdersSec" = "Макс. ордеров/сек";
+"settings.lossThreshold" = "Порог убытка ($)";
+"settings.mlModel" = "ML-модель";
+"settings.adaptiveThreshold" = "Адаптивный порог";
+"settings.regimeDetection" = "Детекция режима";
+"settings.requoting" = "Реквотинг";
+"settings.adaptiveSizing" = "Адаптивный размер";
+"settings.featureTick" = "Тик фичей (мс)";
+"settings.onnxModel" = "ONNX-модель";
+"settings.onnxPath" = "Путь к .onnx";
+"settings.onnxThreads" = "ONNX потоки";
+"settings.deleteKeys" = "Удалить API-ключи?";
+"settings.delete" = "Удалить";
+"settings.paperDescription" = "Ордера симулируются. Реальные средства не используются.";
+"settings.switchToLive" = "Переключить на реальную торговлю?";
+"settings.toLive" = "→ LIVE";
+"settings.toPaper" = "→ PAPER";
+
+// ==========================================
+// MARK: - Хаос (доп.)
+// ==========================================
+"chaos.nightly" = "Ночной";
+"chaos.flashCrash" = "Flash Crash";
+"chaos.disable" = "Отключить";
+"chaos.reset" = "Сброс";
+"chaos.latencySpikes" = "Всплески задержки";
+"chaos.packetsDropped" = "Потеря пакетов";
+"chaos.fakeDeltas" = "Фейк-дельты";
+"chaos.oomSimulation" = "Симуляция OOM";
+"chaos.corruptedJson" = "Повреждённый JSON";
+"chaos.clockSkews" = "Сдвиги часов";
+"chaos.totalLatency" = "Общая инъецированная задержка";
+"chaos.maxLatency" = "Макс. инъецированная задержка";
+"chaos.engineStatus" = "Статус движка";
+
+// ==========================================
+// MARK: - Реплей (доп.)
+// ==========================================
+"replay.events" = "СОБЫТИЯ";
+"replay.filtered" = "ФИЛЬТР";
+"replay.sequence" = "ПОСЛЕДОВАТЕЛЬНОСТЬ";
+"replay.mono" = "МОНО";
+"replay.nonMono" = "НЕ-МОНО";
+"replay.play" = "Воспр.";
+"replay.pause" = "Пауза";
+"replay.step" = "Шаг";
+"replay.maxSpeed" = "МАКС. СКОРОСТЬ";
+"replay.crc32Checksum" = "Контрольная сумма CRC32";
+"replay.seqMonotonic" = "Монотонная последовательность";
+"replay.fileLoaded" = "Файл загружен";
+"replay.eventsGt0" = "Событий > 0";
+"replay.pass" = "ОК";
+"replay.fail" = "ОШИБКА";
+"replay.selectBin" = "Выберите дамп BlackBoxRecorder (.bin)";
+
+// ==========================================
+// MARK: - AI (доп. метки метрик)
+// ==========================================
+"ai.trendScore" = "Тренд-скор";
+"ai.mrScore" = "MR-скор";
+"ai.liquidity" = "Ликвидность";
+"ai.inferenceLatency" = "Инференс";
+"ai.volatilityAdj" = "Корр. волатильности";
+"ai.accuracyAdj" = "Корр. точности";
+"ai.liquidityAdj" = "Корр. ликвидности";
+"ai.spreadAdj" = "Корр. спреда";
+"ai.recentAccuracy" = "Недавняя точность";
+"ai.signals" = "Сигналы";
+"ai.tripped" = "Сработал";
+"ai.cooldownLabel" = "Ожидание";
+"ai.resetCB" = "Сброс CB";
+"ai.overall" = "Общая";
+"ai.rolling" = "Скользящая";
+"ai.predictions" = "Предсказания";
+"ai.correct" = "Верные";
+"ai.calibrationErr" = "Ошибка калибровки";
+"ai.backend" = "Бэкенд";
+"ai.modelP50" = "Модель p50";
+"ai.modelP99" = "Модель p99";
+"ai.gpu" = "GPU";
+"ai.onnx" = "ONNX";
+"ai.onnxActive" = "Активен";
+"ai.onnxInactive" = "Неактивен";
+
+// ==========================================
+// MARK: - ML (доп.)
+// ==========================================
+"ml.significant" = "значимых";
+"ml.mutualInformation" = "Взаимная информация";
+"ml.confidence" = "Уверенность";
+"ml.totalPredictions" = "Всего предсказаний";
+"ml.calibrationError" = "Ошибка калибровки";
+"ml.rollingWindow" = "Скользящее окно";
+"ml.backend" = "Бэкенд";
+"ml.inferenceLabel" = "Инференс";
+"ml.onnxRuntime" = "ONNX Runtime";
+"ml.nativeGru" = "Нативная GRU";
+
+// ==========================================
+// MARK: - Стратегия (доп.)
+// ==========================================
+"strategy.expectancy" = "Мат. ожидание";
+"strategy.totalPnl" = "Итого PnL";
+"strategy.calmar" = "Calmar";
+"strategy.recovery" = "Восстановление";
+"strategy.currentDD" = "Текущая просадка";
+"strategy.dailyPnl" = "Дневной PnL";
+"strategy.hourlyPnl" = "Часовой PnL";
+"strategy.winning" = "Прибыльных";
+"strategy.losing" = "Убыточных";
+"strategy.consecWins" = "Побед подряд";
+"strategy.sharpeScore" = "Sharpe";
+"strategy.consistency" = "Стабильность";
+"strategy.fillRate" = "Доля исполнения";
+"strategy.regimeChanges" = "Смен режима/ч";
+"strategy.thresholdOffset" = "Смещение порога";
+"strategy.exploring" = "Исследование";
+"strategy.exploiting" = "Эксплуатация";
+"strategy.steps" = "Шаги";
+"strategy.updates" = "Обновления";
+"strategy.deltaThreshold" = "Δ порога";
+"strategy.sizeScale" = "Масштаб позиции";
+"strategy.offsetBPS" = "Смещение BPS";
+"strategy.valueEst" = "Оценка стоимости";
+
+// ==========================================
+// MARK: - RL (доп.)
+// ==========================================
+"rl.entropyAlpha" = "ЭНТРОПИЯ α";
+"rl.klDiv" = "KL ДИВЕРГЕНЦИЯ";
+"rl.clipFrac" = "ОТСЕЧЕНИЕ";
+"rl.explVar" = "ОБЪЯСН. ДИСП.";
+"rl.lr" = "LR";
+"rl.buffer" = "БУФЕР";
+"rl.requoteScale" = "Реквот";
+"rl.approxKL" = "Прибл. KL";
+"rl.valueEstimate" = "Оценка стоимости";
+"rl.totalStepsLabel" = "Всего шагов";
+"rl.totalUpdates" = "Всего обновлений";
+"rl.exploring" = "Исследование";
+"rl.rollbacks" = "Откаты";
+"rl.epochs" = "Эпохи";
+"rl.signalDelta" = "Δ сигнала";
+"rl.posScale" = "Масштаб поз.";
+"rl.offsetBps" = "Смещение bps";
+
+// ==========================================
+// MARK: - Системный монитор (доп.)
+// ==========================================
+"sysmon.obUpdates" = "Обновления OB";
+"sysmon.trades" = "Сделки";
+"sysmon.signals" = "Сигналы";
+"sysmon.ordersSent" = "Ордеров отправлено";
+"sysmon.ordersFilled" = "Ордеров исполнено";
+"sysmon.wsReconnects" = "Переподкл. WS";
+
+// ==========================================
+// MARK: - Логи (доп.)
+// ==========================================
+"logs.filter" = "Фильтр…";
+"logs.level" = "Уровень";
+
+// ==========================================
+// MARK: - VaR (доп.)
+// ==========================================
+"var.parametricGaussian" = "Параметрический (Гауссов)";
+"var.historicalSim" = "Историческая симуляция";
+"var.maxDrawdown" = "Макс. просадка";
+"var.currentDD" = "Текущая просадка";
+"var.cbDrawdown" = "Просадка CB";
+"var.sharpe" = "Sharpe";
+"var.sortino" = "Sortino";
+"var.calmar" = "Calmar";
+"var.cb" = "CB";
+"var.recovery" = "Восстановление";
+"var.winRate" = "Доля побед";
+"var.var95" = "VaR 95%";
+"var.var99" = "VaR 99%";
+"var.cvar95" = "CVaR 95%";
+"var.cvar99" = "CVaR 99%";
+
+// ==========================================
+// MARK: - Сигналы (доп.)
+// ==========================================
+"signals.buy" = "ПОКУПКА";
+"signals.sell" = "ПРОДАЖА";
+
+// ==========================================
+// MARK: - OSM (доп.)
+// ==========================================
+"osm.transitions" = "ПЕРЕХОДЫ";
+"osm.fillTime" = "ВРЕМЯ ИСПОЛН.";
+"osm.stNew" = "Новый";
+"osm.stPending" = "Ожидание";
+"osm.stOpen" = "Открыт";
+"osm.stPartialFill" = "Част. исполн.";
+"osm.stFilled" = "Исполнен";
+"osm.stCancelling" = "Отмена";
+"osm.stCancelled" = "Отменён";
+"osm.stExpired" = "Истёк";
+
+// ==========================================
+// MARK: - Sprint 2: Режимы торговли
+// ==========================================
+"mode.replay" = "ВОСПРОИЗВ.";
+"mode.backtest" = "БЭКТЕСТ";
+"mode.paper" = "БУМАЖН.";
+"mode.testnet" = "ТЕСТНЕТ";
+"mode.live" = "БОЕВОЙ";
+
+// ==========================================
+// MARK: - Sprint 2: Центр управления рисками
+// ==========================================
+"risk.commandCenter" = "ЦЕНТР УПРАВЛЕНИЯ РИСКАМИ";
+"risk.haltActive" = "ТОРГОВЛЯ ОСТАНОВЛЕНА";
+"risk.halt" = "СТОП";
+"risk.engineStatus" = "Движок";
+"risk.uptime" = "Аптайм";
+"risk.wsReconnects" = "WS Реконн.";
+"risk.positionPnl" = "ПОЗИЦИЯ И PnL";
+"risk.utilization" = "ИСПОЛЬЗОВАНИЕ ЛИМИТОВ";
+"risk.positionUsed" = "Позиция";
+"risk.drawdownUsed" = "Просадка";
+"risk.dailyLossUsed" = "Дневной убыток";
+"risk.leverageUsed" = "Плечо";
+"risk.varSummary" = "VaR СВОДКА";
+"risk.circuitBreaker" = "АВТОМАТИЧ. СТОП";
+"risk.killSwitches" = "АВАРИЙНЫЕ ВЫКЛЮЧАТЕЛИ";
+"risk.globalKill" = "Глобальный";
+"risk.strategyKill" = "Стратегия";
+"risk.cbKill" = "Автостоп";
+"risk.activateGlobalKill" = "Глобальный стоп";
+"risk.resetGlobalKill" = "Сбросить стоп";
+"risk.manualGlobalKill" = "Глобальный стоп активирован пользователем";
+
+// ==========================================
+// MARK: - Sprint 2: Центр инцидентов
+// ==========================================
+"incident.title" = "ЦЕНТР ИНЦИДЕНТОВ";
+"incident.subtitle" = "Хронология операционных событий и критических оповещений";
+"incident.info" = "Инфо";
+"incident.warning" = "Предупр.";
+"incident.critical" = "Критич.";
+"incident.total" = "Всего";
+"incident.filter" = "Фильтр:";
+"incident.clearAll" = "Очистить";
+"incident.noIncidents" = "Инцидентов нет";
+"incident.noIncidentsDetail" = "Операционные события появятся здесь при возникновении";
+"incident.resolved" = "РЕШЕНО";
+"incident.cat.modeChange" = "Режим";
+"incident.cat.killSwitch" = "Авар. стоп";
+"incident.cat.circuitBreaker" = "Автостоп";
+"incident.cat.riskHalt" = "Стоп по риску";
+"incident.cat.connection" = "Соединение";
+"incident.cat.configChange" = "Конфиг";
+"incident.cat.validation" = "Валидация";
+"incident.cat.execution" = "Исполнение";
+"incident.cat.system" = "Система";
+"incident.switchedToLive" = "Переключено на БОЕВОЙ режим";
+"incident.switchedToPaper" = "Переключено на БУМАЖНЫЙ режим";
+"incident.modeChanged" = "Режим торговли изменён";
+"incident.globalKillActivated" = "Глобальный стоп активирован";
+"incident.globalKillReset" = "Глобальный стоп сброшен";
+"incident.strategyHalted" = "Стратегия остановлена";
+"incident.strategyHaltReset" = "Стоп стратегии сброшен";
+"incident.emergencyStop" = "Аварийная остановка";
+"incident.cbTripped" = "Автостоп сработал";
+"incident.cbReset" = "Автостоп сброшен";
+"incident.engineCrash" = "Движок упал";
+"incident.configApplied" = "Настройки применены";
+
+// ==========================================
+// MARK: - Sprint 2: Валидация конфигурации
+// ==========================================
+"validation.title" = "ПРОВЕРКА КОНФИГУРАЦИИ";
+"validation.emptySymbol" = "Символ не может быть пустым";
+"validation.zeroQty" = "Объём ордера должен быть > 0";
+"validation.qtyExceedsMax" = "Объём ордера превышает макс. позицию";
+"validation.zeroMaxPosition" = "Макс. позиция должна быть > 0";
+"validation.zeroLeverage" = "Плечо должно быть > 0";
+"validation.highLeverage" = "Плечо > 50x — очень рискованно";
+"validation.extremeLeverage" = "Плечо > 100x запрещено";
+"validation.zeroMaxLoss" = "Макс. дневной убыток должен быть > 0";
+"validation.invalidDrawdown" = "Макс. просадка должна быть от 0 до 1";
+"validation.highDrawdown" = "Макс. просадка > 50% — очень рискованно";
+"validation.thresholdRange" = "Порог сигнала: 0.1–0.99";
+"validation.cbDisabledLive" = "Автостоп отключён в БОЕВОМ режиме";
+"validation.noCredsLive" = "Нет API-ключей для БОЕВОГО режима";
+"validation.highLeverageLive" = "Плечо > 20x в БОЕВОМ режиме";
+"validation.noCredsTestnet" = "Нет API-ключей для ТЕСТНЕТ";
+"validation.zeroOrderRate" = "Макс. ордеров/сек должно быть > 0";
+"validation.highOrderRate" = "Макс. ордеров/сек > 50 — необычно высокое";
+
+// ==========================================
+// MARK: - Sprint 2: Меню
+// ==========================================
+"menu.globalKill" = "Глобальный аварийный стоп";
+"menu.resetKill" = "Сбросить аварийный стоп";
+
+// ==========================================
+// MARK: - Sprint 2: Вкладки
+// ==========================================
+"tab.riskCenter" = "Центр рисков";
+"tab.incidents" = "Инциденты";
+"tab.executionIntel" = "Аналитика исп.";
+
+// ==========================================
+// MARK: - Sprint 3: Аналитика исполнения
+// ==========================================
+"exec.title" = "АНАЛИТИКА ИСПОЛНЕНИЯ";
+"exec.subtitle" = "Анализ качества исполнения, проскальзывание, задержки и оценка";
+
+// KPI
+"exec.kpi.fillRate" = "Исполнение";
+"exec.kpi.avgSlippage" = "Ср. проскальз.";
+"exec.kpi.fillTime" = "Время исп.";
+"exec.kpi.impact" = "Влияние";
+"exec.kpi.e2eP99" = "E2E p99";
+
+// Оценка
+"exec.score" = "Оценка исполнения";
+"exec.comp.fillRate" = "Исполнение";
+"exec.comp.slippage" = "Проскальз.";
+"exec.comp.latency" = "Задержка";
+"exec.comp.impact" = "Влияние";
+"exec.comp.efficiency" = "Эффективн.";
+
+// Проскальзывание
+"exec.slippage" = "Анализ проскальзывания";
+"exec.slip.impact" = "Рыночное влияние";
+"exec.slip.buy" = "Покупка ср.";
+"exec.slip.sell" = "Продажа ср.";
+"exec.slip.recent" = "НЕДАВНЕЕ ПРОСКАЛЬЗЫВАНИЕ";
+
+// Качество исполнения
+"exec.fillQuality" = "Качество исполнения";
+"exec.fill.sent" = "Отправлено";
+"exec.fill.filled" = "Исполнено";
+"exec.fill.cancelled" = "Отменено";
+"exec.fill.cancelRate" = "Отмены";
+"exec.fill.signalEff" = "Эфф. сигналов";
+"exec.fill.avgTime" = "Ср. время исп.";
+"exec.fill.partials" = "%d частичных исполнений";
+
+// Задержки
+"exec.latency" = "Декомпозиция задержек";
+"exec.lat.exchange" = "Биржа";
+"exec.lat.external" = "внешняя";
+"exec.lat.bottleneck" = "Узкое место: %@";
+"exec.lat.noData" = "Нет данных гистограмм стадий";
+
+// Оценки
+"exec.gradeExcellent" = "Отлично";
+"exec.gradeGood" = "Хорошо";
+"exec.gradeFair" = "Удовлетв.";
+"exec.gradePoor" = "Плохо";
+
+// Плохие исполнения
+"exec.poorExec" = "Плохие исполнения";
+
+// Рекомендации
+"exec.insights" = "Рекомендации";
+"exec.inferred" = "производная метрика";
+"exec.insight.slippageElevated" = "Проскальзывание выше порога";
+"exec.insight.fillRateLow" = "Процент исполнения ниже нормы";
+"exec.insight.latencySpike" = "Обнаружен скачок задержки E2E";
+"exec.insight.marketImpactHigh" = "Рыночное влияние выше нормы";
+"exec.insight.latencyBottleneck" = "Обнаружено узкое место в пайплайне";
+"exec.insight.fillDelayHigh" = "Задержка исполнения выше порога";
+"exec.insight.cancelRateHigh" = "Повышенный процент отмен";
+"exec.insight.partialFillsElevated" = "Множественные частичные исполнения";
+"exec.insight.scoreDegraded" = "Деградация оценки качества исполнения";
+
+// Пустое состояние
+"exec.noData" = "Нет данных исполнения";
+"exec.noDataDetail" = "Запустите движок и отправьте ордера для аналитики исполнения.";
+
+// Инциденты
+"incident.slippageSpike" = "Скачок проскальзывания";
+"incident.fillRateCollapse" = "Обвал процента исполнения";
+"incident.latencyAnomaly" = "Аномалия задержки";
+"incident.execScoreCollapse" = "Обвал оценки исполнения";
+
+// MARK: - Sprint 4: Trade Review Studio
+
+// Вкладка
+"tab.tradeReview" = "Обзор сделок";
+
+// Заголовок
+"trade.studio" = "Студия обзора сделок";
+"trade.trades" = "сделок";
+"trade.empty" = "Завершённых сделок пока нет";
+"trade.noFilterMatch" = "Нет сделок по текущим фильтрам";
+"trade.selectTrade" = "Выберите сделку для анализа";
+"trade.studioDescription" = "Анализируйте завершённые сделки с полными данными исполнения, контекстом риска и заметками.";
+
+// Стороны сделки
+"common.long" = "Лонг";
+"common.short" = "Шорт";
+
+// Результаты сделки
+"trade.outcome.win" = "Прибыль";
+"trade.outcome.loss" = "Убыток";
+"trade.outcome.breakeven" = "Безубыток";
+
+// Рейтинги сделок
+"trade.rating.excellent" = "Отлично";
+"trade.rating.good" = "Хорошо";
+"trade.rating.fair" = "Средне";
+"trade.rating.poor" = "Плохо";
+"trade.rating.terrible" = "Ужасно";
+
+// Сортировка
+"trade.sort.newest" = "Новые первыми";
+"trade.sort.oldest" = "Старые первыми";
+"trade.sort.bestPnl" = "Лучший PnL";
+"trade.sort.worstPnl" = "Худший PnL";
+"trade.sort.highRating" = "Высший рейтинг";
+"trade.sort.lowRating" = "Низший рейтинг";
+"trade.sort.longest" = "Самая длинная";
+"trade.sort.shortest" = "Самая короткая";
+
+// Статистика
+"trade.totalPnl" = "Общий PnL";
+"trade.winRate" = "% побед";
+"trade.profitFactor" = "Профит-фактор";
+"trade.avgExecScore" = "Ср. испол.";
+"trade.avgSlippage" = "Ср. проск.";
+
+// Разделы детализации
+"trade.pnlAnalysis" = "Анализ PnL";
+"trade.execQuality" = "Качество исполнения";
+"trade.entry" = "Вход";
+"trade.exit" = "Выход";
+"trade.riskContext" = "Контекст риска";
+"trade.journal" = "Дневник";
+"trade.incidents" = "Инциденты в сделке";
+
+// Поля детализации
+"trade.realizedPnl" = "Реализ. PnL";
+"trade.pnlPercent" = "PnL %";
+"trade.holdTime" = "Время удержания";
+"trade.signalConf" = "Уверенность сигнала";
+"trade.predCorrect" = "Прогноз верен";
+"trade.execScore" = "Оценка исполнения";
+"trade.entrySlippage" = "Проскальз. входа";
+"trade.exitSlippage" = "Проскальз. выхода";
+"trade.totalSlippage" = "Общее проскальз.";
+"trade.price" = "Цена";
+"trade.qty" = "Количество";
+"trade.slippage" = "Проскальзывание";
+"trade.fillTime" = "Время исполнения";
+"trade.time" = "Время";
+"trade.atEntry" = "При входе";
+"trade.atExit" = "При выходе";
+"trade.regime" = "Режим";
+"trade.volatility" = "Волатильность";
+"trade.drawdown" = "Просадка";
+"trade.var99" = "VaR 99";
+
+// Дневник
+"trade.rating" = "Рейтинг";
+"trade.userOverride" = "пользовательский";
+"trade.notes" = "Заметки";
+
+// Названия режимов
+"regime.trending" = "Трендовый";
+"regime.meanReverting" = "Возвратный";
+"regime.volatile" = "Волатильный";
+"regime.quiet" = "Спокойный";
+"regime.unknown" = "Неизвестный";
+
+// MARK: - Sprint 4: Исправления локализации — Статус движка
+"engine.status.idle" = "ОЖИДАНИЕ";
+"engine.status.connecting" = "ПОДКЛЮЧЕНИЕ";
+"engine.status.connected" = "ПОДКЛЮЧЁН";
+"engine.status.trading" = "ТОРГОВЛЯ";
+"engine.status.error" = "ОШИБКА";
+"engine.status.stopping" = "ОСТАНОВКА";
+
+// Состояния ордеров
+"order.state.new" = "Новый";
+"order.state.pending" = "Ожидание";
+"order.state.open" = "Открыт";
+"order.state.partialFill" = "Частичное исп.";
+"order.state.filled" = "Исполнен";
+"order.state.cancelling" = "Отмена";
+"order.state.cancelled" = "Отменён";
+"order.state.expired" = "Истёк";
+"order.state.unknown" = "Неизвестно";
+
+// Уровни здоровья стратегии
+"health.excellent" = "Отлично";
+"health.good" = "Хорошо";
+"health.warning" = "Предупреждение";
+"health.critical" = "Критично";
+"health.halted" = "Остановлено";
+"health.unknown" = "Неизвестно";
+
+// Общие
+"common.yes" = "Да";
+"common.no" = "Нет";
+
+// ==========================================
+// MARK: - Sprint 5: Исследования и квант
+// ==========================================
+
+// Секция боковой панели
+"section.research" = "ИССЛЕДОВАНИЯ";
+
+// Вкладки
+"tab.modelGov" = "Модель";
+"tab.regimeCenter" = "Режим центр";
+"tab.allocIntel" = "Аллокация";
+"tab.strategyResearch" = "Исследования";
+
+// MARK: - Управление моделью
+"model.status.active" = "Активна";
+"model.status.candidate" = "Кандидат";
+"model.status.retired" = "Архивирована";
+"model.status.degraded" = "Деградация";
+"model.status.rollback" = "Откат";
+"model.drift.none" = "Нет";
+"model.drift.low" = "Низкий";
+"model.drift.moderate" = "Умеренный";
+"model.drift.high" = "Высокий";
+"model.drift.critical" = "Критический";
+"model.native" = "Нативная";
+"model.features" = "признаков";
+"model.healthScore" = "Оценка здоровья";
+"model.health" = "Здоровье модели";
+"model.drift" = "Детекция дрифта";
+"model.driftLevel" = "Уровень дрифта";
+"model.calibError" = "Ошибка калибровки";
+"model.rollingAcc" = "Скользящая точность";
+"model.totalPreds" = "Всего прогнозов";
+"model.uptime" = "Время работы";
+"model.performance" = "Производительность";
+"model.overallAcc" = "Общая точность";
+"model.confidence" = "Уверенность";
+"model.avgF1" = "Средний F1";
+"model.horizons" = "Горизонты прогнозов";
+"model.bestHorizon" = "Лучший горизонт";
+"model.f1Scores" = "Оценки F1";
+"model.f1Up" = "F1 Рост";
+"model.f1Down" = "F1 Падение";
+"model.f1Flat" = "F1 Флэт";
+"model.inference" = "Инференс";
+"model.latencyP50" = "Латентность P50";
+"model.latencyP99" = "Латентность P99";
+"model.inferenceLatency" = "Латентность инференса";
+"model.backend" = "Бэкенд";
+"model.healthBreakdown" = "Декомпозиция здоровья";
+"model.accuracy" = "Точность";
+"model.calibration" = "Калибровка";
+"model.latency" = "Латентность";
+"model.rlStability" = "Стабильность RL";
+"model.stable" = "Стабильно";
+"model.declining" = "Снижается";
+"model.normal" = "Норма";
+"model.elevated" = "Повышена";
+"model.good" = "Хорошо";
+"model.poor" = "Плохо";
+"model.adequate" = "Приемлемо";
+"model.low" = "Низко";
+"model.unstable" = "Нестабильно";
+
+// MARK: - Центр рыночных режимов
+"regime.confidence" = "Уверенность";
+"regime.volatility" = "Волатильность";
+"regime.duration" = "Длительность";
+"regime.stabilityScore" = "Стабильность";
+"regime.stability" = "Стабильность";
+"regime.transitionsHour" = "Переходов / час";
+"regime.avgDuration" = "Сред. длительность";
+"regime.currentDuration" = "Тек. длительность";
+"regime.status" = "Статус";
+"regime.stableLabel" = "Стабильный";
+"regime.unstableLabel" = "Нестабильный";
+"regime.detectorScores" = "Оценки детектора";
+"regime.trendScore" = "Тренд";
+"regime.mrScore" = "Ср. возврат";
+"regime.liqScore" = "Ликвидность";
+"regime.previous" = "Предыдущий";
+"regime.distribution" = "Распределение режимов";
+"regime.dominant" = "Доминирующий режим";
+"regime.performance" = "Доходность по режимам";
+"regime.transitions" = "История переходов";
+
+// MARK: - Аллокация
+"alloc.signal.strongReduce" = "СИЛЬНО СОКРАТИТЬ";
+"alloc.signal.reduce" = "СОКРАТИТЬ";
+"alloc.signal.hold" = "УДЕРЖИВАТЬ";
+"alloc.signal.increase" = "УВЕЛИЧИТЬ";
+"alloc.signal.strongIncrease" = "СИЛЬНО УВЕЛИЧИТЬ";
+"alloc.confidence" = "Уверенность";
+"alloc.posScale" = "Масштаб позиции";
+"alloc.compositeScore" = "Композитный балл";
+"alloc.riskBudget" = "Бюджет риска";
+"alloc.drawdown" = "Просадка";
+"alloc.dailyLoss" = "Дневной убыток";
+"alloc.position" = "Позиция";
+"alloc.leverage" = "Плечо";
+"alloc.var" = "VaR";
+"alloc.remaining" = "Остаток бюджета";
+"alloc.signalQuality" = "Качество сигнала";
+"alloc.grade" = "Оценка";
+"alloc.recentAccuracy" = "Недавняя точность";
+"alloc.modelConf" = "Уверенность модели";
+"alloc.regimeConf" = "Уверенность режима";
+"alloc.execScore" = "Оценка исполнения";
+"alloc.efficiency" = "Эффективность";
+"alloc.regimeContext" = "Контекст режима";
+"alloc.favorable" = "Благоприятный";
+"alloc.unfavorable" = "Неблагоприятный";
+"alloc.sizeScale" = "Масштаб размера";
+"alloc.thresholdAdj" = "Корр. порога";
+"alloc.positionSizing" = "Размер позиции";
+"alloc.suggestedScale" = "Рекоменд. масштаб";
+"alloc.currentPos" = "Текущая позиция";
+"alloc.maxPos" = "Макс. позиция";
+"alloc.effectiveQty" = "Эффективный объём";
+"alloc.rationale" = "Обоснование";
+"alloc.noReasons" = "Нет конкретных рекомендаций";
+"alloc.regime.trending" = "Трендовый режим: больше позиция, ниже порог";
+"alloc.regime.meanReverting" = "Режим ср. возврата: стандартный размер";
+"alloc.regime.volatile" = "Волатильный режим: сократить позицию, повысить порог";
+"alloc.regime.quiet" = "Спокойный режим: мало возможностей, значительно сократить";
+"alloc.regime.choppy" = "Рваный режим: максимальная осторожность";
+"alloc.reason.circuitBreaker" = "Автоматический выключатель — стоп позициям";
+"alloc.reason.riskBudgetExhausted" = "Бюджет риска почти исчерпан (>90%)";
+"alloc.reason.riskBudgetHigh" = "Высокое использование бюджета риска (>70%)";
+"alloc.reason.healthPoor" = "Здоровье стратегии ниже порога";
+"alloc.reason.regimeUnfavorable" = "Текущий режим неблагоприятен";
+"alloc.reason.signalQualityLow" = "Качество сигнала ниже допустимого";
+"alloc.reason.regimeFavorable" = "Текущий режим благоприятен";
+"alloc.reason.signalQualityHigh" = "Качество сигнала выше целевого";
+"alloc.reason.budgetAvailable" = "Достаточный бюджет риска";
+"alloc.reason.signalQualityGood" = "Качество сигнала приемлемо";
+"alloc.reason.neutral" = "Нет сильного направленного сигнала";
+
+// MARK: - Исследования стратегии
+"research.totalTrades" = "Всего сделок";
+"research.horizonComparison" = "Сравнение горизонтов";
+"research.horizon100ms" = "100мс";
+"research.horizon500ms" = "500мс";
+"research.horizon1s" = "1с";
+"research.horizon3s" = "3с";
+"research.bestHorizon" = "Лучший горизонт";
+"research.riskDecomp" = "Декомпозиция риска";
+"research.currentDD" = "Текущая просадка";
+"research.var95" = "VaR 95%";
+"research.var99" = "VaR 99%";
+"research.cvar95" = "CVaR 95%";
+"research.execution" = "Анализ исполнения";
+"research.execScore" = "Оценка исполнения";
+"research.fillRate" = "Исполнение";
+"research.slippage" = "Проскальз.";
+"research.latency" = "Латентность";
+"research.impact" = "Влияние";
+"research.signalEff" = "Эфф. сигнала";
+"research.regimeCorrelation" = "Корреляция с режимами";
+"research.noTradeData" = "Нет данных о сделках";
+"research.regime" = "Режим";
+"research.trades" = "Сделки";
+"research.winRateShort" = "Win%";
+"research.avgPnl" = "Ср. PnL";
+"research.totalPnlShort" = "Общий PnL";
+"research.tradeDistribution" = "Распределение сделок";
+"research.winning" = "Прибыльных";
+"research.losing" = "Убыточных";
+"research.consWins" = "Макс. побед";
+"research.consLosses" = "Макс. убытков";
+"research.bestTrade" = "Лучшая";
+"research.worstTrade" = "Худшая";
+"research.healthDecomp" = "Декомпозиция здоровья";
+"research.accScore" = "Точность";
+"research.pnlScore" = "PnL";
+"research.ddScore" = "Просадка";
+"research.sharpeScore" = "Шарп";
+"research.consistencyScore" = "Стабильность";
+"research.fillRateScore" = "Исполнение";
+
+// ==========================================
+// MARK: - Sprint 6: Онбординг
+// ==========================================
+"onboarding.welcomeTitle" = "Добро пожаловать в Lynrix";
+"onboarding.welcomeSubtitle" = "Высокоточная AI-платформа для трейдинга с аналитикой в реальном времени, управлением рисками и исследовательскими инструментами.";
+"onboarding.featureAI" = "AI-генерация сигналов и определение режимов рынка";
+"onboarding.featureRisk" = "Многоуровневое управление рисками и аварийные выключатели";
+"onboarding.featureExec" = "Аналитика исполнения и анализ проскальзывания";
+"onboarding.featureResearch" = "Исследование стратегий и контроль моделей";
+"onboarding.prefsTitle" = "Настройки";
+"onboarding.language" = "Язык";
+"onboarding.appearance" = "Оформление";
+"onboarding.safetyTitle" = "Архитектура безопасности";
+"onboarding.safetySubtitle" = "Lynrix включает несколько уровней защиты для безопасной торговли.";
+"onboarding.safetyPaper" = "Бумажная торговля по умолчанию";
+"onboarding.safetyPaperDesc" = "Приложение запускается в режиме Paper. Реальная торговля требует явного подтверждения.";
+"onboarding.safetyCircuit" = "Автоматические выключатели";
+"onboarding.safetyCircuitDesc" = "Автоматическая остановка при чрезмерных убытках, просадке или серии убыточных сделок.";
+"onboarding.safetyKill" = "Аварийные выключатели";
+"onboarding.safetyKillDesc" = "Глобальная и пострратегийная аварийная остановка. Мгновенная блокировка торговли.";
+"onboarding.safetyKeys" = "Безопасное хранение ключей";
+"onboarding.safetyKeysDesc" = "API-ключи хранятся в macOS Keychain, а не в открытом виде.";
+"onboarding.readyTitle" = "Вы готовы";
+"onboarding.readySubtitle" = "Начните с настройки API-ключей и параметров торговли в Настройках.";
+"onboarding.tip1" = "Настройте API-ключи в Настройки → API-учётные данные";
+"onboarding.tip2" = "Проверьте лимиты рисков перед запуском двигателя";
+"onboarding.tip3" = "Используйте Профили для сохранения и переключения конфигураций";
+"onboarding.getStarted" = "Начать";
+"onboarding.reopenSetup" = "Повторить настройку";
+"common.next" = "Далее";
+"common.back" = "Назад";
+"common.cancel" = "Отмена";
+"common.save" = "Сохранить";
+
+// ==========================================
+// MARK: - Sprint 6: Уведомления
+// ==========================================
+"notify.title" = "Уведомления";
+"notify.critical" = "Критичные";
+"notify.error" = "Ошибки";
+"notify.warning" = "Предупреждения";
+"notify.minSeverity" = "Минимальная важность";
+"notify.notAuthorized" = "Уведомления не авторизованы";
+"notify.authorize" = "Авторизовать";
+"notify.titleCritical" = "Критическое предупреждение";
+"notify.titleError" = "Ошибка";
+"notify.titleWarning" = "Предупреждение";
+"notify.titleInfo" = "Информация";
+
+// ==========================================
+// MARK: - Sprint 6: Профили
+// ==========================================
+"profiles.title" = "Профили";
+"profiles.description" = "Переключайтесь между предустановками или сохраняйте свои профили.";
+"profiles.conservative" = "Консервативный";
+"profiles.balanced" = "Сбалансированный";
+"profiles.aggressive" = "Агрессивный";
+"profiles.research" = "Исследование";
+"profiles.preset" = "Предустановка";
+"profiles.saveCurrent" = "Сохранить текущий";
+"profiles.saveTitle" = "Сохранить профиль";
+"profiles.nameField" = "Имя профиля";
+
+// ==========================================
+// MARK: - Sprint 6: Экспорт
+// ==========================================
+"menu.exportJournalCSV" = "Экспорт журнала CSV";
+"menu.exportIncidentsCSV" = "Экспорт инцидентов CSV";
+
+// ==========================================
+// MARK: - Sprint 6: UX
+// ==========================================
+"settings.applied" = "Применено";
+
+// ==========================================
+// MARK: - Sprint 7A: Видимость виджетов
+// ==========================================
+"layout.screen.dashboard" = "Панель управления";
+"layout.screen.sysmon" = "Системный монитор";
+"layout.screen.diagnostics" = "Диагностика";
+"layout.screen.execIntel" = "Аналитика исполнения";
+"layout.screen.riskCenter" = "Центр рисков";
+"layout.screen.tradeReview" = "Обзор сделок";
+"layout.screen.modelGov" = "Управление моделями";
+"layout.screen.regimeCenter" = "Центр режимов";
+"layout.screen.allocIntel" = "Аналитика аллокации";
+"layout.screen.stratResearch" = "Исследование стратегий";
+"layout.widget.hero" = "Цена / Режим / Статус";
+"layout.widget.pnl" = "Итоги PnL";
+"layout.widget.quickBadges" = "Быстрые индикаторы";
+"layout.widget.equityCurve" = "Кривая капитала";
+"layout.widget.throughput" = "Пропускная способность";
+"layout.widget.latency" = "Задержки";
+"layout.widget.aiPrediction" = "AI-прогноз";
+"layout.widget.circuitBreaker" = "Автоматический выключатель";
+"layout.widget.recentLogs" = "Последние логи";
+"layout.widget.resources" = "Ресурсы";
+"layout.widget.network" = "Сеть";
+"layout.widget.inference" = "ML-инференс";
+"layout.widget.stageHistograms" = "Гистограммы стадий";
+"layout.widget.jitterAlerts" = "Оповещения о джиттере";
+"layout.widget.systemInfo" = "Информация о системе";
+"layout.widget.engineState" = "Состояние движка";
+"layout.widget.dataState" = "Состояние данных";
+"layout.widget.perfMetrics" = "Метрики производительности";
+"layout.widget.kpiSummary" = "Сводка KPI";
+"layout.widget.execScore" = "Оценка исполнения";
+"layout.widget.slippage" = "Анализ проскальзывания";
+"layout.widget.fillQuality" = "Качество исполнения";
+"layout.widget.latencyDecomp" = "Декомпозиция задержек";
+"layout.widget.poorExecs" = "Плохие исполнения";
+"layout.widget.insights" = "Рекомендации";
+"layout.widget.position" = "Позиция";
+"layout.widget.riskUtil" = "Утилизация рисков";
+"layout.widget.varSummary" = "Сводка VaR";
+"layout.widget.killSwitch" = "Аварийная остановка";
+"layout.resetDefaults" = "Сбросить по умолчанию";
+
+// ==========================================
+// MARK: - Sprint 7A: Исправления локализации
+// ==========================================
+"exec.bpsAvg" = "bps ср.";
+"settings.techStack" = "Swift 5.9 • C++23";
+"notify.info" = "Информация";
+
+// ==========================================
+// MARK: - Sprint 8: Аутентификация и аккаунт
+// ==========================================
+
+// Auth Gate — Главная
+"auth.tagline" = "Торговая платформа на базе ИИ";
+"auth.googleSignIn" = "Продолжить через Google";
+"auth.signIn" = "Войти";
+"auth.signingIn" = "Вход…";
+"auth.or" = "или";
+"auth.version" = "Lynrix v2.5.0";
+"auth.copyright" = "© 2026 Lynrix. Все права защищены.";
+"auth.back" = "Назад";
+"auth.createAccountLink" = "Создать аккаунт";
+"auth.noAccount" = "Нет аккаунта?";
+
+// Auth Gate — Вход по email
+"auth.welcomeBack" = "С возвращением";
+"auth.signInSubtitle" = "Войдите в свой аккаунт Lynrix";
+"auth.emailSignIn" = "Войти по Email";
+"auth.emailPlaceholder" = "Адрес электронной почты";
+"auth.passwordPlaceholder" = "Пароль";
+
+// Auth Gate — Регистрация
+"auth.createAccount" = "Создать аккаунт";
+"auth.registerSubtitle" = "Регистрация нового аккаунта Lynrix";
+"auth.personalInfo" = "Личная информация";
+"auth.firstName" = "Имя";
+"auth.lastName" = "Фамилия";
+"auth.gender" = "Пол";
+"auth.dateOfBirth" = "Дата рождения";
+"auth.credentials" = "Данные для входа";
+"auth.emailField" = "Email";
+"auth.usernameField" = "Имя пользователя";
+"auth.usernamePlaceholder" = "Выберите имя пользователя";
+"auth.usernameOptional" = "Необязательно — можно указать позже";
+"auth.password" = "Пароль";
+"auth.confirmPassword" = "Подтвердите пароль";
+"auth.confirmPasswordPlaceholder" = "Повторите пароль";
+"auth.register" = "Создать аккаунт";
+"auth.addPhoto" = "Фото";
+"auth.photoOptional" = "Необязательно";
+"auth.selectPhoto" = "Выберите фото профиля";
+
+// Ошибки аутентификации
+"auth.error.invalidEmail" = "Введите корректный адрес электронной почты";
+"auth.error.emailTaken" = "Этот email уже зарегистрирован";
+"auth.error.passwordShort" = "Пароль должен содержать минимум 6 символов";
+"auth.error.passwordMismatch" = "Пароли не совпадают";
+"auth.error.userNotFound" = "Аккаунт с таким email не найден";
+"auth.error.wrongPassword" = "Неверный пароль";
+"auth.error.accountDisabled" = "Аккаунт отключён. Свяжитесь с поддержкой.";
+
+// Пол
+"gender.male" = "Мужской";
+"gender.female" = "Женский";
+"gender.other" = "Другой";
+
+// Раздел аккаунта
+"account.title" = "АККАУНТ";
+"account.signOut" = "Выйти";
+"account.signOutConfirm" = "Выйти из Lynrix?";
+"account.notSignedIn" = "Не авторизован";
+"account.plan" = "План";
+"account.status" = "Статус";
+"account.provider" = "Провайдер";
+
+// Планы подписки
+"plan.free" = "Бесплатный";
+"plan.pro" = "Pro";
+"plan.enterprise" = "Enterprise";
+
+// Состояния подписки
+"sub.active" = "Активна";
+"sub.expired" = "Истекла";
+"sub.trial" = "Пробный";
+"sub.cancelled" = "Отменена";
+"sub.none" = "Нет";
+
+// ==========================================
+// MARK: - D1: Реструктуризация сайдбара
+// ==========================================
+"section.analytics" = "АНАЛИТИКА И РИСК";
+"section.devTools" = "ИНСТРУМЕНТЫ";
+
+// ==========================================
+// MARK: - D2: Расширение онбординга
+// ==========================================
+"onboarding.apiKeysTitle" = "API-ключи";
+"onboarding.apiKeysSubtitle" = "Подключите аккаунт Bybit. Ключи хранятся в macOS Keychain и никогда не покидают устройство.";
+"onboarding.apiKey" = "API-ключ";
+"onboarding.apiSecret" = "API-секрет";
+"onboarding.apiKeyPlaceholder" = "Введите API-ключ Bybit";
+"onboarding.apiSecretPlaceholder" = "Введите API-секрет";
+"onboarding.keychainNote" = "Учётные данные зашифрованы и хранятся в macOS Keychain";
+"onboarding.tradingModeTitle" = "Режим торговли";
+"onboarding.tradingModeSubtitle" = "Выберите способ взаимодействия Lynrix с рынком. Можно изменить в любое время в Настройках.";
+"onboarding.modePaper" = "Бумажная торговля";
+"onboarding.modePaperDesc" = "Симуляция исполнения на реальных данных. Реальные ордера не размещаются.";
+"onboarding.modeTestnet" = "Тестовая сеть";
+"onboarding.modeTestnetDesc" = "Реальное исполнение на тестовой сети Bybit. Безопасно для тестов с виртуальными средствами.";
+"onboarding.modeLive" = "Реальная торговля";
+"onboarding.modeLiveDesc" = "Реальные ордера на Bybit. Требуются API-ключи с разрешениями на торговлю.";
+"onboarding.recommended" = "РЕКОМЕНДУЕТСЯ";
+"common.skip" = "Пропустить";
+
+// ==========================================
+// MARK: - D3: Уведомления о событиях
+// ==========================================
+"notify.largeLoss" = "Крупный нереализованный убыток:";
+"notify.cbTripped" = "Автоматический стоп сработал — торговля остановлена";
+"notify.disconnectPosition" = "WebSocket отключён при открытой позиции";
+"notify.orderFilled" = "Ордер исполнен:";
+
+// ==========================================
+// MARK: - D5: Пустые состояния
+// ==========================================
+"empty.engineStopped" = "Движок остановлен";
+"empty.engineStoppedDetail" = "Запустите движок для получения рыночных данных и аналитики.";
+"empty.connecting" = "Подключение…";
+"empty.connectingDetail" = "Устанавливается соединение с WebSocket Bybit.";
+"empty.loading" = "Загрузка данных…";
+"empty.loadingDetail" = "Ожидание начального снимка рыночных данных.";
+"empty.noData" = "Нет данных";
+"empty.noDataDetail" = "Данные для этого представления пока недоступны.";
+
+// ==========================================
+// MARK: - D8: Статус подключения
+// ==========================================
+"conn.connected" = "WS ОК";
+"conn.degraded" = "WS МЕДЛ";
+"conn.disconnected" = "WS ОТКЛ";

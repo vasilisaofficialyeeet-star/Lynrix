@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F0093E91BCFA124CD566C7 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA5EE880968088449AFC6E /* OnboardingView.swift */; };
+		01A9D8F81DF81C53FE8AB7F7 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED585DEC01A1353E4194EEB /* DashboardView.swift */; };
+		07774A1259E2FEE0E9D4BDF4 /* MLDiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8995452273D50962551753 /* MLDiagnosticsView.swift */; };
+		09919271967D78D0E8D2976E /* SignalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA400263725F6CE19C7CE4B /* SignalsView.swift */; };
+		0A19FFCB0C62BE364388E47F /* TradingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3ABFAFF7A7DE5C8BEF5CB4 /* TradingMode.swift */; };
+		109F5012D4352EC67F1D060B /* GlassPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8D5FFD10CB62B02CE5212B /* GlassPanel.swift */; };
+		DA1C0MNDPA1E77A0B2F3C4D5 /* CommandPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1FREF0PA1E77A0B2F3C4D6 /* CommandPalette.swift */; };
+		DA2BLDPNL0A3E88B1C3D4E5F /* PnlSparkline.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FREFPNL0A3E88B1C3D4E6 /* PnlSparkline.swift */; };
+		DA3BLDTST0B4F99C2D4E5F60 /* ToastNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FREFTST0B4F99C2D4E5F7 /* ToastNotification.swift */; };
+		1287AD6B3B6723E9989BBA98 /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5A15D57D21A7D4A2299B0 /* OnboardingManager.swift */; };
+		15075CCD81D7D305ED512497 /* StrategyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17E2CDA226FE09277AC568 /* StrategyPerformanceView.swift */; };
+		1754A0BA638833341C0E8927 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BD348AC542B706808F6211FD /* FirebaseFirestore */; };
+		17E5F63A56D8DABC80742B23 /* WidgetLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F22CF768204FE6BB75B2F86 /* WidgetLayoutManager.swift */; };
+		1933406C0B00C3C74564E284 /* UnifiedStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A27920B81D3F28CA6C9D98 /* UnifiedStatusBar.swift */; };
+		25C0D037B3867138CCDDB2D8 /* AuthGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC743930D1F51F1A911ADE9 /* AuthGateView.swift */; };
+		2C625B5561A64C7F57A789FE /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677C141DD9E7E6F69ABCAE0 /* PortfolioView.swift */; };
+		2E52CBA954DC471E594408A7 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F396AA758C4E8B3DFD90828 /* FirestoreService.swift */; };
+		300DD2D94644CDB941634C8B /* AnimatedEquityCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1E1897136CD5276DAC4E84 /* AnimatedEquityCurve.swift */; };
+		3384601E6673C6E9A8AEF33B /* LunrixEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1107EA3D4DE84615CBAD9 /* LunrixEngine.swift */; };
+		33B3ADF26ED6D54644FB8DA6 /* MarketRegimeIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2199D941CDE200A4AE7F7 /* MarketRegimeIntelligence.swift */; };
+		33D150227641947EF43258B9 /* AIDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CA5E89CB679A551CC2833A /* AIDashboardView.swift */; };
+		37D0AC88D0BAFC240F68C86C /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A6A5B135C85476F86057DC /* KeychainManager.swift */; };
+		3B88B43EA1CD32B9E9F2F4D6 /* NeonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3ED5C00709C6B91D8967E3 /* NeonButton.swift */; };
+		3ECEF00100FE30E41712B5C5 /* LunrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513867856193506340506A7 /* LunrixApp.swift */; };
+		4846CDE34167901754916F55 /* LxTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72447F5935FA12192DD73994 /* LxTheme.swift */; };
+		559DAE83F5E822952E6EEA6E /* ReplayControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E37A9179746CF6412BD63 /* ReplayControlView.swift */; };
+		5622978D0BE1D994AC931586 /* StrategyResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C09ABC382EB009B3563BA54 /* StrategyResearchView.swift */; };
+		5656E93D7A97B12B6F08E737 /* ChaosControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360C96EA954A8A24EAB8155 /* ChaosControlView.swift */; };
+		61E618F48417DB9DA5D5055A /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EEFA0A75373FE4E6DACAD /* UserStore.swift */; };
+		6904C8B8ACF728AE7AA47ECF /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44459D6C601801BCD1A1E70A /* NotificationManager.swift */; };
+		6C194DC0B3AC8BFAA979B039 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B06285C79E71B7A8B7AE1D8F /* GoogleService-Info.plist */; };
+		6D63D5D06A287E435E441FD2 /* RLTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6494B5B2EFE467D4B624E /* RLTrainingView.swift */; };
+		6EC5F230DF6CD1A70A10A576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55E6E0A723A9410BA18C50 /* ContentView.swift */; };
+		70CF87BE903E9B487FEA23BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44CACD7C06A5CC430290A09A /* Localizable.strings */; };
+		72908B057BB5FA5E3271D98B /* SystemMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0560FE1A3CFB0EB5279150DA /* SystemMonitorView.swift */; };
+		774786BF608A0BAB732D2C16 /* AllocationIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8C27D455ADE0D50CA9642 /* AllocationIntelligence.swift */; };
+		7842E4CE3823F08AB90BB01D /* ExecutionIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0BA54285DDD8D69B3A661A /* ExecutionIntelligence.swift */; };
+		7BE3C2E9E1D149C9261EBB68 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1941489DAFD0B5CF017C09A /* ThemeManager.swift */; };
+		7D7C9D5839561E07D1E8EE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE2668BF91DAF1422A3B907 /* Assets.xcassets */; };
+		8181A78EA146ED2E0ACD540A /* LogPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F00EC43C46B50BD041A015 /* LogPanelView.swift */; };
+		86644CC01ABC727AEAE41C94 /* AllocationIntelligenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA6060438C034D9BE428A4 /* AllocationIntelligenceView.swift */; };
+		88ACC6D19AEAB616502FB422 /* LunrixTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609313212D0B31F27A61FD14 /* LunrixTheme.swift */; };
+		8EE56895103D8E56DEB60B4E /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93323EEBF96C5DFA22057EEA /* DiagnosticsView.swift */; };
+		98A2B9AE9DF9868EF7D8EF6B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 596180865CBD4BE459A9C583 /* GoogleSignIn */; };
+		A3404E897F81AA84F853A8E5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 345885CDD80676674EA1CD77 /* FirebaseAuth */; };
+		A3D96433E2EFF41AA24B3E98 /* OrderStateMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFD5BD6DF2E2BA729E3C16A /* OrderStateMachineView.swift */; };
+		AE9FE7AE68B782C50C6C2C59 /* ModelGovernanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CB86383EEEF9AD422001C /* ModelGovernanceView.swift */; };
+		BE4E9B78A25502946947C779 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9111C8E0F679992DAB42AC86 /* ProfileManager.swift */; };
+		C2EAA44C34325DCFB23A21C1 /* IncidentCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D978CBE5B0485CAE33CC38AA /* IncidentCenterView.swift */; };
+		C44EC4DE748D3A3657FCB7E2 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48161784DE1C97E05D1547 /* RegistrationView.swift */; };
+		C5928D2E85FF7BE21EA6B192 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB39E39F2D15F57C93C5C55 /* LocalizationManager.swift */; };
+		C646B9D476EC750BC66D1E40 /* RegimeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98DAEC8309C6971E9C7C57 /* RegimeBadge.swift */; };
+		CE5D16790BE5DA9E4E301413 /* LynrixCoreBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7408FCCB02B3072B7A6B2 /* LynrixCoreBridge.mm */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		D322D7D77A368826A9212592 /* ModelGovernance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9CE89E7271F367422901F1 /* ModelGovernance.swift */; };
+		D63E8924F43A12B0C209B9EA /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A4EAD01D20A8A714786F94 /* UserProfile.swift */; };
+		DAB7D0E582148D22A4F67972 /* VarDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84FAE74792126861F38BB70 /* VarDashboardView.swift */; };
+		DB16414004C4D22693C752EF /* TradeReviewStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B97FB0A9B6CDC0D91481A /* TradeReviewStudioView.swift */; };
+		E05E09F047B7AC79695EAE2A /* TradeJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67260BB640EA9448863F68BD /* TradeJournal.swift */; };
+		E4D5C6B7A8F90C1AD3E4F5B6 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4D5E6F7A80B19C2D3E4F5 /* EmptyStateView.swift */; };
+		F2E3D4C5B6A70918F0E1D2C3 /* MergedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F607A8B9C0D1E2 /* MergedViews.swift */; };
+		E11BCE4B1E9A84788C255C45 /* OrderBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD7DDB48702D7228CEB00D9 /* OrderBookView.swift */; };
+		E15263C7DB285257ACEC4DA6 /* Lynrix.icns in Resources */ = {isa = PBXBuildFile; fileRef = D5E74D432FF8F8B42B80B721 /* Lynrix.icns */; };
+		E401D7E8B63ACA95862E95BA /* TradeTapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38FF33007FE8CBB81F3620 /* TradeTapeView.swift */; };
+		E546569CB2D983F21003C114 /* EngineSubmodels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2500D6FD626782510864997D /* EngineSubmodels.swift */; };
+		E56ADFC7961B5024C2C00C39 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4A38E98B335DD10DE18B08EB /* FirebaseCore */; };
+		EB7B3A0EB019217B6128FD13 /* ExecutionIntelligenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F91C92FE58CE02592E2CE /* ExecutionIntelligenceView.swift */; };
+		EC123B32418D5E3BF2DD96CC /* Lynrix_final_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 449E181F91D832BEC9FF8678 /* Lynrix_final_logo.png */; };
+		ED96E253665D6895799B9CB1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23DE0C5C9759D1FDBDEAD9 /* SettingsView.swift */; };
+		F1E12BFBA868999758CB5997 /* MarketRegimeCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3341D7A5A3CFFADEAC5B317F /* MarketRegimeCenterView.swift */; };
+		F3DC9FDB1DE586DCC34E47D2 /* RiskCommandCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FDBDE567A1080620374CE /* RiskCommandCenterView.swift */; };
+		F7A8225B1AB3E638832DD9B9 /* GlowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5FB13BAEF53CAC381891C0 /* GlowText.swift */; };
+		FB6690BD42B4B58B1774E1CD /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4F2D435A369957DD4B69B /* AuthManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C2199D941CDE200A4AE7F7 /* MarketRegimeIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketRegimeIntelligence.swift; sourceTree = "<group>"; };
+		00F00EC43C46B50BD041A015 /* LogPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPanelView.swift; sourceTree = "<group>"; };
+		0560FE1A3CFB0EB5279150DA /* SystemMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorView.swift; sourceTree = "<group>"; };
+		0FB39E39F2D15F57C93C5C55 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		1A17E2CDA226FE09277AC568 /* StrategyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPerformanceView.swift; sourceTree = "<group>"; };
+		1D9CB86383EEEF9AD422001C /* ModelGovernanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGovernanceView.swift; sourceTree = "<group>"; };
+		1E8995452273D50962551753 /* MLDiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDiagnosticsView.swift; sourceTree = "<group>"; };
+		1F82ACFDEEC776757D2A3BA6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2500D6FD626782510864997D /* EngineSubmodels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineSubmodels.swift; sourceTree = "<group>"; };
+		2677C141DD9E7E6F69ABCAE0 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		28E6494B5B2EFE467D4B624E /* RLTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTrainingView.swift; sourceTree = "<group>"; };
+		3341D7A5A3CFFADEAC5B317F /* MarketRegimeCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketRegimeCenterView.swift; sourceTree = "<group>"; };
+		338FDBDE567A1080620374CE /* RiskCommandCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskCommandCenterView.swift; sourceTree = "<group>"; };
+		397E134B848766E398FC40B5 /* Lynrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lynrix.entitlements; sourceTree = "<group>"; };
+		3BD7DDB48702D7228CEB00D9 /* OrderBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookView.swift; sourceTree = "<group>"; };
+		3CF8C27D455ADE0D50CA9642 /* AllocationIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllocationIntelligence.swift; sourceTree = "<group>"; };
+		44459D6C601801BCD1A1E70A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		449E181F91D832BEC9FF8678 /* Lynrix_final_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lynrix_final_logo.png; sourceTree = "<group>"; };
+		4B9EEFA0A75373FE4E6DACAD /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		4F22CF768204FE6BB75B2F86 /* WidgetLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetLayoutManager.swift; sourceTree = "<group>"; };
+		5E2F91C92FE58CE02592E2CE /* ExecutionIntelligenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionIntelligenceView.swift; sourceTree = "<group>"; };
+		5ED585DEC01A1353E4194EEB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		609313212D0B31F27A61FD14 /* LunrixTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunrixTheme.swift; sourceTree = "<group>"; };
+		63C1E6F6BAF9633BCC58A55C /* Lynrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		647E37A9179746CF6412BD63 /* ReplayControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayControlView.swift; sourceTree = "<group>"; };
+		67260BB640EA9448863F68BD /* TradeJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeJournal.swift; sourceTree = "<group>"; };
+		6C09ABC382EB009B3563BA54 /* StrategyResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyResearchView.swift; sourceTree = "<group>"; };
+		6D0BA54285DDD8D69B3A661A /* ExecutionIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionIntelligence.swift; sourceTree = "<group>"; };
+		6E3ABFAFF7A7DE5C8BEF5CB4 /* TradingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingMode.swift; sourceTree = "<group>"; };
+		72447F5935FA12192DD73994 /* LxTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxTheme.swift; sourceTree = "<group>"; };
+		7B5FB13BAEF53CAC381891C0 /* GlowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowText.swift; sourceTree = "<group>"; };
+		7BC7408FCCB02B3072B7A6B2 /* LynrixCoreBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LynrixCoreBridge.mm; sourceTree = "<group>"; };
+		7F396AA758C4E8B3DFD90828 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		8AFD5BD6DF2E2BA729E3C16A /* OrderStateMachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStateMachineView.swift; sourceTree = "<group>"; };
+		8EE2668BF91DAF1422A3B907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9111C8E0F679992DAB42AC86 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		92A4EAD01D20A8A714786F94 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		93323EEBF96C5DFA22057EEA /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F607A8B9C0D1E2 /* MergedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergedViews.swift; sourceTree = "<group>"; };
+		B3C4D5E6F7A80B19C2D3E4F5 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		93AE4B745FA06CF1077E0FD7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		97DA6060438C034D9BE428A4 /* AllocationIntelligenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllocationIntelligenceView.swift; sourceTree = "<group>"; };
+		98E4F2D435A369957DD4B69B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		9D98DAEC8309C6971E9C7C57 /* RegimeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegimeBadge.swift; sourceTree = "<group>"; };
+		A5A5A15D57D21A7D4A2299B0 /* OnboardingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingManager.swift; sourceTree = "<group>"; };
+		A6D1107EA3D4DE84615CBAD9 /* LunrixEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunrixEngine.swift; sourceTree = "<group>"; };
+		ABC743930D1F51F1A911ADE9 /* AuthGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGateView.swift; sourceTree = "<group>"; };
+		B06285C79E71B7A8B7AE1D8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1CA5E89CB679A551CC2833A /* AIDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDashboardView.swift; sourceTree = "<group>"; };
+		B360C96EA954A8A24EAB8155 /* ChaosControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosControlView.swift; sourceTree = "<group>"; };
+		BC9CE89E7271F367422901F1 /* ModelGovernance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelGovernance.swift; sourceTree = "<group>"; };
+		BD23DE0C5C9759D1FDBDEAD9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BF1E1897136CD5276DAC4E84 /* AnimatedEquityCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedEquityCurve.swift; sourceTree = "<group>"; };
+		BF48161784DE1C97E05D1547 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C513867856193506340506A7 /* LunrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunrixApp.swift; sourceTree = "<group>"; };
+		C84FAE74792126861F38BB70 /* VarDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarDashboardView.swift; sourceTree = "<group>"; };
+		CE6B97FB0A9B6CDC0D91481A /* TradeReviewStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeReviewStudioView.swift; sourceTree = "<group>"; };
+		CF8D5FFD10CB62B02CE5212B /* GlassPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassPanel.swift; sourceTree = "<group>"; };
+		DA1FREF0PA1E77A0B2F3C4D6 /* CommandPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPalette.swift; sourceTree = "<group>"; };
+		DA2FREFPNL0A3E88B1C3D4E6 /* PnlSparkline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PnlSparkline.swift; sourceTree = "<group>"; };
+		DA3FREFTST0B4F99C2D4E5F7 /* ToastNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastNotification.swift; sourceTree = "<group>"; };
+		D5E74D432FF8F8B42B80B721 /* Lynrix.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Lynrix.icns; sourceTree = "<group>"; };
+		D978CBE5B0485CAE33CC38AA /* IncidentCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentCenterView.swift; sourceTree = "<group>"; };
+		DB3ED5C00709C6B91D8967E3 /* NeonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonButton.swift; sourceTree = "<group>"; };
+		DF55E6E0A723A9410BA18C50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFA9D9B4C4CA74CCFE525772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E536B7304FEB5584943B87BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E7A6A5B135C85476F86057DC /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		ED38FF33007FE8CBB81F3620 /* TradeTapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTapeView.swift; sourceTree = "<group>"; };
+		EDA400263725F6CE19C7CE4B /* SignalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsView.swift; sourceTree = "<group>"; };
+		F1941489DAFD0B5CF017C09A /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		F339A1EDA157399778300F51 /* Lynrix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lynrix-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4A27920B81D3F28CA6C9D98 /* UnifiedStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedStatusBar.swift; sourceTree = "<group>"; };
+		F6DA5EE880968088449AFC6E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FCC1113BE9E36C881F60523A /* LynrixCoreBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LynrixCoreBridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A32EA8777C58111C6BF6C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3404E897F81AA84F853A8E5 /* FirebaseAuth in Frameworks */,
+				1754A0BA638833341C0E8927 /* FirebaseFirestore in Frameworks */,
+				E56ADFC7961B5024C2C00C39 /* FirebaseCore in Frameworks */,
+				98A2B9AE9DF9868EF7D8EF6B /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E50C754A95ABF0700189922 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8C27D455ADE0D50CA9642 /* AllocationIntelligence.swift */,
+				98E4F2D435A369957DD4B69B /* AuthManager.swift */,
+				2500D6FD626782510864997D /* EngineSubmodels.swift */,
+				6D0BA54285DDD8D69B3A661A /* ExecutionIntelligence.swift */,
+				7F396AA758C4E8B3DFD90828 /* FirestoreService.swift */,
+				E7A6A5B135C85476F86057DC /* KeychainManager.swift */,
+				A6D1107EA3D4DE84615CBAD9 /* LunrixEngine.swift */,
+				00C2199D941CDE200A4AE7F7 /* MarketRegimeIntelligence.swift */,
+				BC9CE89E7271F367422901F1 /* ModelGovernance.swift */,
+				44459D6C601801BCD1A1E70A /* NotificationManager.swift */,
+				A5A5A15D57D21A7D4A2299B0 /* OnboardingManager.swift */,
+				9111C8E0F679992DAB42AC86 /* ProfileManager.swift */,
+				67260BB640EA9448863F68BD /* TradeJournal.swift */,
+				6E3ABFAFF7A7DE5C8BEF5CB4 /* TradingMode.swift */,
+				92A4EAD01D20A8A714786F94 /* UserProfile.swift */,
+				4B9EEFA0A75373FE4E6DACAD /* UserStore.swift */,
+				4F22CF768204FE6BB75B2F86 /* WidgetLayoutManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23B4A14EDDB274CC568AD016 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA5E89CB679A551CC2833A /* AIDashboardView.swift */,
+				97DA6060438C034D9BE428A4 /* AllocationIntelligenceView.swift */,
+				ABC743930D1F51F1A911ADE9 /* AuthGateView.swift */,
+				B360C96EA954A8A24EAB8155 /* ChaosControlView.swift */,
+				5ED585DEC01A1353E4194EEB /* DashboardView.swift */,
+				93323EEBF96C5DFA22057EEA /* DiagnosticsView.swift */,
+				5E2F91C92FE58CE02592E2CE /* ExecutionIntelligenceView.swift */,
+				D978CBE5B0485CAE33CC38AA /* IncidentCenterView.swift */,
+				00F00EC43C46B50BD041A015 /* LogPanelView.swift */,
+				3341D7A5A3CFFADEAC5B317F /* MarketRegimeCenterView.swift */,
+				A1B2C3D4E5F607A8B9C0D1E2 /* MergedViews.swift */,
+				1E8995452273D50962551753 /* MLDiagnosticsView.swift */,
+				1D9CB86383EEEF9AD422001C /* ModelGovernanceView.swift */,
+				F6DA5EE880968088449AFC6E /* OnboardingView.swift */,
+				3BD7DDB48702D7228CEB00D9 /* OrderBookView.swift */,
+				8AFD5BD6DF2E2BA729E3C16A /* OrderStateMachineView.swift */,
+				2677C141DD9E7E6F69ABCAE0 /* PortfolioView.swift */,
+				BF48161784DE1C97E05D1547 /* RegistrationView.swift */,
+				647E37A9179746CF6412BD63 /* ReplayControlView.swift */,
+				338FDBDE567A1080620374CE /* RiskCommandCenterView.swift */,
+				28E6494B5B2EFE467D4B624E /* RLTrainingView.swift */,
+				BD23DE0C5C9759D1FDBDEAD9 /* SettingsView.swift */,
+				EDA400263725F6CE19C7CE4B /* SignalsView.swift */,
+				1A17E2CDA226FE09277AC568 /* StrategyPerformanceView.swift */,
+				6C09ABC382EB009B3563BA54 /* StrategyResearchView.swift */,
+				0560FE1A3CFB0EB5279150DA /* SystemMonitorView.swift */,
+				CE6B97FB0A9B6CDC0D91481A /* TradeReviewStudioView.swift */,
+				ED38FF33007FE8CBB81F3620 /* TradeTapeView.swift */,
+				C84FAE74792126861F38BB70 /* VarDashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28B1B103D889914A7DFB9AE2 = {
+			isa = PBXGroup;
+			children = (
+				8EE2668BF91DAF1422A3B907 /* Assets.xcassets */,
+				BAB3E7606F2B6AC475ECA903 /* App */,
+				7E1615F0196A68E09E953C1D /* Bridge */,
+				8271C93993DC7A78EF0E35E4 /* Components */,
+				1E50C754A95ABF0700189922 /* Models */,
+				AB23ECF24A0A08E92BC2090C /* Resources */,
+				23B4A14EDDB274CC568AD016 /* Views */,
+				C11BB631612C3A7F82AFBD0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1615F0196A68E09E953C1D /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				F339A1EDA157399778300F51 /* Lynrix-Bridging-Header.h */,
+				FCC1113BE9E36C881F60523A /* LynrixCoreBridge.h */,
+				7BC7408FCCB02B3072B7A6B2 /* LynrixCoreBridge.mm */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		8271C93993DC7A78EF0E35E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BF1E1897136CD5276DAC4E84 /* AnimatedEquityCurve.swift */,
+				B3C4D5E6F7A80B19C2D3E4F5 /* EmptyStateView.swift */,
+				DA1FREF0PA1E77A0B2F3C4D6 /* CommandPalette.swift */,
+				CF8D5FFD10CB62B02CE5212B /* GlassPanel.swift */,
+				DA2FREFPNL0A3E88B1C3D4E6 /* PnlSparkline.swift */,
+				DA3FREFTST0B4F99C2D4E5F7 /* ToastNotification.swift */,
+				7B5FB13BAEF53CAC381891C0 /* GlowText.swift */,
+				0FB39E39F2D15F57C93C5C55 /* LocalizationManager.swift */,
+				609313212D0B31F27A61FD14 /* LunrixTheme.swift */,
+				72447F5935FA12192DD73994 /* LxTheme.swift */,
+				DB3ED5C00709C6B91D8967E3 /* NeonButton.swift */,
+				9D98DAEC8309C6971E9C7C57 /* RegimeBadge.swift */,
+				F1941489DAFD0B5CF017C09A /* ThemeManager.swift */,
+				F4A27920B81D3F28CA6C9D98 /* UnifiedStatusBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AB23ECF24A0A08E92BC2090C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B06285C79E71B7A8B7AE1D8F /* GoogleService-Info.plist */,
+				44CACD7C06A5CC430290A09A /* Localizable.strings */,
+				449E181F91D832BEC9FF8678 /* Lynrix_final_logo.png */,
+				D5E74D432FF8F8B42B80B721 /* Lynrix.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAB3E7606F2B6AC475ECA903 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DF55E6E0A723A9410BA18C50 /* ContentView.swift */,
+				E536B7304FEB5584943B87BE /* Info.plist */,
+				C513867856193506340506A7 /* LunrixApp.swift */,
+				397E134B848766E398FC40B5 /* Lynrix.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C11BB631612C3A7F82AFBD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C1E6F6BAF9633BCC58A55C /* Lynrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06003A61D8CC6A2F8B94E4FD /* Lynrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF263B4022DF163E6860E7BE /* Build configuration list for PBXNativeTarget "Lynrix" */;
+			buildPhases = (
+				58E255DDF267C4E1BE323EC1 /* Build C++ Core (v2.5) */,
+				ADCD121C85094968B3E3676E /* Sources */,
+				93CD98134B5D13D64504CDDD /* Resources */,
+				0A32EA8777C58111C6BF6C6B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lynrix;
+			packageProductDependencies = (
+				345885CDD80676674EA1CD77 /* FirebaseAuth */,
+				BD348AC542B706808F6211FD /* FirebaseFirestore */,
+				4A38E98B335DD10DE18B08EB /* FirebaseCore */,
+				596180865CBD4BE459A9C583 /* GoogleSignIn */,
+			);
+			productName = Lynrix;
+			productReference = 63C1E6F6BAF9633BCC58A55C /* Lynrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF96C3D94979DC45358BFC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					06003A61D8CC6A2F8B94E4FD = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 608AD53D73483CDE474A6073 /* Build configuration list for PBXProject "Lynrix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ru,
+				"zh-Hans",
+			);
+			mainGroup = 28B1B103D889914A7DFB9AE2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FC0282921D501722BE0C4DEE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				BF88EECDA6536FA8AF83B0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06003A61D8CC6A2F8B94E4FD /* Lynrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CD98134B5D13D64504CDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7C9D5839561E07D1E8EE7F /* Assets.xcassets in Resources */,
+				6C194DC0B3AC8BFAA979B039 /* GoogleService-Info.plist in Resources */,
+				70CF87BE903E9B487FEA23BC /* Localizable.strings in Resources */,
+				E15263C7DB285257ACEC4DA6 /* Lynrix.icns in Resources */,
+				EC123B32418D5E3BF2DD96CC /* Lynrix_final_logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E255DDF267C4E1BE323EC1 /* Build C++ Core (v2.5) */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build C++ Core (v2.5)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\ncd \"${PROJECT_DIR}/..\"\nif [ ! -f build/CMakeCache.txt ]; then\n  cmake -B build -DCMAKE_BUILD_TYPE=Release\nfi\ncmake --build build --target trading_core -j$(sysctl -n hw.ncpu)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCD121C85094968B3E3676E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D150227641947EF43258B9 /* AIDashboardView.swift in Sources */,
+				774786BF608A0BAB732D2C16 /* AllocationIntelligence.swift in Sources */,
+				86644CC01ABC727AEAE41C94 /* AllocationIntelligenceView.swift in Sources */,
+				300DD2D94644CDB941634C8B /* AnimatedEquityCurve.swift in Sources */,
+				25C0D037B3867138CCDDB2D8 /* AuthGateView.swift in Sources */,
+				FB6690BD42B4B58B1774E1CD /* AuthManager.swift in Sources */,
+				5656E93D7A97B12B6F08E737 /* ChaosControlView.swift in Sources */,
+				6EC5F230DF6CD1A70A10A576 /* ContentView.swift in Sources */,
+				01A9D8F81DF81C53FE8AB7F7 /* DashboardView.swift in Sources */,
+				8EE56895103D8E56DEB60B4E /* DiagnosticsView.swift in Sources */,
+				E546569CB2D983F21003C114 /* EngineSubmodels.swift in Sources */,
+				7842E4CE3823F08AB90BB01D /* ExecutionIntelligence.swift in Sources */,
+				EB7B3A0EB019217B6128FD13 /* ExecutionIntelligenceView.swift in Sources */,
+				2E52CBA954DC471E594408A7 /* FirestoreService.swift in Sources */,
+				DA1C0MNDPA1E77A0B2F3C4D5 /* CommandPalette.swift in Sources */,
+				109F5012D4352EC67F1D060B /* GlassPanel.swift in Sources */,
+				DA2BLDPNL0A3E88B1C3D4E5F /* PnlSparkline.swift in Sources */,
+				DA3BLDTST0B4F99C2D4E5F60 /* ToastNotification.swift in Sources */,
+				F7A8225B1AB3E638832DD9B9 /* GlowText.swift in Sources */,
+				C2EAA44C34325DCFB23A21C1 /* IncidentCenterView.swift in Sources */,
+				37D0AC88D0BAFC240F68C86C /* KeychainManager.swift in Sources */,
+				C5928D2E85FF7BE21EA6B192 /* LocalizationManager.swift in Sources */,
+				8181A78EA146ED2E0ACD540A /* LogPanelView.swift in Sources */,
+				3ECEF00100FE30E41712B5C5 /* LunrixApp.swift in Sources */,
+				3384601E6673C6E9A8AEF33B /* LunrixEngine.swift in Sources */,
+				88ACC6D19AEAB616502FB422 /* LunrixTheme.swift in Sources */,
+				4846CDE34167901754916F55 /* LxTheme.swift in Sources */,
+				CE5D16790BE5DA9E4E301413 /* LynrixCoreBridge.mm in Sources */,
+				07774A1259E2FEE0E9D4BDF4 /* MLDiagnosticsView.swift in Sources */,
+				F1E12BFBA868999758CB5997 /* MarketRegimeCenterView.swift in Sources */,
+				33B3ADF26ED6D54644FB8DA6 /* MarketRegimeIntelligence.swift in Sources */,
+				D322D7D77A368826A9212592 /* ModelGovernance.swift in Sources */,
+				F2E3D4C5B6A70918F0E1D2C3 /* MergedViews.swift in Sources */,
+				AE9FE7AE68B782C50C6C2C59 /* ModelGovernanceView.swift in Sources */,
+				E4D5C6B7A8F90C1AD3E4F5B6 /* EmptyStateView.swift in Sources */,
+				3B88B43EA1CD32B9E9F2F4D6 /* NeonButton.swift in Sources */,
+				6904C8B8ACF728AE7AA47ECF /* NotificationManager.swift in Sources */,
+				1287AD6B3B6723E9989BBA98 /* OnboardingManager.swift in Sources */,
+				00F0093E91BCFA124CD566C7 /* OnboardingView.swift in Sources */,
+				E11BCE4B1E9A84788C255C45 /* OrderBookView.swift in Sources */,
+				A3D96433E2EFF41AA24B3E98 /* OrderStateMachineView.swift in Sources */,
+				2C625B5561A64C7F57A789FE /* PortfolioView.swift in Sources */,
+				BE4E9B78A25502946947C779 /* ProfileManager.swift in Sources */,
+				6D63D5D06A287E435E441FD2 /* RLTrainingView.swift in Sources */,
+				C646B9D476EC750BC66D1E40 /* RegimeBadge.swift in Sources */,
+				C44EC4DE748D3A3657FCB7E2 /* RegistrationView.swift in Sources */,
+				559DAE83F5E822952E6EEA6E /* ReplayControlView.swift in Sources */,
+				F3DC9FDB1DE586DCC34E47D2 /* RiskCommandCenterView.swift in Sources */,
+				ED96E253665D6895799B9CB1 /* SettingsView.swift in Sources */,
+				09919271967D78D0E8D2976E /* SignalsView.swift in Sources */,
+				15075CCD81D7D305ED512497 /* StrategyPerformanceView.swift in Sources */,
+				5622978D0BE1D994AC931586 /* StrategyResearchView.swift in Sources */,
+				72908B057BB5FA5E3271D98B /* SystemMonitorView.swift in Sources */,
+				7BE3C2E9E1D149C9261EBB68 /* ThemeManager.swift in Sources */,
+				E05E09F047B7AC79695EAE2A /* TradeJournal.swift in Sources */,
+				DB16414004C4D22693C752EF /* TradeReviewStudioView.swift in Sources */,
+				E401D7E8B63ACA95862E95BA /* TradeTapeView.swift in Sources */,
+				0A19FFCB0C62BE364388E47F /* TradingMode.swift in Sources */,
+				1933406C0B00C3C74564E284 /* UnifiedStatusBar.swift in Sources */,
+				D63E8924F43A12B0C209B9EA /* UserProfile.swift in Sources */,
+				61E618F48417DB9DA5D5055A /* UserStore.swift in Sources */,
+				DAB7D0E582148D22A4F67972 /* VarDashboardView.swift in Sources */,
+				17E5F63A56D8DABC80742B23 /* WidgetLayoutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44CACD7C06A5CC430290A09A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA9D9B4C4CA74CCFE525772 /* en */,
+				93AE4B745FA06CF1077E0FD7 /* ru */,
+				1F82ACFDEEC776757D2A3BA6 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		619701DFFB49603896939385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		795AE522EC071BAEC9411549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../src/bridge",
+					"$(PROJECT_DIR)/../src",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-src/include",
+					"$(PROJECT_DIR)/../build/_deps/fmt-src/include",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-src/singleheader",
+					"$(PROJECT_DIR)/../build/_deps/nlohmann_json-src/include",
+					"/opt/homebrew/opt/openssl@3/include",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"/opt/homebrew/opt/openssl@3/lib",
+					/opt/homebrew/lib,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../build",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-build",
+					"$(PROJECT_DIR)/../build/_deps/fmt-build",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-build",
+					"/opt/homebrew/opt/openssl@3/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ltrading_core",
+					"-lspdlog",
+					"-lfmt",
+					"-lsimdjson",
+					"-lssl",
+					"-lcrypto",
+					"-lpthread",
+					"-framework Security",
+					"-framework AppKit",
+					"-framework Accelerate",
+					"-framework Metal",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lynrix.trader;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/Lynrix-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B8B298A5A6A35EDAC5900BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../src/bridge",
+					"$(PROJECT_DIR)/../src",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-src/include",
+					"$(PROJECT_DIR)/../build/_deps/fmt-src/include",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-src/singleheader",
+					"$(PROJECT_DIR)/../build/_deps/nlohmann_json-src/include",
+					"/opt/homebrew/opt/openssl@3/include",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"/opt/homebrew/opt/openssl@3/lib",
+					/opt/homebrew/lib,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../build",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-build",
+					"$(PROJECT_DIR)/../build/_deps/fmt-build",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-build",
+					"/opt/homebrew/opt/openssl@3/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ltrading_core",
+					"-lspdlog",
+					"-lfmt",
+					"-lsimdjson",
+					"-lssl",
+					"-lcrypto",
+					"-lpthread",
+					"-framework Security",
+					"-framework AppKit",
+					"-framework Accelerate",
+					"-framework Metal",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lynrix.trader;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/Lynrix-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		E5B3B0D2F129BBDEC615E622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++23";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		608AD53D73483CDE474A6073 /* Build configuration list for PBXProject "Lynrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B3B0D2F129BBDEC615E622 /* Debug */,
+				619701DFFB49603896939385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF263B4022DF163E6860E7BE /* Build configuration list for PBXNativeTarget "Lynrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8B298A5A6A35EDAC5900BEE /* Debug */,
+				795AE522EC071BAEC9411549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF88EECDA6536FA8AF83B0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 11.15.0;
+			};
+		};
+		FC0282921D501722BE0C4DEE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		345885CDD80676674EA1CD77 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF88EECDA6536FA8AF83B0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4A38E98B335DD10DE18B08EB /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF88EECDA6536FA8AF83B0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		596180865CBD4BE459A9C583 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC0282921D501722BE0C4DEE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BD348AC542B706808F6211FD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF88EECDA6536FA8AF83B0B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF96C3D94979DC45358BFC9D /* Project object */;
+}

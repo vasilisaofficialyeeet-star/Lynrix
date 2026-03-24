@@ -1,0 +1,89 @@
+name: BybitTrader
+options:
+  bundleIdPrefix: com.bybittrader
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+
+configs:
+  Debug: debug
+  Release: release
+
+settings:
+  base:
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    SWIFT_VERSION: "5.9"
+    CLANG_CXX_LANGUAGE_STANDARD: c++20
+    CODE_SIGN_IDENTITY: "-"
+    ENABLE_HARDENED_RUNTIME: NO
+    DEAD_CODE_STRIPPING: YES
+  configs:
+    Debug:
+      SWIFT_OPTIMIZATION_LEVEL: -Onone
+      GCC_OPTIMIZATION_LEVEL: "0"
+    Release:
+      SWIFT_OPTIMIZATION_LEVEL: -O
+      GCC_OPTIMIZATION_LEVEL: "3"
+
+targets:
+  BybitTrader:
+    type: application
+    platform: macOS
+    sources:
+      - path: App
+      - path: Views
+      - path: Models
+      - path: Bridge
+        compilerFlags: "-x objective-c++"
+      - path: Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.bybittrader.app
+        INFOPLIST_FILE: App/Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: Bridge/BybitTrader-Bridging-Header.h
+        ARCHS: "$(ARCHS_STANDARD)"
+        ONLY_ACTIVE_ARCH: NO
+        CODE_SIGN_ENTITLEMENTS: App/BybitTrader.entitlements
+        HEADER_SEARCH_PATHS:
+          - "$(PROJECT_DIR)/../src/bridge"
+          - "$(PROJECT_DIR)/../src"
+          - "$(PROJECT_DIR)/../build/_deps/spdlog-src/include"
+          - "$(PROJECT_DIR)/../build/_deps/fmt-src/include"
+          - "$(PROJECT_DIR)/../build/_deps/simdjson-src/singleheader"
+          - "$(PROJECT_DIR)/../build/_deps/nlohmann_json-src/include"
+          - "/opt/homebrew/opt/openssl@3/include"
+        LIBRARY_SEARCH_PATHS:
+          - "$(PROJECT_DIR)/../build"
+          - "$(PROJECT_DIR)/../build/_deps/spdlog-build"
+          - "$(PROJECT_DIR)/../build/_deps/fmt-build"
+          - "$(PROJECT_DIR)/../build/_deps/simdjson-build"
+          - "/opt/homebrew/opt/openssl@3/lib"
+        LD_RUNPATH_SEARCH_PATHS:
+          - "@executable_path/../Frameworks"
+          - "/opt/homebrew/opt/openssl@3/lib"
+          - "/opt/homebrew/lib"
+        OTHER_LDFLAGS:
+          - "-ltrading_core"
+          - "-lspdlog"
+          - "-lfmt"
+          - "-lsimdjson"
+          - "-lssl"
+          - "-lcrypto"
+          - "-lpthread"
+          - "-framework Security"
+          - "-framework AppKit"
+      configs:
+        Debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+        Release:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: ""
+    preBuildScripts:
+      - name: Build C++ Core
+        script: |
+          export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+          cd "${PROJECT_DIR}/.."
+          if [ ! -f build/CMakeCache.txt ]; then
+            cmake -B build -DCMAKE_BUILD_TYPE=Release
+          fi
+          cmake --build build --target trading_core -j$(sysctl -n hw.ncpu)
+        basedOnDependencyAnalysis: false

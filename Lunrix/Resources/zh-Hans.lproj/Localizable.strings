@@ -1,0 +1,1551 @@
+/* Lynrix v2.5 — 简体中文本地化 */
+
+// ==========================================
+// MARK: - 品牌
+// ==========================================
+"app.name" = "LYNRIX";
+"app.nameTitleCase" = "Lynrix";
+"app.version" = "v2.5.0";
+"app.copyright" = "Copyright © 2026 Lynrix。保留所有权利。";
+"app.about.credits" = "高频交易平台\nC++23 Core • SwiftUI Glassmorphism 2026\n混沌测试 • 确定性回放\n© 2026 Lynrix";
+"app.about.build" = "构建 1 — Sprint 6 Release";
+"app.launching" = "Lynrix v2.5.0 启动中…";
+"app.ready" = "Lynrix 就绪";
+
+// ==========================================
+// MARK: - 菜单
+// ==========================================
+"menu.trading" = "交易";
+"menu.startEngine" = "启动引擎";
+"menu.stopEngine" = "停止引擎";
+"menu.toggleMode" = "切换模拟/实盘";
+"menu.emergencyStop" = "紧急停止";
+"menu.observability" = "可观测性";
+"menu.exportFlamegraph" = "导出火焰图…";
+"menu.exportHistograms" = "导出直方图 CSV…";
+"menu.enableChaos" = "启用混沌（夜间配置）";
+"menu.disableChaos" = "禁用混沌";
+"menu.loadReplay" = "加载回放文件…";
+"menu.export" = "导出";
+"menu.exportLogs" = "导出日志…";
+"menu.exportTradesCSV" = "导出交易 CSV…";
+"menu.exportSignalsCSV" = "导出信号 CSV…";
+"menu.clearLogs" = "清除日志";
+"menu.about" = "关于 Lynrix…";
+"menu.toggleSidebar" = "切换侧边栏";
+"menu.replayMessage" = "选择 BlackBoxRecorder 转储文件 (.bin) 进行确定性回放";
+
+// ==========================================
+// MARK: - 侧边栏分区
+// ==========================================
+"section.trading" = "交易";
+"section.execution" = "执行与风控";
+"section.observability" = "可观测性";
+"section.system" = "系统";
+
+// ==========================================
+// MARK: - 侧边栏标签
+// ==========================================
+"tab.dashboard" = "控制面板";
+"tab.ai" = "AI 模型";
+"tab.orderbook" = "订单簿";
+"tab.trades" = "交易流水";
+"tab.portfolio" = "投资组合";
+"tab.signals" = "交易信号";
+"tab.strategy" = "策略";
+"tab.orderFSM" = "订单状态机";
+"tab.varRisk" = "VaR 风险";
+"tab.rlTraining" = "RL 训练";
+"tab.chaos" = "混沌测试";
+"tab.replay" = "回放";
+"tab.system" = "系统";
+"tab.mlDiag" = "ML 诊断";
+"tab.settings" = "设置";
+"tab.logs" = "日志";
+"tab.diagnostics" = "诊断";
+
+// ==========================================
+// MARK: - 命令面板 (D-A1)
+// ==========================================
+"palette.placeholder" = "输入命令...";
+"palette.noResults" = "无匹配结果";
+"palette.goTo" = "导航";
+"palette.engine" = "引擎";
+"palette.theme" = "外观";
+"palette.startEngine" = "启动引擎";
+"palette.stopEngine" = "停止引擎";
+"palette.emergencyStop" = "紧急停止";
+"settings.section.general" = "通用";
+"settings.section.trading" = "交易";
+"settings.section.ai" = "AI / ML";
+"settings.section.prefs" = "偏好设置";
+
+// ==========================================
+// MARK: - 通用
+// ==========================================
+"common.start" = "启动";
+"common.stop" = "停止";
+"common.restart" = "重启";
+"common.dismiss" = "关闭";
+"common.save" = "保存";
+"common.cancel" = "取消";
+"common.apply" = "应用";
+"common.yes" = "是";
+"common.no" = "否";
+"common.on" = "开";
+"common.off" = "关";
+"common.ok" = "确定";
+"common.paper" = "模拟";
+"common.live" = "实盘";
+"common.active" = "活跃";
+"common.idle" = "空闲";
+"common.long" = "多头";
+"common.short" = "空头";
+"common.flat" = "空仓";
+"common.buy" = "买入";
+"common.sell" = "卖出";
+"common.enabled" = "已启用";
+"common.disabled" = "已禁用";
+"common.mode" = "模式";
+"common.score" = "评分";
+"common.activity" = "活跃度";
+"common.all" = "全部";
+"common.entries" = "条";
+"common.stages" = "阶段";
+
+// ==========================================
+// MARK: - 引擎与状态
+// ==========================================
+"engine.panic" = "紧急";
+"engine.reconnecting" = "重连中";
+"engine.chaos" = "混沌";
+"engine.manualStop" = "手动紧急停止";
+
+// ==========================================
+// MARK: - 控制面板
+// ==========================================
+"dashboard.midPrice" = "中间价";
+"dashboard.spread" = "价差";
+"dashboard.regime" = "市场状态";
+"dashboard.engine" = "引擎";
+"dashboard.position" = "持仓";
+"dashboard.unrealized" = "未实现";
+"dashboard.realized" = "已实现";
+"dashboard.netPnl" = "净盈亏";
+"dashboard.var99" = "VaR 99%";
+"dashboard.rlReward" = "RL 奖励";
+"dashboard.osmActive" = "OSM 活跃";
+"dashboard.chaos" = "混沌";
+"dashboard.risk" = "风险";
+"dashboard.avg" = "均值";
+"dashboard.orders" = "订单";
+"dashboard.inj" = "注入";
+"dashboard.equityCurve" = "权益曲线";
+"dashboard.throughput" = "吞吐量";
+"dashboard.latency" = "延迟";
+"dashboard.obUpdates" = "订单簿更新";
+"dashboard.trades" = "交易";
+"dashboard.signals" = "信号";
+"dashboard.ordersSent" = "已发送订单";
+"dashboard.ordersFilled" = "已成交订单";
+"dashboard.wsReconnects" = "WS 重连";
+"dashboard.e2eP50" = "E2E p50";
+"dashboard.e2eP99" = "E2E p99";
+"dashboard.featureP50" = "特征 p50";
+"dashboard.featureP99" = "特征 p99";
+"dashboard.modelP50" = "模型 p50";
+"dashboard.modelP99" = "模型 p99";
+"dashboard.aiPrediction" = "AI 预测";
+"dashboard.confidence" = "置信度";
+"dashboard.pUp" = "P(涨)";
+"dashboard.pDown" = "P(跌)";
+"dashboard.circuitBreaker" = "熔断器";
+"dashboard.tripped" = "已触发";
+"dashboard.cooldown" = "冷却中";
+"dashboard.drawdown" = "回撤";
+"dashboard.consecLosses" = "连续亏损";
+"dashboard.peakPnl" = "峰值盈亏";
+"dashboard.recentLogs" = "最近日志";
+"dashboard.volatility" = "波动率";
+
+// ==========================================
+// MARK: - 订单簿
+// ==========================================
+"orderbook.title" = "订单簿";
+"orderbook.bid" = "买价";
+"orderbook.ask" = "卖价";
+"orderbook.imbalance" = "不平衡";
+"orderbook.depth" = "深度";
+"orderbook.price" = "价格";
+"orderbook.size" = "数量";
+"orderbook.total" = "合计";
+"orderbook.bidSide" = "买方";
+"orderbook.askSide" = "卖方";
+"orderbook.levels" = "档";
+"orderbook.noData" = "等待订单簿数据…";
+
+// ==========================================
+// MARK: - 交易信号
+// ==========================================
+"signals.title" = "交易信号";
+"signals.noSignals" = "暂无信号";
+"signals.waitingForSignals" = "启动引擎后将显示信号";
+"signals.time" = "时间";
+"signals.side" = "方向";
+"signals.price" = "价格";
+"signals.qty" = "数量";
+"signals.confidence" = "置信度";
+
+// ==========================================
+// MARK: - 交易流水
+// ==========================================
+"tradeTape.title" = "交易流水";
+"tradeTape.trades" = "笔交易";
+"tradeTape.autoScroll" = "自动滚动";
+"tradeTape.csv" = "CSV";
+"tradeTape.time" = "时间";
+"tradeTape.side" = "方向";
+"tradeTape.price" = "价格";
+"tradeTape.qty" = "数量";
+"tradeTape.notional" = "名义金额";
+"tradeTape.noTrades" = "暂无交易";
+"tradeTape.waitingForTrades" = "启动引擎后将显示交易";
+"tradeTape.buy" = "买入:";
+"tradeTape.sell" = "卖出:";
+"tradeTape.volume" = "成交量:";
+"tradeTape.avgPrice" = "均价:";
+
+// ==========================================
+// MARK: - 投资组合
+// ==========================================
+"portfolio.currentPosition" = "当前持仓";
+"portfolio.size" = "数量";
+"portfolio.entry" = "入场价";
+"portfolio.unrealized" = "未实现";
+"portfolio.realized" = "已实现";
+"portfolio.pnlMetrics" = "盈亏指标";
+"portfolio.netPnl" = "净盈亏";
+"portfolio.winRate" = "胜率";
+"portfolio.profitFactor" = "盈利因子";
+"portfolio.executionStats" = "执行统计";
+"portfolio.latency" = "延迟";
+"portfolio.slippage" = "滑点";
+"portfolio.fillRate" = "成交率";
+"portfolio.totalTrades" = "总交易数";
+
+// ==========================================
+// MARK: - 策略表现
+// ==========================================
+"strategy.health" = "策略健康度";
+"strategy.keyMetrics" = "核心指标";
+"strategy.sharpe" = "夏普比率";
+"strategy.sortino" = "索提诺比率";
+"strategy.profitFactor" = "盈利因子";
+"strategy.riskMetrics" = "风险指标";
+"strategy.maxDrawdown" = "最大回撤";
+"strategy.bestTrade" = "最佳交易";
+"strategy.worstTrade" = "最差交易";
+"strategy.tradeStats" = "交易统计";
+"strategy.totalTrades" = "总交易数";
+"strategy.winRate" = "胜率";
+"strategy.avgWin" = "平均盈利";
+"strategy.avgLoss" = "平均亏损";
+"strategy.healthComponents" = "健康分项";
+"strategy.accuracy" = "准确率";
+"strategy.pnl" = "盈亏";
+"strategy.drawdownComponent" = "回撤";
+"strategy.pnlHistory" = "盈亏历史";
+"strategy.rlOptimizer" = "RL 优化器";
+"strategy.accDeclining" = "准确率↓";
+"strategy.ddWarning" = "回撤!";
+
+// ==========================================
+// MARK: - AI 面板
+// ==========================================
+"ai.title" = "AI 面板";
+"ai.marketRegime" = "市场状态";
+"ai.modelPredictions" = "模型预测";
+"ai.shortHorizon" = "短期";
+"ai.mediumHorizon" = "中期";
+"ai.longHorizon" = "长期";
+"ai.adaptiveThresholds" = "自适应阈值";
+"ai.signalThreshold" = "信号阈值";
+"ai.positionScale" = "仓位比例";
+"ai.cancelMs" = "取消延迟";
+"ai.circuitBreaker" = "熔断器";
+"ai.multiHorizon" = "多周期预测";
+"ai.accuracy" = "准确率";
+"ai.rollingAccuracy" = "滚动准确率";
+"ai.pnlHistory" = "盈亏历史";
+"ai.drawdownHistory" = "回撤历史";
+"ai.confidence" = "置信度";
+"ai.probUp" = "P(涨)";
+"ai.probDown" = "P(跌)";
+"ai.usingOnnx" = "ONNX";
+
+// ==========================================
+// MARK: - RL 训练
+// ==========================================
+"rl.title" = "RL 训练";
+"rl.stateVector" = "状态向量";
+"rl.dims" = "维";
+"rl.actionVector" = "动作向量";
+"rl.rewardHistory" = "奖励历史";
+"rl.avgReward" = "平均奖励";
+"rl.totalSteps" = "总步数";
+"rl.ppoDiagnostics" = "PPO 诊断";
+"rl.policyLoss" = "策略损失";
+"rl.valueLoss" = "价值损失";
+"rl.entropy" = "熵";
+"rl.klDivergence" = "KL 散度";
+"rl.learningRate" = "学习率";
+"rl.training" = "训练中";
+"rl.notTraining" = "未训练";
+"rl.brainPanel" = "神经面板";
+"rl.episode" = "回合";
+
+// ==========================================
+// MARK: - VaR 风险
+// ==========================================
+"var.title" = "在险价值";
+"var.var95" = "VaR 95%";
+"var.var99" = "VaR 99%";
+"var.cvar95" = "CVaR 95%";
+"var.cvar99" = "CVaR 99%";
+"var.methodComparison" = "方法对比";
+"var.parametric" = "参数法";
+"var.historical" = "历史法";
+"var.monteCarlo" = "蒙特卡洛";
+"var.stressScenarios" = "压力情景";
+"var.riskSummary" = "风险概览";
+"var.positionLimit" = "仓位限额";
+"var.returnCount" = "收益样本数";
+"var.meanReturn" = "平均收益";
+"var.returnStddev" = "收益标准差";
+
+// ==========================================
+// MARK: - 混沌测试
+// ==========================================
+"chaos.title" = "混沌引擎";
+"chaos.enabled" = "混沌已启用";
+"chaos.totalInjections" = "总注入次数";
+"chaos.latencySpikes" = "延迟尖峰";
+"chaos.packetLoss" = "丢包";
+"chaos.fakeDeltas" = "伪造增量";
+"chaos.oomSimulations" = "OOM 模拟";
+"chaos.corruptedJson" = "损坏的 JSON";
+"chaos.clockSkew" = "时钟偏移";
+"chaos.enableNightly" = "启用夜间配置";
+"chaos.enableFlashCrash" = "启用闪崩模拟";
+"chaos.disable" = "禁用混沌";
+"chaos.faultCards" = "故障注入卡片";
+"chaos.injections" = "次注入";
+
+// ==========================================
+// MARK: - 确定性回放
+// ==========================================
+"replay.title" = "确定性回放";
+"replay.loadFile" = "加载文件";
+"replay.loaded" = "已加载";
+"replay.notLoaded" = "未加载";
+"replay.events" = "事件";
+"replay.progress" = "进度";
+"replay.speed" = "速度";
+"replay.play" = "播放";
+"replay.pause" = "暂停";
+"replay.stopReplay" = "停止";
+"replay.reset" = "重置";
+"replay.integrity" = "CRC32 完整性";
+"replay.verified" = "已验证";
+"replay.pending" = "待验证";
+"replay.selectFile" = "选择回放文件 (.bin)";
+"replay.eventCount" = "事件数量";
+"replay.duration" = "持续时间";
+
+// ==========================================
+// MARK: - 订单状态机
+// ==========================================
+"osm.title" = "订单状态机";
+"osm.activeOrders" = "活跃订单";
+"osm.totalFills" = "总成交数";
+"osm.avgSlippage" = "平均滑点";
+"osm.marketImpact" = "市场冲击";
+"osm.fsmStates" = "FSM 状态";
+"osm.icebergProgress" = "冰山单进度";
+"osm.twapProgress" = "TWAP 进度";
+"osm.filledSlices" = "已成交批次";
+"osm.remainingQty" = "剩余数量";
+"osm.orderTable" = "订单列表";
+"osm.orderId" = "订单号";
+"osm.state" = "状态";
+"osm.side" = "方向";
+"osm.price" = "价格";
+"osm.qty" = "数量";
+"osm.filled" = "已成交";
+
+// ==========================================
+// MARK: - ML 诊断
+// ==========================================
+"ml.title" = "ML 诊断";
+"ml.modelAccuracy" = "模型准确率";
+"ml.overall" = "总体";
+"ml.perClass" = "分类指标";
+"ml.precision" = "精确率";
+"ml.recall" = "召回率";
+"ml.f1Score" = "F1 分数";
+"ml.horizonAccuracy" = "各周期准确率";
+"ml.accuracyTrend" = "准确率趋势";
+"ml.featureImportance" = "特征重要性";
+"ml.noData" = "暂无 ML 数据…";
+
+// ==========================================
+// MARK: - 系统监控
+// ==========================================
+"sysmon.resources" = "资源";
+"sysmon.cpu" = "CPU";
+"sysmon.cpuCores" = "CPU 核心数";
+"sysmon.memory" = "内存";
+"sysmon.peakMemory" = "峰值内存";
+"sysmon.uptime" = "运行时间";
+"sysmon.gpu" = "GPU";
+"sysmon.gpuUsage" = "GPU 使用率";
+"sysmon.throughput" = "吞吐量";
+"sysmon.ticksSec" = "Tick/秒";
+"sysmon.signalsSec" = "信号/秒";
+"sysmon.ordersSec" = "订单/秒";
+"sysmon.latency" = "延迟 (µs)";
+"sysmon.websocket" = "WebSocket";
+"sysmon.features" = "特征计算";
+"sysmon.model" = "模型";
+"sysmon.endToEnd" = "端到端";
+"sysmon.exchangeRtt" = "交易所 RTT";
+"sysmon.network" = "网络";
+"sysmon.drawdownHistory" = "回撤历史";
+"sysmon.mlInference" = "ML 推理";
+"sysmon.inferenceP50" = "推理 p50";
+"sysmon.inferenceP99" = "推理 p99";
+"sysmon.gpuAvailable" = "GPU 可用";
+"sysmon.gpuName" = "GPU 型号";
+"sysmon.stageHistograms" = "各阶段 HdrHistogram";
+"sysmon.noHistogramData" = "暂无直方图数据…";
+"sysmon.jitterAlerts" = "抖动告警";
+"sysmon.ordersCancelled" = "已取消订单";
+
+// ==========================================
+// MARK: - 日志面板
+// ==========================================
+"logs.title" = "系统日志";
+"logs.filter" = "筛选…";
+"logs.info" = "信息";
+"logs.warn" = "警告";
+"logs.error" = "错误";
+"logs.autoScroll" = "自动滚动";
+"logs.noEntries" = "暂无日志";
+
+// ==========================================
+// MARK: - 诊断
+// ==========================================
+"diag.systemDiag" = "系统诊断";
+"diag.version" = "版本";
+"diag.macos" = "macOS";
+"diag.cpuCores" = "CPU 核心数";
+"diag.ram" = "内存";
+"diag.processId" = "进程 ID";
+"diag.uptime" = "运行时间";
+"diag.engineState" = "引擎状态";
+"diag.status" = "状态";
+"diag.mode" = "模式";
+"diag.symbol" = "交易对";
+"diag.orderQty" = "订单数量";
+"diag.signalThreshold" = "信号阈值";
+"diag.reconnecting" = "正在重连";
+"diag.chaosEnabled" = "混沌已启用";
+"diag.replayLoaded" = "回放已加载";
+"diag.rlTraining" = "RL 训练";
+"diag.dataState" = "数据状态";
+"diag.obValid" = "订单簿有效";
+"diag.bidLevels" = "买价档位";
+"diag.askLevels" = "卖价档位";
+"diag.bestBid" = "最优买价";
+"diag.bestAsk" = "最优卖价";
+"diag.logEntries" = "日志条数";
+"diag.signals" = "信号数";
+"diag.trades" = "交易数";
+"diag.activeOrdersOSM" = "活跃订单 (OSM)";
+"diag.stageHistograms" = "阶段直方图";
+"diag.performance" = "性能";
+"diag.obUpdates" = "订单簿更新";
+"diag.totalTrades" = "总交易数";
+"diag.totalSignals" = "总信号数";
+"diag.ordersSent" = "已发送订单";
+"diag.wsReconnects" = "WS 重连数";
+"diag.e2eP50" = "E2E p50";
+"diag.e2eP99" = "E2E p99";
+"diag.var99" = "VaR 99%";
+"diag.chaosInjections" = "混沌注入数";
+
+// ==========================================
+// MARK: - 设置
+// ==========================================
+"settings.title" = "设置";
+"settings.apiKeys" = "API 密钥";
+"settings.keychain" = "钥匙串";
+"settings.apiKey" = "API 密钥";
+"settings.apiSecret" = "API 密钥密码";
+"settings.showKey" = "显示密钥";
+"settings.saveToKeychain" = "保存到钥匙串";
+"settings.tradingMode" = "交易模式";
+"settings.paperMode" = "模拟交易";
+"settings.liveWarning" = "警告：实盘模式使用真实资金";
+"settings.tradingParams" = "交易参数";
+"settings.orderQty" = "订单数量";
+"settings.symbol" = "交易对";
+"settings.signalThreshold" = "信号阈值";
+"settings.riskLimits" = "风险限额";
+"settings.maxPosition" = "最大持仓";
+"settings.maxDrawdown" = "最大回撤 %";
+"settings.maxLossDay" = "日最大亏损";
+"settings.aiSettings" = "AI 设置";
+"settings.enableOnnx" = "启用 ONNX";
+"settings.enableRL" = "启用 RL 优化器";
+"settings.updateInterval" = "更新间隔";
+"settings.ticks" = "tick";
+"settings.circuitBreaker" = "熔断器";
+"settings.cbMaxDrawdown" = "最大回撤";
+"settings.cbMaxConsecLosses" = "最大连续亏损";
+"settings.cbCooldown" = "冷却时间（秒）";
+"settings.applySettings" = "应用设置";
+"settings.language" = "语言";
+"settings.selectLanguage" = "界面语言";
+"settings.languageNote" = "语言更改立即生效";
+
+// ==========================================
+// MARK: - 额外键值 (Views)
+// ==========================================
+"chaos.disabled" = "已禁用";
+"chaos.summary" = "注入汇总";
+"replay.loadedFile" = "已加载文件";
+"replay.noFile" = "未加载文件";
+"replay.load" = "加载…";
+"rl.idle" = "空闲";
+"rl.waitingForData" = "等待训练数据…";
+"rl.agentStatus" = "智能体状态";
+"var.portfolio" = "投资组合";
+"var.methodsComparison" = "VaR 方法对比";
+"ml.perClassMetrics" = "分类指标";
+"sysmon.stages" = "阶段";
+"sysmon.noHistograms" = "暂无直方图数据…";
+"log.title" = "系统日志";
+"log.noEntries" = "暂无日志";
+"diag.systemDiagnostics" = "系统诊断";
+
+// ==========================================
+// MARK: - 外观设置
+// ==========================================
+"settings.appearance" = "外观";
+"settings.appearanceNote" = "选择浅色、深色主题，或跟随 macOS 系统设置。";
+"settings.appearanceSystem" = "系统";
+"settings.appearanceLight" = "浅色";
+"settings.appearanceDark" = "深色";
+
+// ==========================================
+// MARK: - 额外缺失键值
+// ==========================================
+"settings.keychainNote" = "API 密钥安全存储在 macOS 钥匙串中。";
+"settings.stopEngineWarning" = "停止引擎以更改设置";
+"settings.onnxRuntime" = "ONNX Runtime";
+
+"ai.direction" = "方向";
+"ai.horizon" = "期限";
+"ai.pFlat" = "P(横盘)";
+"ai.move" = "变动";
+"ai.dir" = "方向";
+"ai.noData" = "暂无数据";
+"ai.inference" = "推理";
+
+"chaos.subtitle" = "用于弹性测试的故障注入";
+
+"logs.all" = "全部";
+
+"ml.current" = "当前:";
+"ml.multiHorizonProb" = "多期限概率";
+
+"osm.subtitle" = "8 状态 FSM，LUT 转换，冰山/TWAP/VWAP";
+"osm.slices" = "切片";
+"osm.marketImpactLabel" = "市场冲击:";
+"osm.fillPct" = "成交%";
+"osm.cx" = "撤";
+"osm.icebergOrder" = "冰山订单";
+"osm.twapSchedule" = "TWAP/VWAP 计划";
+"osm.fsmStatesLut" = "FSM 状态（8 状态 LUT）";
+
+"rl.subtitle" = "32 维状态，4 维动作，GAE-λ";
+
+"replay.subtitle" = "BlackBoxRecorder 事件精确回放";
+"replay.crc32" = "CRC32";
+"replay.speedLabel" = "速度";
+"replay.speedName" = "速度";
+"replay.speedMax" = "0x（最快）";
+"replay.speedRealtime" = "10x（实时）";
+
+"var.subtitle" = "参数法 / 历史法 / 蒙特卡洛 VaR + CVaR";
+
+"sysmon.drawdownHistory" = "回撤历史";
+"sysmon.stage" = "阶段";
+"sysmon.count" = "计数";
+"sysmon.mean" = "均值";
+"sysmon.p50" = "p50";
+"sysmon.p90" = "p90";
+"sysmon.p99" = "p99";
+"sysmon.p999" = "p99.9";
+"sysmon.max" = "最大";
+"sysmon.stddev" = "标准差";
+
+// ==========================================
+// MARK: - 设置（附加字段）
+// ==========================================
+"settings.entryOffset" = "入场偏移 (bps)";
+"settings.obLevels" = "订单簿层数";
+"settings.ioThreads" = "IO 线程";
+"settings.maxLeverage" = "最大杠杆";
+"settings.maxOrdersSec" = "最大订单/秒";
+"settings.lossThreshold" = "亏损阈值 ($)";
+"settings.mlModel" = "ML 模型";
+"settings.adaptiveThreshold" = "自适应阈值";
+"settings.regimeDetection" = "市况检测";
+"settings.requoting" = "重新报价";
+"settings.adaptiveSizing" = "自适应仓位";
+"settings.featureTick" = "特征周期 (ms)";
+"settings.onnxModel" = "ONNX 模型";
+"settings.onnxPath" = ".onnx 路径";
+"settings.onnxThreads" = "ONNX 线程";
+"settings.deleteKeys" = "删除 API 密钥？";
+"settings.delete" = "删除";
+"settings.paperDescription" = "订单为模拟执行，不涉及真实资金。";
+"settings.switchToLive" = "切换到实盘交易？";
+"settings.toLive" = "→ 实盘";
+"settings.toPaper" = "→ 模拟";
+
+// ==========================================
+// MARK: - 混沌（附加）
+// ==========================================
+"chaos.nightly" = "夜间";
+"chaos.flashCrash" = "闪崩";
+"chaos.disable" = "禁用";
+"chaos.reset" = "重置";
+"chaos.latencySpikes" = "延迟尖峰";
+"chaos.packetsDropped" = "丢包";
+"chaos.fakeDeltas" = "伪造增量";
+"chaos.oomSimulation" = "OOM 模拟";
+"chaos.corruptedJson" = "损坏 JSON";
+"chaos.clockSkews" = "时钟偏移";
+"chaos.totalLatency" = "总注入延迟";
+"chaos.maxLatency" = "最大注入延迟";
+"chaos.engineStatus" = "引擎状态";
+
+// ==========================================
+// MARK: - 回放（附加）
+// ==========================================
+"replay.events" = "事件";
+"replay.filtered" = "已过滤";
+"replay.sequence" = "序列";
+"replay.mono" = "单调";
+"replay.nonMono" = "非单调";
+"replay.play" = "播放";
+"replay.pause" = "暂停";
+"replay.step" = "步进";
+"replay.maxSpeed" = "最大速度";
+"replay.crc32Checksum" = "CRC32 校验";
+"replay.seqMonotonic" = "序列单调性";
+"replay.fileLoaded" = "文件已加载";
+"replay.eventsGt0" = "事件 > 0";
+"replay.pass" = "通过";
+"replay.fail" = "失败";
+"replay.selectBin" = "选择 BlackBoxRecorder 转储文件 (.bin)";
+
+// ==========================================
+// MARK: - AI（附加指标标签）
+// ==========================================
+"ai.trendScore" = "趋势得分";
+"ai.mrScore" = "MR 得分";
+"ai.liquidity" = "流动性";
+"ai.inferenceLatency" = "推理";
+"ai.volatilityAdj" = "波动率修正";
+"ai.accuracyAdj" = "准确率修正";
+"ai.liquidityAdj" = "流动性修正";
+"ai.spreadAdj" = "价差修正";
+"ai.recentAccuracy" = "近期准确率";
+"ai.signals" = "信号";
+"ai.tripped" = "已触发";
+"ai.cooldownLabel" = "冷却";
+"ai.resetCB" = "重置 CB";
+"ai.overall" = "总体";
+"ai.rolling" = "滚动";
+"ai.predictions" = "预测数";
+"ai.correct" = "正确";
+"ai.calibrationErr" = "校准误差";
+"ai.backend" = "后端";
+"ai.modelP50" = "模型 p50";
+"ai.modelP99" = "模型 p99";
+"ai.gpu" = "GPU";
+"ai.onnx" = "ONNX";
+"ai.onnxActive" = "活跃";
+"ai.onnxInactive" = "未激活";
+
+// ==========================================
+// MARK: - ML（附加）
+// ==========================================
+"ml.significant" = "个显著";
+"ml.mutualInformation" = "互信息";
+"ml.confidence" = "置信度";
+"ml.totalPredictions" = "总预测数";
+"ml.calibrationError" = "校准误差";
+"ml.rollingWindow" = "滚动窗口";
+"ml.backend" = "后端";
+"ml.inferenceLabel" = "推理";
+"ml.onnxRuntime" = "ONNX Runtime";
+"ml.nativeGru" = "原生 GRU";
+
+// ==========================================
+// MARK: - 策略（附加）
+// ==========================================
+"strategy.expectancy" = "期望值";
+"strategy.totalPnl" = "总 PnL";
+"strategy.calmar" = "Calmar";
+"strategy.recovery" = "恢复因子";
+"strategy.currentDD" = "当前回撤";
+"strategy.dailyPnl" = "日 PnL";
+"strategy.hourlyPnl" = "时 PnL";
+"strategy.winning" = "盈利";
+"strategy.losing" = "亏损";
+"strategy.consecWins" = "连胜";
+"strategy.sharpeScore" = "Sharpe";
+"strategy.consistency" = "一致性";
+"strategy.fillRate" = "成交率";
+"strategy.regimeChanges" = "市况变化/时";
+"strategy.thresholdOffset" = "阈值偏移";
+"strategy.exploring" = "探索中";
+"strategy.exploiting" = "利用中";
+"strategy.steps" = "步数";
+"strategy.updates" = "更新";
+"strategy.deltaThreshold" = "Δ 阈值";
+"strategy.sizeScale" = "仓位缩放";
+"strategy.offsetBPS" = "偏移 BPS";
+"strategy.valueEst" = "价值估计";
+
+// ==========================================
+// MARK: - RL（附加）
+// ==========================================
+"rl.entropyAlpha" = "熵 α";
+"rl.klDiv" = "KL 散度";
+"rl.clipFrac" = "裁剪比";
+"rl.explVar" = "解释方差";
+"rl.lr" = "LR";
+"rl.buffer" = "缓冲区";
+"rl.requoteScale" = "重报价";
+"rl.approxKL" = "近似 KL";
+"rl.valueEstimate" = "价值估计";
+"rl.totalStepsLabel" = "总步数";
+"rl.totalUpdates" = "总更新";
+"rl.exploring" = "探索中";
+"rl.rollbacks" = "回滚";
+"rl.epochs" = "轮次";
+"rl.signalDelta" = "Δ 信号";
+"rl.posScale" = "仓位缩放";
+"rl.offsetBps" = "偏移 bps";
+
+// ==========================================
+// MARK: - 系统监控（附加）
+// ==========================================
+"sysmon.obUpdates" = "OB 更新";
+"sysmon.trades" = "交易";
+"sysmon.signals" = "信号";
+"sysmon.ordersSent" = "已发订单";
+"sysmon.ordersFilled" = "已成交订单";
+"sysmon.wsReconnects" = "WS 重连";
+"chaos.totalInjections" = "总注入次数";
+
+// ==========================================
+// MARK: - 日志（附加）
+// ==========================================
+"logs.filter" = "过滤…";
+"logs.level" = "级别";
+
+// ==========================================
+// MARK: - VaR（附加）
+// ==========================================
+"var.parametricGaussian" = "参数法（高斯）";
+"var.historicalSim" = "历史模拟";
+"var.maxDrawdown" = "最大回撤";
+"var.currentDD" = "当前回撤";
+"var.cbDrawdown" = "CB 回撤";
+"var.sharpe" = "Sharpe";
+"var.sortino" = "Sortino";
+"var.calmar" = "Calmar";
+"var.cb" = "CB";
+"var.recovery" = "恢复因子";
+"var.winRate" = "胜率";
+"var.var95" = "VaR 95%";
+"var.var99" = "VaR 99%";
+"var.cvar95" = "CVaR 95%";
+"var.cvar99" = "CVaR 99%";
+
+// ==========================================
+// MARK: - 信号（附加）
+// ==========================================
+"signals.buy" = "买入";
+"signals.sell" = "卖出";
+
+// ==========================================
+// MARK: - OSM（附加）
+// ==========================================
+"osm.transitions" = "状态转换";
+"osm.fillTime" = "成交时间";
+"osm.stNew" = "新建";
+"osm.stPending" = "待处理";
+"osm.stOpen" = "开放";
+"osm.stPartialFill" = "部分成交";
+"osm.stFilled" = "已成交";
+"osm.stCancelling" = "取消中";
+"osm.stCancelled" = "已取消";
+"osm.stExpired" = "已过期";
+
+// ==========================================
+// MARK: - Sprint 2：交易模式
+// ==========================================
+"mode.replay" = "回放";
+"mode.backtest" = "回测";
+"mode.paper" = "模拟";
+"mode.testnet" = "测试网";
+"mode.live" = "实盘";
+
+// ==========================================
+// MARK: - Sprint 2：风险指挥中心
+// ==========================================
+"risk.commandCenter" = "风险指挥中心";
+"risk.haltActive" = "交易已停止";
+"risk.halt" = "停止";
+"risk.engineStatus" = "引擎";
+"risk.uptime" = "运行时间";
+"risk.wsReconnects" = "WS重连";
+"risk.positionPnl" = "仓位与损益";
+"risk.utilization" = "风险使用率";
+"risk.positionUsed" = "仓位";
+"risk.drawdownUsed" = "回撤";
+"risk.dailyLossUsed" = "日亏损";
+"risk.leverageUsed" = "杠杆";
+"risk.varSummary" = "VaR 摘要";
+"risk.circuitBreaker" = "熔断器";
+"risk.killSwitches" = "紧急停止开关";
+"risk.globalKill" = "全局";
+"risk.strategyKill" = "策略";
+"risk.cbKill" = "熔断器";
+"risk.activateGlobalKill" = "激活全局停止";
+"risk.resetGlobalKill" = "重置全局停止";
+"risk.manualGlobalKill" = "用户手动激活全局停止开关";
+
+// ==========================================
+// MARK: - Sprint 2：事件中心
+// ==========================================
+"incident.title" = "事件中心";
+"incident.subtitle" = "运营事件和关键警报时间线";
+"incident.info" = "信息";
+"incident.warning" = "警告";
+"incident.critical" = "严重";
+"incident.total" = "总计";
+"incident.filter" = "筛选：";
+"incident.clearAll" = "清除全部";
+"incident.noIncidents" = "无事件记录";
+"incident.noIncidentsDetail" = "运营事件发生时将在此显示";
+"incident.resolved" = "已解决";
+"incident.cat.modeChange" = "模式";
+"incident.cat.killSwitch" = "紧急停止";
+"incident.cat.circuitBreaker" = "熔断器";
+"incident.cat.riskHalt" = "风险停止";
+"incident.cat.connection" = "连接";
+"incident.cat.configChange" = "配置";
+"incident.cat.validation" = "验证";
+"incident.cat.execution" = "执行";
+"incident.cat.system" = "系统";
+"incident.switchedToLive" = "已切换至实盘模式";
+"incident.switchedToPaper" = "已切换至模拟模式";
+"incident.modeChanged" = "交易模式已更改";
+"incident.globalKillActivated" = "全局停止开关已激活";
+"incident.globalKillReset" = "全局停止开关已重置";
+"incident.strategyHalted" = "策略已停止";
+"incident.strategyHaltReset" = "策略停止已重置";
+"incident.emergencyStop" = "紧急停止已触发";
+"incident.cbTripped" = "熔断器已触发";
+"incident.cbReset" = "熔断器已重置";
+"incident.engineCrash" = "引擎崩溃";
+"incident.configApplied" = "设置已应用";
+
+// ==========================================
+// MARK: - Sprint 2：配置验证
+// ==========================================
+"validation.title" = "配置验证";
+"validation.emptySymbol" = "交易对不能为空";
+"validation.zeroQty" = "下单数量必须 > 0";
+"validation.qtyExceedsMax" = "下单数量超过最大仓位";
+"validation.zeroMaxPosition" = "最大仓位必须 > 0";
+"validation.zeroLeverage" = "杠杆必须 > 0";
+"validation.highLeverage" = "杠杆 > 50x 风险极高";
+"validation.extremeLeverage" = "杠杆 > 100x 不允许";
+"validation.zeroMaxLoss" = "最大日亏损必须 > 0";
+"validation.invalidDrawdown" = "最大回撤必须在 0 到 1 之间";
+"validation.highDrawdown" = "最大回撤 > 50% 风险极高";
+"validation.thresholdRange" = "信号阈值应为 0.1–0.99";
+"validation.cbDisabledLive" = "实盘模式下熔断器已禁用";
+"validation.noCredsLive" = "实盘模式缺少API凭证";
+"validation.highLeverageLive" = "实盘模式杠杆 > 20x";
+"validation.noCredsTestnet" = "测试网模式缺少API凭证";
+"validation.zeroOrderRate" = "最大下单频率必须 > 0";
+"validation.highOrderRate" = "最大下单频率 > 50/秒 异常高";
+
+// ==========================================
+// MARK: - Sprint 2：菜单
+// ==========================================
+"menu.globalKill" = "全局紧急停止";
+"menu.resetKill" = "重置紧急停止";
+
+// ==========================================
+// MARK: - Sprint 2：标签页
+// ==========================================
+"tab.riskCenter" = "风险中心";
+"tab.incidents" = "事件";
+"tab.executionIntel" = "执行分析";
+
+// ==========================================
+// MARK: - Sprint 3：执行智能
+// ==========================================
+"exec.title" = "执行智能";
+"exec.subtitle" = "实时执行质量分析、滑点、延迟与评分";
+
+// KPI
+"exec.kpi.fillRate" = "成交率";
+"exec.kpi.avgSlippage" = "平均滑点";
+"exec.kpi.fillTime" = "成交时间";
+"exec.kpi.impact" = "市场冲击";
+"exec.kpi.e2eP99" = "E2E p99";
+
+// 评分
+"exec.score" = "执行评分";
+"exec.comp.fillRate" = "成交率";
+"exec.comp.slippage" = "滑点";
+"exec.comp.latency" = "延迟";
+"exec.comp.impact" = "冲击";
+"exec.comp.efficiency" = "效率";
+
+// 滑点
+"exec.slippage" = "滑点分析";
+"exec.slip.impact" = "市场冲击";
+"exec.slip.buy" = "买入均值";
+"exec.slip.sell" = "卖出均值";
+"exec.slip.recent" = "近期订单滑点";
+
+// 成交质量
+"exec.fillQuality" = "成交质量";
+"exec.fill.sent" = "已发送";
+"exec.fill.filled" = "已成交";
+"exec.fill.cancelled" = "已取消";
+"exec.fill.cancelRate" = "取消率";
+"exec.fill.signalEff" = "信号效率";
+"exec.fill.avgTime" = "平均成交时间";
+"exec.fill.partials" = "%d 个部分成交";
+
+// 延迟
+"exec.latency" = "延迟分解";
+"exec.lat.exchange" = "交易所";
+"exec.lat.external" = "外部";
+"exec.lat.bottleneck" = "瓶颈：%@";
+"exec.lat.noData" = "暂无阶段直方图数据";
+
+// 等级
+"exec.gradeExcellent" = "优秀";
+"exec.gradeGood" = "良好";
+"exec.gradeFair" = "一般";
+"exec.gradePoor" = "较差";
+
+// 差执行
+"exec.poorExec" = "低质量执行";
+
+// 洞察
+"exec.insights" = "可操作洞察";
+"exec.inferred" = "派生指标";
+"exec.insight.slippageElevated" = "滑点超过阈值";
+"exec.insight.fillRateLow" = "成交率低于可接受水平";
+"exec.insight.latencySpike" = "检测到端到端延迟峰值";
+"exec.insight.marketImpactHigh" = "市场冲击超出正常范围";
+"exec.insight.latencyBottleneck" = "已识别管道瓶颈";
+"exec.insight.fillDelayHigh" = "成交延迟超过阈值";
+"exec.insight.cancelRateHigh" = "取消率偏高";
+"exec.insight.partialFillsElevated" = "多个部分成交活跃";
+"exec.insight.scoreDegraded" = "执行质量评分下降";
+
+// 空状态
+"exec.noData" = "暂无执行数据";
+"exec.noDataDetail" = "启动引擎并提交订单以查看执行智能分析。";
+
+// 事件
+"incident.slippageSpike" = "检测到滑点峰值";
+"incident.fillRateCollapse" = "成交率崩溃";
+"incident.latencyAnomaly" = "检测到延迟异常";
+"incident.execScoreCollapse" = "执行评分崩溃";
+
+// MARK: - Sprint 4: 交易回顾工作室
+
+// 选项卡
+"tab.tradeReview" = "交易回顾";
+
+// 标题
+"trade.studio" = "交易回顾工作室";
+"trade.trades" = "笔交易";
+"trade.empty" = "暂无已完成交易";
+"trade.noFilterMatch" = "没有匹配当前筛选条件的交易";
+"trade.selectTrade" = "选择一笔交易进行分析";
+"trade.studioDescription" = "回顾已完成交易，包含完整执行分析、风险上下文和交易笔记。";
+
+// 交易方向
+"common.long" = "做多";
+"common.short" = "做空";
+
+// 交易结果
+"trade.outcome.win" = "盈利";
+"trade.outcome.loss" = "亏损";
+"trade.outcome.breakeven" = "持平";
+
+// 交易评级
+"trade.rating.excellent" = "优秀";
+"trade.rating.good" = "良好";
+"trade.rating.fair" = "一般";
+"trade.rating.poor" = "较差";
+"trade.rating.terrible" = "糟糕";
+
+// 排序选项
+"trade.sort.newest" = "最新优先";
+"trade.sort.oldest" = "最早优先";
+"trade.sort.bestPnl" = "最佳盈亏";
+"trade.sort.worstPnl" = "最差盈亏";
+"trade.sort.highRating" = "最高评级";
+"trade.sort.lowRating" = "最低评级";
+"trade.sort.longest" = "最长持仓";
+"trade.sort.shortest" = "最短持仓";
+
+// 统计
+"trade.totalPnl" = "总盈亏";
+"trade.winRate" = "胜率";
+"trade.profitFactor" = "盈利因子";
+"trade.avgExecScore" = "平均执行";
+"trade.avgSlippage" = "平均滑点";
+
+// 详情分区
+"trade.pnlAnalysis" = "盈亏分析";
+"trade.execQuality" = "执行质量";
+"trade.entry" = "入场";
+"trade.exit" = "出场";
+"trade.riskContext" = "风险上下文";
+"trade.journal" = "交易日记";
+"trade.incidents" = "交易期间事件";
+
+// 详情字段
+"trade.realizedPnl" = "已实现盈亏";
+"trade.pnlPercent" = "盈亏百分比";
+"trade.holdTime" = "持仓时间";
+"trade.signalConf" = "信号置信度";
+"trade.predCorrect" = "预测正确";
+"trade.execScore" = "执行评分";
+"trade.entrySlippage" = "入场滑点";
+"trade.exitSlippage" = "出场滑点";
+"trade.totalSlippage" = "总滑点";
+"trade.price" = "价格";
+"trade.qty" = "数量";
+"trade.slippage" = "滑点";
+"trade.fillTime" = "成交时间";
+"trade.time" = "时间";
+"trade.atEntry" = "入场时";
+"trade.atExit" = "出场时";
+"trade.regime" = "行情模式";
+"trade.volatility" = "波动率";
+"trade.drawdown" = "回撤";
+"trade.var99" = "VaR 99";
+
+// 日记
+"trade.rating" = "评级";
+"trade.userOverride" = "用户覆盖";
+"trade.notes" = "笔记";
+
+// 行情模式名称
+"regime.trending" = "趋势";
+"regime.meanReverting" = "均值回归";
+"regime.volatile" = "高波动";
+"regime.quiet" = "平静";
+"regime.unknown" = "未知";
+
+// MARK: - Sprint 4: 本地化修复 — 引擎状态
+"engine.status.idle" = "空闲";
+"engine.status.connecting" = "连接中";
+"engine.status.connected" = "已连接";
+"engine.status.trading" = "交易中";
+"engine.status.error" = "错误";
+"engine.status.stopping" = "停止中";
+
+// 订单状态
+"order.state.new" = "新建";
+"order.state.pending" = "等待中";
+"order.state.open" = "已挂单";
+"order.state.partialFill" = "部分成交";
+"order.state.filled" = "已成交";
+"order.state.cancelling" = "取消中";
+"order.state.cancelled" = "已取消";
+"order.state.expired" = "已过期";
+"order.state.unknown" = "未知";
+
+// 策略健康等级
+"health.excellent" = "优秀";
+"health.good" = "良好";
+"health.warning" = "警告";
+"health.critical" = "危险";
+"health.halted" = "已停止";
+"health.unknown" = "未知";
+
+// 通用
+"common.yes" = "是";
+"common.no" = "否";
+
+// ==========================================
+// MARK: - Sprint 5: 研究与量化
+// ==========================================
+
+// 侧边栏分区
+"section.research" = "研究与量化";
+
+// 标签页
+"tab.modelGov" = "模型治理";
+"tab.regimeCenter" = "行情中心";
+"tab.allocIntel" = "配置智能";
+"tab.strategyResearch" = "策略研究";
+
+// MARK: - 模型治理
+"model.status.active" = "活跃";
+"model.status.candidate" = "候选";
+"model.status.retired" = "已退役";
+"model.status.degraded" = "已退化";
+"model.status.rollback" = "已回滚";
+"model.drift.none" = "无";
+"model.drift.low" = "低";
+"model.drift.moderate" = "中等";
+"model.drift.high" = "高";
+"model.drift.critical" = "严重";
+"model.native" = "原生";
+"model.features" = "个特征";
+"model.healthScore" = "健康评分";
+"model.health" = "模型健康";
+"model.drift" = "漂移检测";
+"model.driftLevel" = "漂移等级";
+"model.calibError" = "校准误差";
+"model.rollingAcc" = "滚动准确率";
+"model.totalPreds" = "总预测数";
+"model.uptime" = "运行时间";
+"model.performance" = "性能";
+"model.overallAcc" = "总准确率";
+"model.confidence" = "置信度";
+"model.avgF1" = "平均F1";
+"model.horizons" = "预测时间窗口";
+"model.bestHorizon" = "最佳时间窗口";
+"model.f1Scores" = "F1分数";
+"model.f1Up" = "F1 上涨";
+"model.f1Down" = "F1 下跌";
+"model.f1Flat" = "F1 横盘";
+"model.inference" = "推理";
+"model.latencyP50" = "延迟 P50";
+"model.latencyP99" = "延迟 P99";
+"model.inferenceLatency" = "推理延迟";
+"model.backend" = "后端";
+"model.healthBreakdown" = "健康分解";
+"model.accuracy" = "准确率";
+"model.calibration" = "校准";
+"model.latency" = "延迟";
+"model.rlStability" = "RL稳定性";
+"model.stable" = "稳定";
+"model.declining" = "下降中";
+"model.normal" = "正常";
+"model.elevated" = "偏高";
+"model.good" = "良好";
+"model.poor" = "差";
+"model.adequate" = "合格";
+"model.low" = "低";
+"model.unstable" = "不稳定";
+
+// MARK: - 行情中心
+"regime.confidence" = "置信度";
+"regime.volatility" = "波动率";
+"regime.duration" = "持续时间";
+"regime.stabilityScore" = "稳定性评分";
+"regime.stability" = "稳定性";
+"regime.transitionsHour" = "每小时转换次数";
+"regime.avgDuration" = "平均持续时间";
+"regime.currentDuration" = "当前持续时间";
+"regime.status" = "状态";
+"regime.stableLabel" = "稳定";
+"regime.unstableLabel" = "不稳定";
+"regime.detectorScores" = "检测器评分";
+"regime.trendScore" = "趋势";
+"regime.mrScore" = "均值回归";
+"regime.liqScore" = "流动性";
+"regime.previous" = "前一个";
+"regime.distribution" = "行情分布";
+"regime.dominant" = "主导行情";
+"regime.performance" = "行情绩效";
+"regime.transitions" = "转换历史";
+
+// MARK: - 配置智能
+"alloc.signal.strongReduce" = "大幅减仓";
+"alloc.signal.reduce" = "减仓";
+"alloc.signal.hold" = "持仓";
+"alloc.signal.increase" = "加仓";
+"alloc.signal.strongIncrease" = "大幅加仓";
+"alloc.confidence" = "置信度";
+"alloc.posScale" = "仓位比例";
+"alloc.compositeScore" = "综合评分";
+"alloc.riskBudget" = "风险预算";
+"alloc.drawdown" = "回撤";
+"alloc.dailyLoss" = "日亏损";
+"alloc.position" = "仓位";
+"alloc.leverage" = "杠杆";
+"alloc.var" = "VaR";
+"alloc.remaining" = "剩余预算";
+"alloc.signalQuality" = "信号质量";
+"alloc.grade" = "评级";
+"alloc.recentAccuracy" = "近期准确率";
+"alloc.modelConf" = "模型置信度";
+"alloc.regimeConf" = "行情置信度";
+"alloc.execScore" = "执行评分";
+"alloc.efficiency" = "信号效率";
+"alloc.regimeContext" = "行情上下文";
+"alloc.favorable" = "有利";
+"alloc.unfavorable" = "不利";
+"alloc.sizeScale" = "规模比例";
+"alloc.thresholdAdj" = "阈值调整";
+"alloc.positionSizing" = "仓位管理";
+"alloc.suggestedScale" = "建议比例";
+"alloc.currentPos" = "当前仓位";
+"alloc.maxPos" = "最大仓位";
+"alloc.effectiveQty" = "有效数量";
+"alloc.rationale" = "决策依据";
+"alloc.noReasons" = "无具体建议";
+"alloc.regime.trending" = "趋势行情适合较大仓位和较低阈值";
+"alloc.regime.meanReverting" = "均值回归行情：标准仓位";
+"alloc.regime.volatile" = "高波动行情：减小仓位，提高阈值";
+"alloc.regime.quiet" = "低波动行情：机会较少，显著减仓";
+"alloc.regime.choppy" = "震荡行情：最高警戒，最小仓位";
+"alloc.reason.circuitBreaker" = "熔断器激活——停止所有新仓位";
+"alloc.reason.riskBudgetExhausted" = "风险预算接近耗尽（>90%）";
+"alloc.reason.riskBudgetHigh" = "风险预算使用率较高（>70%）";
+"alloc.reason.healthPoor" = "策略健康评分低于阈值";
+"alloc.reason.regimeUnfavorable" = "当前行情不利于策略";
+"alloc.reason.signalQualityLow" = "信号质量低于可接受阈值";
+"alloc.reason.regimeFavorable" = "当前行情有利于策略";
+"alloc.reason.signalQualityHigh" = "信号质量高于目标阈值";
+"alloc.reason.budgetAvailable" = "风险预算充足";
+"alloc.reason.signalQualityGood" = "信号质量可接受";
+"alloc.reason.neutral" = "无明显方向性信号";
+
+// MARK: - 策略研究
+"research.totalTrades" = "总交易数";
+"research.horizonComparison" = "时间窗口对比";
+"research.horizon100ms" = "100毫秒";
+"research.horizon500ms" = "500毫秒";
+"research.horizon1s" = "1秒";
+"research.horizon3s" = "3秒";
+"research.bestHorizon" = "最佳时间窗口";
+"research.riskDecomp" = "风险分解";
+"research.currentDD" = "当前回撤";
+"research.var95" = "VaR 95%";
+"research.var99" = "VaR 99%";
+"research.cvar95" = "CVaR 95%";
+"research.execution" = "执行分析";
+"research.execScore" = "执行评分";
+"research.fillRate" = "成交率";
+"research.slippage" = "滑点";
+"research.latency" = "延迟";
+"research.impact" = "冲击";
+"research.signalEff" = "信号效率";
+"research.regimeCorrelation" = "行情相关性";
+"research.noTradeData" = "暂无交易数据";
+"research.regime" = "行情";
+"research.trades" = "交易";
+"research.winRateShort" = "胜率";
+"research.avgPnl" = "平均盈亏";
+"research.totalPnlShort" = "总盈亏";
+"research.tradeDistribution" = "交易分布";
+"research.winning" = "盈利";
+"research.losing" = "亏损";
+"research.consWins" = "最大连胜";
+"research.consLosses" = "最大连亏";
+"research.bestTrade" = "最佳";
+"research.worstTrade" = "最差";
+"research.healthDecomp" = "健康分解";
+"research.accScore" = "准确率";
+"research.pnlScore" = "盈亏";
+"research.ddScore" = "回撤";
+"research.sharpeScore" = "夏普";
+"research.consistencyScore" = "稳定性";
+"research.fillRateScore" = "成交率";
+
+// ==========================================
+// MARK: - Sprint 6: 引导流程
+// ==========================================
+"onboarding.welcomeTitle" = "欢迎使用 Lynrix";
+"onboarding.welcomeSubtitle" = "高精度AI交易平台，提供实时分析、风险管理和研究工具。";
+"onboarding.featureAI" = "AI驱动的信号生成和市场状态检测";
+"onboarding.featureRisk" = "多层风险管理和紧急停止开关";
+"onboarding.featureExec" = "执行智能和滑点分析";
+"onboarding.featureResearch" = "策略研究和模型治理";
+"onboarding.prefsTitle" = "偏好设置";
+"onboarding.language" = "语言";
+"onboarding.appearance" = "外观";
+"onboarding.safetyTitle" = "安全架构";
+"onboarding.safetySubtitle" = "Lynrix 包含多层保护机制，确保交易安全。";
+"onboarding.safetyPaper" = "默认模拟交易";
+"onboarding.safetyPaperDesc" = "应用以模拟模式启动。实盘交易需要明确确认。";
+"onboarding.safetyCircuit" = "熔断器";
+"onboarding.safetyCircuitDesc" = "过度亏损、回撤或连续亏损交易时自动停止。";
+"onboarding.safetyKill" = "紧急停止开关";
+"onboarding.safetyKillDesc" = "全局和按策略紧急停止。立即阻止所有交易。";
+"onboarding.safetyKeys" = "安全密钥存储";
+"onboarding.safetyKeysDesc" = "API凭证存储在macOS钥匙串中，非明文保存。";
+"onboarding.readyTitle" = "准备就绪";
+"onboarding.readySubtitle" = "请先在设置中配置API密钥和交易参数。";
+"onboarding.tip1" = "在设置 → API凭证中配置API密钥";
+"onboarding.tip2" = "启动引擎前检查风险限制";
+"onboarding.tip3" = "使用配置文件保存和切换配置";
+"onboarding.getStarted" = "开始使用";
+"onboarding.reopenSetup" = "重新设置";
+"common.next" = "下一步";
+"common.back" = "返回";
+"common.cancel" = "取消";
+"common.save" = "保存";
+
+// ==========================================
+// MARK: - Sprint 6: 通知
+// ==========================================
+"notify.title" = "通知";
+"notify.critical" = "严重";
+"notify.error" = "错误";
+"notify.warning" = "警告";
+"notify.minSeverity" = "最低严重级别";
+"notify.notAuthorized" = "通知未授权";
+"notify.authorize" = "授权";
+"notify.titleCritical" = "严重警报";
+"notify.titleError" = "错误";
+"notify.titleWarning" = "警告";
+"notify.titleInfo" = "信息";
+
+// ==========================================
+// MARK: - Sprint 6: 配置文件
+// ==========================================
+"profiles.title" = "配置文件";
+"profiles.description" = "切换预设配置或保存自定义配置文件。";
+"profiles.conservative" = "保守型";
+"profiles.balanced" = "平衡型";
+"profiles.aggressive" = "激进型";
+"profiles.research" = "研究型";
+"profiles.preset" = "预设";
+"profiles.saveCurrent" = "保存当前";
+"profiles.saveTitle" = "保存配置文件";
+"profiles.nameField" = "配置文件名称";
+
+// ==========================================
+// MARK: - Sprint 6: 导出
+// ==========================================
+"menu.exportJournalCSV" = "导出交易日志CSV";
+"menu.exportIncidentsCSV" = "导出事件CSV";
+
+// ==========================================
+// MARK: - Sprint 6: UX
+// ==========================================
+"settings.applied" = "已应用";
+
+// ==========================================
+// MARK: - Sprint 7A: 小部件可见性
+// ==========================================
+"layout.screen.dashboard" = "仪表板";
+"layout.screen.sysmon" = "系统监控";
+"layout.screen.diagnostics" = "诊断";
+"layout.screen.execIntel" = "执行分析";
+"layout.screen.riskCenter" = "风险中心";
+"layout.screen.tradeReview" = "交易回顾";
+"layout.screen.modelGov" = "模型治理";
+"layout.screen.regimeCenter" = "市场状态中心";
+"layout.screen.allocIntel" = "配置分析";
+"layout.screen.stratResearch" = "策略研究";
+"layout.widget.hero" = "价格 / 状态 / 模式";
+"layout.widget.pnl" = "盈亏摘要";
+"layout.widget.quickBadges" = "快速指标";
+"layout.widget.equityCurve" = "权益曲线";
+"layout.widget.throughput" = "吞吐量";
+"layout.widget.latency" = "延迟";
+"layout.widget.aiPrediction" = "AI预测";
+"layout.widget.circuitBreaker" = "熔断器";
+"layout.widget.recentLogs" = "最近日志";
+"layout.widget.resources" = "资源";
+"layout.widget.network" = "网络";
+"layout.widget.inference" = "ML推理";
+"layout.widget.stageHistograms" = "阶段直方图";
+"layout.widget.jitterAlerts" = "抖动警报";
+"layout.widget.systemInfo" = "系统信息";
+"layout.widget.engineState" = "引擎状态";
+"layout.widget.dataState" = "数据状态";
+"layout.widget.perfMetrics" = "性能指标";
+"layout.widget.kpiSummary" = "KPI摘要";
+"layout.widget.execScore" = "执行评分";
+"layout.widget.slippage" = "滑点分析";
+"layout.widget.fillQuality" = "成交质量";
+"layout.widget.latencyDecomp" = "延迟分解";
+"layout.widget.poorExecs" = "差劣执行";
+"layout.widget.insights" = "洞察建议";
+"layout.widget.position" = "持仓";
+"layout.widget.riskUtil" = "风险利用率";
+"layout.widget.varSummary" = "VaR摘要";
+"layout.widget.killSwitch" = "紧急停止";
+"layout.resetDefaults" = "恢复默认设置";
+
+// ==========================================
+// MARK: - Sprint 7A: 本地化修复
+// ==========================================
+"exec.bpsAvg" = "bps 均值";
+"settings.techStack" = "Swift 5.9 • C++23";
+"notify.info" = "信息";
+
+// ==========================================
+// MARK: - Sprint 8: 认证与账户
+// ==========================================
+
+// 认证 — 欢迎页
+"auth.tagline" = "AI驱动交易平台";
+"auth.googleSignIn" = "使用Google继续";
+"auth.signIn" = "登录";
+"auth.signingIn" = "登录中…";
+"auth.or" = "或";
+"auth.version" = "Lynrix v2.5.0";
+"auth.copyright" = "© 2026 Lynrix. 保留所有权利。";
+"auth.back" = "返回";
+"auth.createAccountLink" = "创建账户";
+"auth.noAccount" = "没有账户？";
+
+// 认证 — 邮箱登录
+"auth.welcomeBack" = "欢迎回来";
+"auth.signInSubtitle" = "使用您的Lynrix账户登录";
+"auth.emailSignIn" = "使用邮箱登录";
+"auth.emailPlaceholder" = "电子邮箱地址";
+"auth.passwordPlaceholder" = "密码";
+
+// 认证 — 注册
+"auth.createAccount" = "创建账户";
+"auth.registerSubtitle" = "注册新的Lynrix账户";
+"auth.personalInfo" = "个人信息";
+"auth.firstName" = "名";
+"auth.lastName" = "姓";
+"auth.gender" = "性别";
+"auth.dateOfBirth" = "出生日期";
+"auth.credentials" = "登录凭据";
+"auth.emailField" = "邮箱";
+"auth.usernameField" = "用户名";
+"auth.usernamePlaceholder" = "选择用户名";
+"auth.usernameOptional" = "可选 — 可以稍后设置";
+"auth.password" = "密码";
+"auth.confirmPassword" = "确认密码";
+"auth.confirmPasswordPlaceholder" = "重复密码";
+"auth.register" = "创建账户";
+"auth.addPhoto" = "照片";
+"auth.photoOptional" = "可选";
+"auth.selectPhoto" = "选择头像";
+
+// 认证错误
+"auth.error.invalidEmail" = "请输入有效的电子邮箱地址";
+"auth.error.emailTaken" = "此邮箱已被注册";
+"auth.error.passwordShort" = "密码至少需要6个字符";
+"auth.error.passwordMismatch" = "两次密码不一致";
+"auth.error.userNotFound" = "未找到使用此邮箱的账户";
+"auth.error.wrongPassword" = "密码错误";
+"auth.error.accountDisabled" = "账户已禁用。请联系客服。";
+
+// 性别
+"gender.male" = "男";
+"gender.female" = "女";
+"gender.other" = "其他";
+
+// 账户部分
+"account.title" = "账户";
+"account.signOut" = "退出登录";
+"account.signOutConfirm" = "退出Lynrix？";
+"account.notSignedIn" = "未登录";
+"account.plan" = "计划";
+"account.status" = "状态";
+"account.provider" = "提供者";
+
+// 订阅计划
+"plan.free" = "免费版";
+"plan.pro" = "专业版";
+"plan.enterprise" = "企业版";
+
+// 订阅状态
+"sub.active" = "活跃";
+"sub.expired" = "已过期";
+"sub.trial" = "试用";
+"sub.cancelled" = "已取消";
+"sub.none" = "无";
+
+// ==========================================
+// MARK: - D1: 侧边栏重构
+// ==========================================
+"section.analytics" = "分析与风控";
+"section.devTools" = "开发工具";
+
+// ==========================================
+// MARK: - D2: 引导流程扩展
+// ==========================================
+"onboarding.apiKeysTitle" = "API 凭证";
+"onboarding.apiKeysSubtitle" = "连接您的 Bybit 账户。密钥安全存储在 macOS 钥匙串中，绝不会离开您的设备。";
+"onboarding.apiKey" = "API 密钥";
+"onboarding.apiSecret" = "API 密钥密码";
+"onboarding.apiKeyPlaceholder" = "输入您的 Bybit API 密钥";
+"onboarding.apiSecretPlaceholder" = "输入 API 密钥密码";
+"onboarding.keychainNote" = "凭证已加密并存储在 macOS 钥匙串中";
+"onboarding.tradingModeTitle" = "交易模式";
+"onboarding.tradingModeSubtitle" = "选择 Lynrix 与市场的交互方式。您可以随时在设置中更改。";
+"onboarding.modePaper" = "模拟交易";
+"onboarding.modePaperDesc" = "使用真实市场数据模拟执行，不会下达真实订单。";
+"onboarding.modeTestnet" = "测试网交易";
+"onboarding.modeTestnetDesc" = "在 Bybit 测试网上真实执行。使用虚拟资金安全测试。";
+"onboarding.modeLive" = "实盘交易";
+"onboarding.modeLiveDesc" = "在 Bybit 上下达真实订单，需要具有交易权限的 API 密钥。";
+"onboarding.recommended" = "推荐";
+"common.skip" = "跳过";
+
+// ==========================================
+// MARK: - D3: 事件通知
+// ==========================================
+"notify.largeLoss" = "大额未实现亏损：";
+"notify.cbTripped" = "熔断机制触发 — 所有交易已暂停";
+"notify.disconnectPosition" = "持仓时 WebSocket 连接断开";
+"notify.orderFilled" = "订单已成交：";
+
+// ==========================================
+// MARK: - D5: 空状态
+// ==========================================
+"empty.engineStopped" = "引擎已停止";
+"empty.engineStoppedDetail" = "启动引擎以开始接收市场数据和分析。";
+"empty.connecting" = "连接中…";
+"empty.connectingDetail" = "正在建立与 Bybit WebSocket 的连接。";
+"empty.loading" = "加载数据中…";
+"empty.loadingDetail" = "等待初始市场数据快照。";
+"empty.noData" = "无数据";
+"empty.noDataDetail" = "此视图暂无可用数据。";
+
+// ==========================================
+// MARK: - D8: 连接状态
+// ==========================================
+"conn.connected" = "WS 正常";
+"conn.degraded" = "WS 缓慢";
+"conn.disconnected" = "WS 断开";

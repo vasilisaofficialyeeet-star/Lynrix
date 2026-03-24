@@ -1,0 +1,46 @@
+# Build
+build/
+build-*/
+cmake-build-*/
+*.o
+*.a
+*.dylib
+*.dSYM/
+
+# Xcode
+Lunrix/build/
+Lunrix/Lynrix.xcodeproj/xcuserdata/
+Lunrix/Lynrix.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Secrets (never commit)
+*.pem
+*.key
+*.env
+secrets/
+
+# PGO profiles
+*.profraw
+*.profdata
+
+# Fuzzing corpus
+corpus/
+
+# Package caches
+.build/
+Packages/
+SourcePackages/

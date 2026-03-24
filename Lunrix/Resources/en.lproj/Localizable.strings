@@ -1,0 +1,1552 @@
+/* Lynrix v2.5 — English Localization */
+
+// ==========================================
+// MARK: - App Branding
+// ==========================================
+"app.name" = "LYNRIX";
+"app.nameTitleCase" = "Lynrix";
+"app.version" = "v2.5.0";
+"app.copyright" = "Copyright © 2026 Lynrix. All rights reserved.";
+"app.about.credits" = "HFT Trading Platform\nC++23 Core • SwiftUI Glassmorphism 2026\nChaos Testing • Deterministic Replay\n© 2026 Lynrix";
+"app.about.build" = "Build 1 — Sprint 6 Release";
+"app.launching" = "Lynrix v2.5.0 launching...";
+"app.ready" = "Lynrix ready";
+
+// ==========================================
+// MARK: - Menus
+// ==========================================
+"menu.trading" = "Trading";
+"menu.startEngine" = "Start Engine";
+"menu.stopEngine" = "Stop Engine";
+"menu.toggleMode" = "Toggle Paper / Live";
+"menu.emergencyStop" = "Emergency Stop";
+"menu.observability" = "Observability";
+"menu.exportFlamegraph" = "Export Flamegraph…";
+"menu.exportHistograms" = "Export Histograms CSV…";
+"menu.enableChaos" = "Enable Chaos (Nightly Profile)";
+"menu.disableChaos" = "Disable Chaos";
+"menu.loadReplay" = "Load Replay File…";
+"menu.export" = "Export";
+"menu.exportLogs" = "Export Logs…";
+"menu.exportTradesCSV" = "Export Trades CSV…";
+"menu.exportSignalsCSV" = "Export Signals CSV…";
+"menu.clearLogs" = "Clear Logs";
+"menu.about" = "About Lynrix…";
+"menu.toggleSidebar" = "Toggle Sidebar";
+"menu.replayMessage" = "Select a BlackBoxRecorder dump (.bin) for deterministic replay";
+
+// ==========================================
+// MARK: - Sidebar Sections
+// ==========================================
+"section.trading" = "TRADING";
+"section.execution" = "EXECUTION & RISK";
+"section.observability" = "OBSERVABILITY";
+"section.system" = "SYSTEM";
+
+// ==========================================
+// MARK: - Sidebar Tabs
+// ==========================================
+"tab.dashboard" = "Dashboard";
+"tab.ai" = "AI Model";
+"tab.orderbook" = "Order Book";
+"tab.trades" = "Trade Tape";
+"tab.portfolio" = "Portfolio";
+"tab.signals" = "Signals";
+"tab.strategy" = "Strategy";
+"tab.orderFSM" = "Order FSM";
+"tab.varRisk" = "VaR Risk";
+"tab.rlTraining" = "RL Training";
+"tab.chaos" = "Chaos Engine";
+"tab.replay" = "Replay";
+"tab.system" = "System";
+"tab.mlDiag" = "ML Diag";
+"tab.settings" = "Settings";
+"tab.logs" = "Logs";
+"tab.diagnostics" = "Diagnostics";
+
+// ==========================================
+// MARK: - Command Palette (D-A1)
+// ==========================================
+"palette.placeholder" = "Type a command...";
+"palette.noResults" = "No matching commands";
+"palette.goTo" = "Navigate";
+"palette.engine" = "Engine";
+"palette.theme" = "Appearance";
+"palette.startEngine" = "Start Engine";
+"palette.stopEngine" = "Stop Engine";
+"palette.emergencyStop" = "Emergency Stop";
+"settings.section.general" = "General";
+"settings.section.trading" = "Trading";
+"settings.section.ai" = "AI / ML";
+"settings.section.prefs" = "Preferences";
+
+// ==========================================
+// MARK: - Common
+// ==========================================
+"common.start" = "Start";
+"common.stop" = "Stop";
+"common.restart" = "Restart";
+"common.dismiss" = "Dismiss";
+"common.save" = "Save";
+"common.cancel" = "Cancel";
+"common.apply" = "Apply";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.on" = "ON";
+"common.off" = "OFF";
+"common.ok" = "OK";
+"common.paper" = "PAPER";
+"common.live" = "LIVE";
+"common.active" = "ACTIVE";
+"common.idle" = "IDLE";
+"common.long" = "LONG";
+"common.short" = "SHORT";
+"common.flat" = "FLAT";
+"common.buy" = "BUY";
+"common.sell" = "SELL";
+"common.enabled" = "Enabled";
+"common.disabled" = "disabled";
+"common.mode" = "Mode";
+"common.score" = "Score";
+"common.activity" = "Activity";
+"common.all" = "All";
+"common.entries" = "entries";
+"common.stages" = "stages";
+
+// ==========================================
+// MARK: - Engine & Status
+// ==========================================
+"engine.panic" = "PANIC";
+"engine.reconnecting" = "RECONNECTING";
+"engine.chaos" = "CHAOS";
+"engine.manualStop" = "Manual emergency stop";
+
+// ==========================================
+// MARK: - Dashboard
+// ==========================================
+"dashboard.midPrice" = "MID PRICE";
+"dashboard.spread" = "SPREAD";
+"dashboard.regime" = "REGIME";
+"dashboard.engine" = "ENGINE";
+"dashboard.position" = "POSITION";
+"dashboard.unrealized" = "UNREALIZED";
+"dashboard.realized" = "REALIZED";
+"dashboard.netPnl" = "NET PnL";
+"dashboard.var99" = "VaR 99%";
+"dashboard.rlReward" = "RL REWARD";
+"dashboard.osmActive" = "OSM ACTIVE";
+"dashboard.chaos" = "CHAOS";
+"dashboard.risk" = "risk";
+"dashboard.avg" = "avg";
+"dashboard.orders" = "orders";
+"dashboard.inj" = "inj";
+"dashboard.equityCurve" = "Equity Curve";
+"dashboard.throughput" = "Throughput";
+"dashboard.latency" = "Latency";
+"dashboard.obUpdates" = "OB Updates";
+"dashboard.trades" = "Trades";
+"dashboard.signals" = "Signals";
+"dashboard.ordersSent" = "Orders Sent";
+"dashboard.ordersFilled" = "Orders Filled";
+"dashboard.wsReconnects" = "WS Reconnects";
+"dashboard.e2eP50" = "E2E p50";
+"dashboard.e2eP99" = "E2E p99";
+"dashboard.featureP50" = "Feature p50";
+"dashboard.featureP99" = "Feature p99";
+"dashboard.modelP50" = "Model p50";
+"dashboard.modelP99" = "Model p99";
+"dashboard.aiPrediction" = "AI Prediction";
+"dashboard.confidence" = "CONFIDENCE";
+"dashboard.pUp" = "P(UP)";
+"dashboard.pDown" = "P(DOWN)";
+"dashboard.circuitBreaker" = "Circuit Breaker";
+"dashboard.tripped" = "TRIPPED";
+"dashboard.cooldown" = "COOLDOWN";
+"dashboard.drawdown" = "Drawdown";
+"dashboard.consecLosses" = "Consec Losses";
+"dashboard.peakPnl" = "Peak PnL";
+"dashboard.recentLogs" = "Recent Logs";
+"dashboard.volatility" = "Volatility";
+
+// ==========================================
+// MARK: - Order Book
+// ==========================================
+"orderbook.title" = "ORDER BOOK";
+"orderbook.bid" = "Bid";
+"orderbook.ask" = "Ask";
+"orderbook.imbalance" = "IMBALANCE";
+"orderbook.depth" = "DEPTH";
+"orderbook.price" = "Price";
+"orderbook.size" = "Size";
+"orderbook.total" = "Total";
+"orderbook.bidSide" = "BID";
+"orderbook.askSide" = "ASK";
+"orderbook.levels" = "levels";
+"orderbook.noData" = "Waiting for order book data…";
+
+// ==========================================
+// MARK: - Signals
+// ==========================================
+"signals.title" = "TRADE SIGNALS";
+"signals.noSignals" = "No signals yet";
+"signals.waitingForSignals" = "Signals will appear after engine starts";
+"signals.time" = "TIME";
+"signals.side" = "SIDE";
+"signals.price" = "PRICE";
+"signals.qty" = "QTY";
+"signals.confidence" = "CONF";
+
+// ==========================================
+// MARK: - Trade Tape
+// ==========================================
+"tradeTape.title" = "TRADE TAPE";
+"tradeTape.trades" = "trades";
+"tradeTape.autoScroll" = "Auto-scroll";
+"tradeTape.csv" = "CSV";
+"tradeTape.time" = "TIME";
+"tradeTape.side" = "SIDE";
+"tradeTape.price" = "PRICE";
+"tradeTape.qty" = "QTY";
+"tradeTape.notional" = "NOTIONAL";
+"tradeTape.noTrades" = "No trades yet";
+"tradeTape.waitingForTrades" = "Trades will appear after engine starts";
+"tradeTape.buy" = "Buy:";
+"tradeTape.sell" = "Sell:";
+"tradeTape.volume" = "Volume:";
+"tradeTape.avgPrice" = "Avg Price:";
+
+// ==========================================
+// MARK: - Portfolio
+// ==========================================
+"portfolio.currentPosition" = "Current Position";
+"portfolio.size" = "Size";
+"portfolio.entry" = "Entry";
+"portfolio.unrealized" = "Unrealized";
+"portfolio.realized" = "Realized";
+"portfolio.pnlMetrics" = "PnL Metrics";
+"portfolio.netPnl" = "Net PnL";
+"portfolio.winRate" = "Win Rate";
+"portfolio.profitFactor" = "Profit Factor";
+"portfolio.executionStats" = "Execution Stats";
+"portfolio.latency" = "Latency";
+"portfolio.slippage" = "Slippage";
+"portfolio.fillRate" = "Fill Rate";
+"portfolio.totalTrades" = "Total Trades";
+
+// ==========================================
+// MARK: - Strategy Performance
+// ==========================================
+"strategy.health" = "STRATEGY HEALTH";
+"strategy.keyMetrics" = "Key Metrics";
+"strategy.sharpe" = "Sharpe";
+"strategy.sortino" = "Sortino";
+"strategy.profitFactor" = "Profit Factor";
+"strategy.riskMetrics" = "Risk Metrics";
+"strategy.maxDrawdown" = "Max Drawdown";
+"strategy.bestTrade" = "Best Trade";
+"strategy.worstTrade" = "Worst Trade";
+"strategy.tradeStats" = "Trade Statistics";
+"strategy.totalTrades" = "Total Trades";
+"strategy.winRate" = "Win Rate";
+"strategy.avgWin" = "Avg Win";
+"strategy.avgLoss" = "Avg Loss";
+"strategy.healthComponents" = "Health Components";
+"strategy.accuracy" = "Accuracy";
+"strategy.pnl" = "PnL";
+"strategy.drawdownComponent" = "Drawdown";
+"strategy.pnlHistory" = "PnL History";
+"strategy.rlOptimizer" = "RL Optimizer";
+"strategy.accDeclining" = "Acc↓";
+"strategy.ddWarning" = "DD!";
+
+// ==========================================
+// MARK: - AI Dashboard
+// ==========================================
+"ai.title" = "AI DASHBOARD";
+"ai.marketRegime" = "Market Regime";
+"ai.modelPredictions" = "Model Predictions";
+"ai.shortHorizon" = "Short Horizon";
+"ai.mediumHorizon" = "Medium Horizon";
+"ai.longHorizon" = "Long Horizon";
+"ai.adaptiveThresholds" = "Adaptive Thresholds";
+"ai.signalThreshold" = "Signal Threshold";
+"ai.positionScale" = "Position Scale";
+"ai.cancelMs" = "Cancel ms";
+"ai.circuitBreaker" = "Circuit Breaker";
+"ai.multiHorizon" = "Multi-Horizon Predictions";
+"ai.accuracy" = "Accuracy";
+"ai.rollingAccuracy" = "Rolling Accuracy";
+"ai.pnlHistory" = "PnL History";
+"ai.drawdownHistory" = "Drawdown History";
+"ai.confidence" = "Confidence";
+"ai.probUp" = "P(Up)";
+"ai.probDown" = "P(Down)";
+"ai.usingOnnx" = "ONNX";
+
+// ==========================================
+// MARK: - RL Training
+// ==========================================
+"rl.title" = "RL TRAINING";
+"rl.stateVector" = "State Vector";
+"rl.dims" = "dims";
+"rl.actionVector" = "Action Vector";
+"rl.rewardHistory" = "Reward History";
+"rl.avgReward" = "Avg Reward";
+"rl.totalSteps" = "Total Steps";
+"rl.ppoDiagnostics" = "PPO Diagnostics";
+"rl.policyLoss" = "Policy Loss";
+"rl.valueLoss" = "Value Loss";
+"rl.entropy" = "Entropy";
+"rl.klDivergence" = "KL Divergence";
+"rl.learningRate" = "Learning Rate";
+"rl.training" = "Training";
+"rl.notTraining" = "Not training";
+"rl.brainPanel" = "Brain Panel";
+"rl.episode" = "Episode";
+
+// ==========================================
+// MARK: - VaR Dashboard
+// ==========================================
+"var.title" = "VALUE AT RISK";
+"var.var95" = "VaR 95%";
+"var.var99" = "VaR 99%";
+"var.cvar95" = "CVaR 95%";
+"var.cvar99" = "CVaR 99%";
+"var.methodComparison" = "Method Comparison";
+"var.parametric" = "Parametric";
+"var.historical" = "Historical";
+"var.monteCarlo" = "Monte Carlo";
+"var.stressScenarios" = "Stress Scenarios";
+"var.riskSummary" = "Risk Summary";
+"var.positionLimit" = "Position Limit";
+"var.returnCount" = "Return Count";
+"var.meanReturn" = "Mean Return";
+"var.returnStddev" = "Return Stddev";
+
+// ==========================================
+// MARK: - Chaos Control
+// ==========================================
+"chaos.title" = "CHAOS ENGINE";
+"chaos.enabled" = "Chaos Enabled";
+"chaos.totalInjections" = "Total Injections";
+"chaos.latencySpikes" = "Latency Spikes";
+"chaos.packetLoss" = "Packet Loss";
+"chaos.fakeDeltas" = "Fake Deltas";
+"chaos.oomSimulations" = "OOM Simulations";
+"chaos.corruptedJson" = "Corrupted JSON";
+"chaos.clockSkew" = "Clock Skew";
+"chaos.enableNightly" = "Enable Nightly Profile";
+"chaos.enableFlashCrash" = "Enable Flash Crash";
+"chaos.disable" = "Disable Chaos";
+"chaos.faultCards" = "Fault Injection Cards";
+"chaos.injections" = "injections";
+
+// ==========================================
+// MARK: - Replay Control
+// ==========================================
+"replay.title" = "DETERMINISTIC REPLAY";
+"replay.loadFile" = "Load File";
+"replay.loaded" = "Loaded";
+"replay.notLoaded" = "Not Loaded";
+"replay.events" = "Events";
+"replay.progress" = "Progress";
+"replay.speed" = "Speed";
+"replay.play" = "Play";
+"replay.pause" = "Pause";
+"replay.stopReplay" = "Stop";
+"replay.reset" = "Reset";
+"replay.integrity" = "CRC32 Integrity";
+"replay.verified" = "Verified";
+"replay.pending" = "Pending";
+"replay.selectFile" = "Select replay file (.bin)";
+"replay.eventCount" = "Event Count";
+"replay.duration" = "Duration";
+
+// ==========================================
+// MARK: - Order State Machine
+// ==========================================
+"osm.title" = "ORDER STATE MACHINE";
+"osm.activeOrders" = "Active Orders";
+"osm.totalFills" = "Total Fills";
+"osm.avgSlippage" = "Avg Slippage";
+"osm.marketImpact" = "Market Impact";
+"osm.fsmStates" = "FSM States";
+"osm.icebergProgress" = "Iceberg Progress";
+"osm.twapProgress" = "TWAP Progress";
+"osm.filledSlices" = "Filled Slices";
+"osm.remainingQty" = "Remaining Qty";
+"osm.orderTable" = "Order Table";
+"osm.orderId" = "Order ID";
+"osm.state" = "State";
+"osm.side" = "Side";
+"osm.price" = "Price";
+"osm.qty" = "Qty";
+"osm.filled" = "Filled";
+
+// ==========================================
+// MARK: - ML Diagnostics
+// ==========================================
+"ml.title" = "ML DIAGNOSTICS";
+"ml.modelAccuracy" = "Model Accuracy";
+"ml.overall" = "Overall";
+"ml.perClass" = "Per-Class Metrics";
+"ml.precision" = "Precision";
+"ml.recall" = "Recall";
+"ml.f1Score" = "F1 Score";
+"ml.horizonAccuracy" = "Horizon Accuracy";
+"ml.accuracyTrend" = "Accuracy Trend";
+"ml.featureImportance" = "Feature Importance";
+"ml.noData" = "No ML data available yet…";
+
+// ==========================================
+// MARK: - System Monitor
+// ==========================================
+"sysmon.resources" = "Resources";
+"sysmon.cpu" = "CPU";
+"sysmon.cpuCores" = "CPU Cores";
+"sysmon.memory" = "Memory";
+"sysmon.peakMemory" = "Peak Memory";
+"sysmon.uptime" = "Uptime";
+"sysmon.gpu" = "GPU";
+"sysmon.gpuUsage" = "GPU Usage";
+"sysmon.throughput" = "Throughput";
+"sysmon.ticksSec" = "Ticks/sec";
+"sysmon.signalsSec" = "Signals/sec";
+"sysmon.ordersSec" = "Orders/sec";
+"sysmon.latency" = "Latency (µs)";
+"sysmon.websocket" = "WebSocket";
+"sysmon.features" = "Features";
+"sysmon.model" = "Model";
+"sysmon.endToEnd" = "End-to-End";
+"sysmon.exchangeRtt" = "Exchange RTT";
+"sysmon.network" = "Network";
+"sysmon.drawdownHistory" = "Drawdown History";
+"sysmon.mlInference" = "ML Inference";
+"sysmon.inferenceP50" = "Inference p50";
+"sysmon.inferenceP99" = "Inference p99";
+"sysmon.gpuAvailable" = "GPU Available";
+"sysmon.gpuName" = "GPU Name";
+"sysmon.stageHistograms" = "Per-Stage HdrHistogram";
+"sysmon.noHistogramData" = "No histogram data yet…";
+"sysmon.jitterAlerts" = "JITTER ALERTS";
+"sysmon.ordersCancelled" = "Orders Cancelled";
+
+// ==========================================
+// MARK: - Log Panel
+// ==========================================
+"logs.title" = "SYSTEM LOG";
+"logs.filter" = "Filter…";
+"logs.info" = "INFO";
+"logs.warn" = "WARN";
+"logs.error" = "ERROR";
+"logs.autoScroll" = "Auto-scroll";
+"logs.noEntries" = "No log entries";
+
+// ==========================================
+// MARK: - Diagnostics
+// ==========================================
+"diag.systemDiag" = "System Diagnostics";
+"diag.version" = "Version";
+"diag.macos" = "macOS";
+"diag.cpuCores" = "CPU Cores";
+"diag.ram" = "RAM";
+"diag.processId" = "Process ID";
+"diag.uptime" = "Uptime";
+"diag.engineState" = "Engine State";
+"diag.status" = "Status";
+"diag.mode" = "Mode";
+"diag.symbol" = "Symbol";
+"diag.orderQty" = "Order Qty";
+"diag.signalThreshold" = "Signal Threshold";
+"diag.reconnecting" = "Reconnecting";
+"diag.chaosEnabled" = "Chaos Enabled";
+"diag.replayLoaded" = "Replay Loaded";
+"diag.rlTraining" = "RL Training";
+"diag.dataState" = "Data State";
+"diag.obValid" = "OB Valid";
+"diag.bidLevels" = "Bid Levels";
+"diag.askLevels" = "Ask Levels";
+"diag.bestBid" = "Best Bid";
+"diag.bestAsk" = "Best Ask";
+"diag.logEntries" = "Log Entries";
+"diag.signals" = "Signals";
+"diag.trades" = "Trades";
+"diag.activeOrdersOSM" = "Active Orders (OSM)";
+"diag.stageHistograms" = "Stage Histograms";
+"diag.performance" = "Performance";
+"diag.obUpdates" = "OB Updates";
+"diag.totalTrades" = "Total Trades";
+"diag.totalSignals" = "Total Signals";
+"diag.ordersSent" = "Orders Sent";
+"diag.wsReconnects" = "WS Reconnects";
+"diag.e2eP50" = "E2E p50";
+"diag.e2eP99" = "E2E p99";
+"diag.var99" = "VaR 99%";
+"diag.chaosInjections" = "Chaos Injections";
+
+// ==========================================
+// MARK: - Settings
+// ==========================================
+"settings.title" = "SETTINGS";
+"settings.apiKeys" = "API KEYS";
+"settings.keychain" = "Keychain";
+"settings.apiKey" = "API Key";
+"settings.apiSecret" = "API Secret";
+"settings.showKey" = "Show Key";
+"settings.saveToKeychain" = "Save to Keychain";
+"settings.tradingMode" = "TRADING MODE";
+"settings.paperMode" = "Paper Trading";
+"settings.liveWarning" = "WARNING: Live trading uses real funds";
+"settings.tradingParams" = "TRADING PARAMETERS";
+"settings.orderQty" = "Order Quantity";
+"settings.symbol" = "Symbol";
+"settings.signalThreshold" = "Signal Threshold";
+"settings.riskLimits" = "RISK LIMITS";
+"settings.maxPosition" = "Max Position";
+"settings.maxDrawdown" = "Max Drawdown %";
+"settings.maxLossDay" = "Max Loss/Day";
+"settings.aiSettings" = "AI SETTINGS";
+"settings.enableOnnx" = "Enable ONNX";
+"settings.enableRL" = "Enable RL Optimizer";
+"settings.updateInterval" = "Update Interval";
+"settings.ticks" = "ticks";
+"settings.circuitBreaker" = "CIRCUIT BREAKER";
+"settings.cbMaxDrawdown" = "Max Drawdown";
+"settings.cbMaxConsecLosses" = "Max Consecutive Losses";
+"settings.cbCooldown" = "Cooldown (sec)";
+"settings.applySettings" = "Apply Settings";
+"settings.language" = "LANGUAGE";
+"settings.selectLanguage" = "Interface Language";
+"settings.languageNote" = "Language changes take effect immediately";
+
+// ==========================================
+// MARK: - Additional Keys (Views)
+// ==========================================
+"chaos.disabled" = "DISABLED";
+"chaos.summary" = "Injection Summary";
+"replay.loadedFile" = "Loaded File";
+"replay.noFile" = "No file loaded";
+"replay.load" = "Load…";
+"rl.idle" = "IDLE";
+"rl.waitingForData" = "Waiting for training data…";
+"rl.agentStatus" = "Agent Status";
+"var.portfolio" = "PORTFOLIO";
+"var.methodsComparison" = "VaR Methods Comparison";
+"ml.perClassMetrics" = "Per-Class Metrics";
+"sysmon.stages" = "stages";
+"sysmon.noHistograms" = "No histogram data yet…";
+"log.title" = "SYSTEM LOG";
+"log.noEntries" = "No log entries";
+"diag.systemDiagnostics" = "System Diagnostics";
+
+// ==========================================
+// MARK: - Appearance Settings
+// ==========================================
+"settings.appearance" = "APPEARANCE";
+"settings.appearanceNote" = "Choose Light, Dark, or follow macOS System appearance.";
+"settings.appearanceSystem" = "System";
+"settings.appearanceLight" = "Light";
+"settings.appearanceDark" = "Dark";
+
+// ==========================================
+// MARK: - Additional Missing Keys
+// ==========================================
+"settings.keychainNote" = "API keys are stored securely in macOS Keychain.";
+"settings.stopEngineWarning" = "Stop engine to change settings";
+"settings.onnxRuntime" = "ONNX Runtime";
+
+"ai.direction" = "Direction";
+"ai.horizon" = "Horizon";
+"ai.pFlat" = "P(Flat)";
+"ai.move" = "Move";
+"ai.dir" = "Dir";
+"ai.noData" = "No data";
+"ai.inference" = "Inference";
+
+"chaos.subtitle" = "Fault injection for resilience testing";
+
+"logs.all" = "All";
+
+"ml.current" = "Current:";
+"ml.multiHorizonProb" = "Multi-Horizon Probabilities";
+
+"osm.subtitle" = "8-state FSM with LUT transitions, iceberg/TWAP/VWAP";
+"osm.slices" = "slices";
+"osm.marketImpactLabel" = "Market Impact:";
+"osm.fillPct" = "Fill%";
+"osm.cx" = "Cx";
+"osm.icebergOrder" = "Iceberg Order";
+"osm.twapSchedule" = "TWAP/VWAP Schedule";
+"osm.fsmStatesLut" = "FSM States (8-state LUT)";
+
+"rl.subtitle" = "32-dim state, 4-dim action, GAE-λ";
+
+"replay.subtitle" = "Bit-exact replay of BlackBoxRecorder events";
+"replay.crc32" = "CRC32";
+"replay.speedLabel" = "SPEED";
+"replay.speedName" = "Speed";
+"replay.speedMax" = "0x (max)";
+"replay.speedRealtime" = "10x (realtime)";
+
+"var.subtitle" = "Parametric / Historical / Monte Carlo VaR + CVaR";
+
+"sysmon.drawdownHistory" = "Drawdown History";
+"sysmon.stage" = "Stage";
+"sysmon.count" = "Count";
+"sysmon.mean" = "Mean";
+"sysmon.p50" = "p50";
+"sysmon.p90" = "p90";
+"sysmon.p99" = "p99";
+"sysmon.p999" = "p99.9";
+"sysmon.max" = "Max";
+"sysmon.stddev" = "Stddev";
+
+// ==========================================
+// MARK: - Settings (additional fields)
+// ==========================================
+"settings.entryOffset" = "Entry Offset (bps)";
+"settings.obLevels" = "OB Levels";
+"settings.ioThreads" = "IO Threads";
+"settings.maxLeverage" = "Max Leverage";
+"settings.maxOrdersSec" = "Max Orders/sec";
+"settings.lossThreshold" = "Loss Threshold ($)";
+"settings.mlModel" = "ML Model";
+"settings.adaptiveThreshold" = "Adaptive Threshold";
+"settings.regimeDetection" = "Regime Detection";
+"settings.requoting" = "Requoting";
+"settings.adaptiveSizing" = "Adaptive Sizing";
+"settings.featureTick" = "Feature tick (ms)";
+"settings.onnxModel" = "ONNX Model";
+"settings.onnxPath" = "Path to .onnx";
+"settings.onnxThreads" = "ONNX Threads";
+"settings.deleteKeys" = "Delete API keys?";
+"settings.delete" = "Delete";
+"settings.paperDescription" = "Orders are simulated. No real funds at risk.";
+"settings.switchToLive" = "Switch to live trading?";
+"settings.toLive" = "→ LIVE";
+"settings.toPaper" = "→ PAPER";
+
+// ==========================================
+// MARK: - Chaos (additional)
+// ==========================================
+"chaos.nightly" = "Nightly";
+"chaos.flashCrash" = "Flash Crash";
+"chaos.disable" = "Disable";
+"chaos.reset" = "Reset";
+"chaos.latencySpikes" = "Latency Spikes";
+"chaos.packetsDropped" = "Packets Dropped";
+"chaos.fakeDeltas" = "Fake Deltas";
+"chaos.oomSimulation" = "OOM Simulation";
+"chaos.corruptedJson" = "Corrupted JSON";
+"chaos.clockSkews" = "Clock Skews";
+"chaos.totalLatency" = "Total Latency Injected";
+"chaos.maxLatency" = "Max Injected Latency";
+"chaos.engineStatus" = "Engine Status";
+
+// ==========================================
+// MARK: - Replay (additional)
+// ==========================================
+"replay.events" = "EVENTS";
+"replay.filtered" = "FILTERED";
+"replay.sequence" = "SEQUENCE";
+"replay.mono" = "MONO";
+"replay.nonMono" = "NON-MONO";
+"replay.play" = "Play";
+"replay.pause" = "Pause";
+"replay.step" = "Step";
+"replay.maxSpeed" = "MAX SPEED";
+"replay.crc32Checksum" = "CRC32 Checksum";
+"replay.seqMonotonic" = "Sequence Monotonic";
+"replay.fileLoaded" = "File Loaded";
+"replay.eventsGt0" = "Events > 0";
+"replay.pass" = "PASS";
+"replay.fail" = "FAIL";
+"replay.selectBin" = "Select a BlackBoxRecorder dump (.bin)";
+
+// ==========================================
+// MARK: - AI (additional metric labels)
+// ==========================================
+"ai.trendScore" = "Trend Score";
+"ai.mrScore" = "MR Score";
+"ai.liquidity" = "Liquidity";
+"ai.inferenceLatency" = "Inference";
+"ai.volatilityAdj" = "Volatility Adj";
+"ai.accuracyAdj" = "Accuracy Adj";
+"ai.liquidityAdj" = "Liquidity Adj";
+"ai.spreadAdj" = "Spread Adj";
+"ai.recentAccuracy" = "Recent Accuracy";
+"ai.signals" = "Signals";
+"ai.tripped" = "Tripped";
+"ai.cooldownLabel" = "Cooldown";
+"ai.resetCB" = "Reset CB";
+"ai.overall" = "Overall";
+"ai.rolling" = "Rolling";
+"ai.predictions" = "Predictions";
+"ai.correct" = "Correct";
+"ai.calibrationErr" = "Calibration Err";
+"ai.backend" = "Backend";
+"ai.modelP50" = "Model p50";
+"ai.modelP99" = "Model p99";
+"ai.gpu" = "GPU";
+"ai.onnx" = "ONNX";
+"ai.onnxActive" = "Active";
+"ai.onnxInactive" = "Inactive";
+
+// ==========================================
+// MARK: - ML (additional)
+// ==========================================
+"ml.significant" = "significant";
+"ml.mutualInformation" = "Mutual Information";
+"ml.confidence" = "Confidence";
+"ml.totalPredictions" = "Total Predictions";
+"ml.calibrationError" = "Calibration Error";
+"ml.rollingWindow" = "Rolling Window";
+"ml.backend" = "Backend";
+"ml.inferenceLabel" = "Inference";
+"ml.onnxRuntime" = "ONNX Runtime";
+"ml.nativeGru" = "Native GRU";
+
+// ==========================================
+// MARK: - Strategy (additional)
+// ==========================================
+"strategy.expectancy" = "Expectancy";
+"strategy.totalPnl" = "Total PnL";
+"strategy.calmar" = "Calmar";
+"strategy.recovery" = "Recovery";
+"strategy.currentDD" = "Current DD";
+"strategy.dailyPnl" = "Daily PnL";
+"strategy.hourlyPnl" = "Hourly PnL";
+"strategy.winning" = "Winning";
+"strategy.losing" = "Losing";
+"strategy.consecWins" = "Consec Wins";
+"strategy.sharpeScore" = "Sharpe";
+"strategy.consistency" = "Consistency";
+"strategy.fillRate" = "Fill Rate";
+"strategy.regimeChanges" = "Regime Changes/1h";
+"strategy.thresholdOffset" = "Threshold Offset";
+"strategy.exploring" = "Exploring";
+"strategy.exploiting" = "Exploiting";
+"strategy.steps" = "Steps";
+"strategy.updates" = "Updates";
+"strategy.deltaThreshold" = "Δ Threshold";
+"strategy.sizeScale" = "Size Scale";
+"strategy.offsetBPS" = "Offset BPS";
+"strategy.valueEst" = "Value Est";
+
+// ==========================================
+// MARK: - RL (additional)
+// ==========================================
+"rl.entropyAlpha" = "ENTROPY α";
+"rl.klDiv" = "KL DIV";
+"rl.clipFrac" = "CLIP FRAC";
+"rl.explVar" = "EXPL VAR";
+"rl.lr" = "LR";
+"rl.buffer" = "BUFFER";
+"rl.requoteScale" = "Requote";
+"rl.approxKL" = "Approx KL";
+"rl.valueEstimate" = "Value Estimate";
+"rl.totalStepsLabel" = "Total Steps";
+"rl.totalUpdates" = "Total Updates";
+"rl.exploring" = "Exploring";
+"rl.rollbacks" = "Rollbacks";
+"rl.epochs" = "Epochs";
+"rl.signalDelta" = "Signal Δ";
+"rl.posScale" = "Pos Scale";
+"rl.offsetBps" = "Offset bps";
+
+// ==========================================
+// MARK: - System Monitor (additional)
+// ==========================================
+"sysmon.obUpdates" = "OB Updates";
+"sysmon.trades" = "Trades";
+"sysmon.signals" = "Signals";
+"sysmon.ordersSent" = "Orders Sent";
+"sysmon.ordersFilled" = "Orders Filled";
+"sysmon.wsReconnects" = "WS Reconnects";
+"chaos.totalInjections" = "Total Injections";
+
+// ==========================================
+// MARK: - Log (additional)
+// ==========================================
+"logs.filter" = "Filter…";
+"logs.level" = "Level";
+
+// ==========================================
+// MARK: - VaR (additional)
+// ==========================================
+"var.parametricGaussian" = "Parametric (Gaussian)";
+"var.historicalSim" = "Historical Simulation";
+"var.maxDrawdown" = "Max Drawdown";
+"var.currentDD" = "Current DD";
+"var.cbDrawdown" = "CB Drawdown";
+"var.sharpe" = "Sharpe";
+"var.sortino" = "Sortino";
+"var.calmar" = "Calmar";
+"var.cb" = "CB";
+"var.recovery" = "Recovery";
+"var.winRate" = "Win Rate";
+"var.var95" = "VaR 95%";
+"var.var99" = "VaR 99%";
+"var.cvar95" = "CVaR 95%";
+"var.cvar99" = "CVaR 99%";
+
+// ==========================================
+// MARK: - Signals (additional)
+// ==========================================
+"signals.buy" = "BUY";
+"signals.sell" = "SELL";
+
+// ==========================================
+// MARK: - OSM (additional)
+// ==========================================
+"osm.transitions" = "TRANSITIONS";
+"osm.fillTime" = "FILL TIME";
+"osm.stNew" = "New";
+"osm.stPending" = "Pending";
+"osm.stOpen" = "Open";
+"osm.stPartialFill" = "PartialFill";
+"osm.stFilled" = "Filled";
+"osm.stCancelling" = "Cancelling";
+"osm.stCancelled" = "Cancelled";
+"osm.stExpired" = "Expired";
+
+// ==========================================
+// MARK: - Sprint 2: Trading Modes
+// ==========================================
+"mode.replay" = "REPLAY";
+"mode.backtest" = "BACKTEST";
+"mode.paper" = "PAPER";
+"mode.testnet" = "TESTNET";
+"mode.live" = "LIVE";
+
+// ==========================================
+// MARK: - Sprint 2: Risk Command Center
+// ==========================================
+"risk.commandCenter" = "RISK COMMAND CENTER";
+"risk.haltActive" = "TRADING HALTED";
+"risk.halt" = "HALT";
+"risk.engineStatus" = "Engine";
+"risk.uptime" = "Uptime";
+"risk.wsReconnects" = "WS Reconnects";
+"risk.positionPnl" = "POSITION & PnL";
+"risk.utilization" = "RISK UTILIZATION";
+"risk.positionUsed" = "Position";
+"risk.drawdownUsed" = "Drawdown";
+"risk.dailyLossUsed" = "Daily Loss";
+"risk.leverageUsed" = "Leverage";
+"risk.varSummary" = "VaR SUMMARY";
+"risk.circuitBreaker" = "CIRCUIT BREAKER";
+"risk.killSwitches" = "KILL SWITCHES";
+"risk.globalKill" = "Global";
+"risk.strategyKill" = "Strategy";
+"risk.cbKill" = "Circuit Breaker";
+"risk.activateGlobalKill" = "Activate Global Kill";
+"risk.resetGlobalKill" = "Reset Global Kill";
+"risk.manualGlobalKill" = "Manual global kill switch activated by user";
+
+// ==========================================
+// MARK: - Sprint 2: Incident Center
+// ==========================================
+"incident.title" = "INCIDENT CENTER";
+"incident.subtitle" = "Operational events and critical alerts timeline";
+"incident.info" = "Info";
+"incident.warning" = "Warning";
+"incident.critical" = "Critical";
+"incident.total" = "Total";
+"incident.filter" = "Filter:";
+"incident.clearAll" = "Clear All";
+"incident.noIncidents" = "No incidents recorded";
+"incident.noIncidentsDetail" = "Operational events will appear here when they occur";
+"incident.resolved" = "RESOLVED";
+"incident.cat.modeChange" = "Mode";
+"incident.cat.killSwitch" = "Kill Switch";
+"incident.cat.circuitBreaker" = "Circuit Breaker";
+"incident.cat.riskHalt" = "Risk Halt";
+"incident.cat.connection" = "Connection";
+"incident.cat.configChange" = "Config";
+"incident.cat.validation" = "Validation";
+"incident.cat.execution" = "Execution";
+"incident.cat.system" = "System";
+"incident.switchedToLive" = "Switched to LIVE mode";
+"incident.switchedToPaper" = "Switched to PAPER mode";
+"incident.modeChanged" = "Trading mode changed";
+"incident.globalKillActivated" = "Global kill switch activated";
+"incident.globalKillReset" = "Global kill switch reset";
+"incident.strategyHalted" = "Strategy halted";
+"incident.strategyHaltReset" = "Strategy halt reset";
+"incident.emergencyStop" = "Emergency stop triggered";
+"incident.cbTripped" = "Circuit breaker tripped";
+"incident.cbReset" = "Circuit breaker reset";
+"incident.engineCrash" = "Engine crashed";
+"incident.configApplied" = "Settings applied";
+
+// ==========================================
+// MARK: - Sprint 2: Config Validation
+// ==========================================
+"validation.title" = "CONFIG VALIDATION";
+"validation.emptySymbol" = "Symbol cannot be empty";
+"validation.zeroQty" = "Order quantity must be > 0";
+"validation.qtyExceedsMax" = "Order qty exceeds max position size";
+"validation.zeroMaxPosition" = "Max position size must be > 0";
+"validation.zeroLeverage" = "Leverage must be > 0";
+"validation.highLeverage" = "Leverage > 50x is very risky";
+"validation.extremeLeverage" = "Leverage > 100x is not allowed";
+"validation.zeroMaxLoss" = "Max daily loss must be > 0";
+"validation.invalidDrawdown" = "Max drawdown must be between 0 and 1";
+"validation.highDrawdown" = "Max drawdown > 50% is very risky";
+"validation.thresholdRange" = "Signal threshold should be 0.1–0.99";
+"validation.cbDisabledLive" = "Circuit breaker disabled in LIVE mode";
+"validation.noCredsLive" = "No API credentials for LIVE mode";
+"validation.highLeverageLive" = "Leverage > 20x in LIVE mode";
+"validation.noCredsTestnet" = "No API credentials for TESTNET mode";
+"validation.zeroOrderRate" = "Max orders/sec must be > 0";
+"validation.highOrderRate" = "Max orders/sec > 50 is unusually high";
+
+// ==========================================
+// MARK: - Sprint 2: Menu Items
+// ==========================================
+"menu.globalKill" = "Global Kill Switch";
+"menu.resetKill" = "Reset Kill Switch";
+
+// ==========================================
+// MARK: - Sprint 2: Tabs
+// ==========================================
+"tab.riskCenter" = "Risk Center";
+"tab.incidents" = "Incidents";
+"tab.executionIntel" = "Exec Intel";
+
+// ==========================================
+// MARK: - Sprint 3: Execution Intelligence
+// ==========================================
+"exec.title" = "EXECUTION INTELLIGENCE";
+"exec.subtitle" = "Real-time execution quality analysis, slippage, latency, and scoring";
+
+// KPI
+"exec.kpi.fillRate" = "Fill Rate";
+"exec.kpi.avgSlippage" = "Avg Slippage";
+"exec.kpi.fillTime" = "Fill Time";
+"exec.kpi.impact" = "Mkt Impact";
+"exec.kpi.e2eP99" = "E2E p99";
+
+// Score
+"exec.score" = "Execution Score";
+"exec.comp.fillRate" = "Fill Rate";
+"exec.comp.slippage" = "Slippage";
+"exec.comp.latency" = "Latency";
+"exec.comp.impact" = "Impact";
+"exec.comp.efficiency" = "Efficiency";
+
+// Slippage
+"exec.slippage" = "Slippage Analysis";
+"exec.slip.impact" = "Market Impact";
+"exec.slip.buy" = "Buy Avg";
+"exec.slip.sell" = "Sell Avg";
+"exec.slip.recent" = "RECENT ORDER SLIPPAGE";
+
+// Fill Quality
+"exec.fillQuality" = "Fill Quality";
+"exec.fill.sent" = "Sent";
+"exec.fill.filled" = "Filled";
+"exec.fill.cancelled" = "Cancelled";
+"exec.fill.cancelRate" = "Cancel Rate";
+"exec.fill.signalEff" = "Signal Eff.";
+"exec.fill.avgTime" = "Avg Fill Time";
+"exec.fill.partials" = "%d partial fills active";
+
+// Latency
+"exec.latency" = "Latency Decomposition";
+"exec.lat.exchange" = "Exchange";
+"exec.lat.external" = "external";
+"exec.lat.bottleneck" = "Bottleneck: %@";
+"exec.lat.noData" = "No stage histogram data available";
+
+// Grades
+"exec.gradeExcellent" = "Excellent";
+"exec.gradeGood" = "Good";
+"exec.gradeFair" = "Fair";
+"exec.gradePoor" = "Poor";
+
+// Poor Executions
+"exec.poorExec" = "Poor Executions";
+
+// Insights
+"exec.insights" = "Actionable Insights";
+"exec.inferred" = "derived metric";
+"exec.insight.slippageElevated" = "Slippage elevated above threshold";
+"exec.insight.fillRateLow" = "Fill rate below acceptable level";
+"exec.insight.latencySpike" = "End-to-end latency spike detected";
+"exec.insight.marketImpactHigh" = "Market impact above normal range";
+"exec.insight.latencyBottleneck" = "Pipeline bottleneck identified";
+"exec.insight.fillDelayHigh" = "Fill delay above threshold";
+"exec.insight.cancelRateHigh" = "Cancel rate elevated";
+"exec.insight.partialFillsElevated" = "Multiple partial fills active";
+"exec.insight.scoreDegraded" = "Execution quality score degraded";
+
+// Empty State
+"exec.noData" = "No Execution Data";
+"exec.noDataDetail" = "Start the engine and submit orders to see execution intelligence analytics.";
+
+// Incidents
+"incident.slippageSpike" = "Slippage spike detected";
+"incident.fillRateCollapse" = "Fill rate collapse";
+"incident.latencyAnomaly" = "Latency anomaly detected";
+"incident.execScoreCollapse" = "Execution score collapse";
+
+// MARK: - Sprint 4: Trade Review Studio
+
+// Tab
+"tab.tradeReview" = "Trade Review";
+
+// Studio Header
+"trade.studio" = "Trade Review Studio";
+"trade.trades" = "trades";
+"trade.empty" = "No completed trades yet";
+"trade.noFilterMatch" = "No trades match the current filters";
+"trade.selectTrade" = "Select a trade to review";
+"trade.studioDescription" = "Review completed trades with full execution analysis, risk context, and journal notes.";
+
+// Trade Sides
+"common.long" = "Long";
+"common.short" = "Short";
+
+// Trade Outcomes
+"trade.outcome.win" = "Win";
+"trade.outcome.loss" = "Loss";
+"trade.outcome.breakeven" = "Break Even";
+
+// Trade Ratings
+"trade.rating.excellent" = "Excellent";
+"trade.rating.good" = "Good";
+"trade.rating.fair" = "Fair";
+"trade.rating.poor" = "Poor";
+"trade.rating.terrible" = "Terrible";
+
+// Sort Options
+"trade.sort.newest" = "Newest First";
+"trade.sort.oldest" = "Oldest First";
+"trade.sort.bestPnl" = "Best PnL";
+"trade.sort.worstPnl" = "Worst PnL";
+"trade.sort.highRating" = "Highest Rating";
+"trade.sort.lowRating" = "Lowest Rating";
+"trade.sort.longest" = "Longest Hold";
+"trade.sort.shortest" = "Shortest Hold";
+
+// Stats
+"trade.totalPnl" = "Total PnL";
+"trade.winRate" = "Win Rate";
+"trade.profitFactor" = "Profit Factor";
+"trade.avgExecScore" = "Avg Exec";
+"trade.avgSlippage" = "Avg Slip";
+
+// Detail Sections
+"trade.pnlAnalysis" = "PnL Analysis";
+"trade.execQuality" = "Execution Quality";
+"trade.entry" = "Entry";
+"trade.exit" = "Exit";
+"trade.riskContext" = "Risk Context";
+"trade.journal" = "Journal";
+"trade.incidents" = "Incidents During Trade";
+
+// Detail Fields
+"trade.realizedPnl" = "Realized PnL";
+"trade.pnlPercent" = "PnL %";
+"trade.holdTime" = "Hold Time";
+"trade.signalConf" = "Signal Confidence";
+"trade.predCorrect" = "Prediction Correct";
+"trade.execScore" = "Execution Score";
+"trade.entrySlippage" = "Entry Slippage";
+"trade.exitSlippage" = "Exit Slippage";
+"trade.totalSlippage" = "Total Slippage";
+"trade.price" = "Price";
+"trade.qty" = "Quantity";
+"trade.slippage" = "Slippage";
+"trade.fillTime" = "Fill Time";
+"trade.time" = "Time";
+"trade.atEntry" = "At Entry";
+"trade.atExit" = "At Exit";
+"trade.regime" = "Regime";
+"trade.volatility" = "Volatility";
+"trade.drawdown" = "Drawdown";
+"trade.var99" = "VaR 99";
+
+// Journal
+"trade.rating" = "Rating";
+"trade.userOverride" = "user override";
+"trade.notes" = "Notes";
+
+// Regime Names (for trade review)
+"regime.trending" = "Trending";
+"regime.meanReverting" = "Mean Reverting";
+"regime.volatile" = "Volatile";
+"regime.quiet" = "Quiet";
+"regime.unknown" = "Unknown";
+
+// MARK: - Sprint 4: Localization Fixes — Engine Status
+"engine.status.idle" = "IDLE";
+"engine.status.connecting" = "CONNECTING";
+"engine.status.connected" = "CONNECTED";
+"engine.status.trading" = "TRADING";
+"engine.status.error" = "ERROR";
+"engine.status.stopping" = "STOPPING";
+
+// Order States
+"order.state.new" = "New";
+"order.state.pending" = "Pending";
+"order.state.open" = "Open";
+"order.state.partialFill" = "Partial Fill";
+"order.state.filled" = "Filled";
+"order.state.cancelling" = "Cancelling";
+"order.state.cancelled" = "Cancelled";
+"order.state.expired" = "Expired";
+"order.state.unknown" = "Unknown";
+
+// Strategy Health Levels
+"health.excellent" = "Excellent";
+"health.good" = "Good";
+"health.warning" = "Warning";
+"health.critical" = "Critical";
+"health.halted" = "Halted";
+"health.unknown" = "Unknown";
+
+// Common
+"common.yes" = "Yes";
+"common.no" = "No";
+
+// ==========================================
+// MARK: - Sprint 5: Research & Quant
+// ==========================================
+
+// Sidebar Section
+"section.research" = "RESEARCH & QUANT";
+
+// Sidebar Tabs
+"tab.modelGov" = "Model Governance";
+"tab.regimeCenter" = "Regime Center";
+"tab.allocIntel" = "Allocation Intel";
+"tab.strategyResearch" = "Strategy Research";
+
+// MARK: - Model Governance
+"model.status.active" = "Active";
+"model.status.candidate" = "Candidate";
+"model.status.retired" = "Retired";
+"model.status.degraded" = "Degraded";
+"model.status.rollback" = "Rollback";
+"model.drift.none" = "None";
+"model.drift.low" = "Low";
+"model.drift.moderate" = "Moderate";
+"model.drift.high" = "High";
+"model.drift.critical" = "Critical";
+"model.native" = "Native";
+"model.features" = "features";
+"model.healthScore" = "Health Score";
+"model.health" = "Model Health";
+"model.drift" = "Drift Detection";
+"model.driftLevel" = "Drift Level";
+"model.calibError" = "Calibration Error";
+"model.rollingAcc" = "Rolling Accuracy";
+"model.totalPreds" = "Total Predictions";
+"model.uptime" = "Uptime";
+"model.performance" = "Performance";
+"model.overallAcc" = "Overall Accuracy";
+"model.confidence" = "Confidence";
+"model.avgF1" = "Average F1";
+"model.horizons" = "Prediction Horizons";
+"model.bestHorizon" = "Best Horizon";
+"model.f1Scores" = "F1 Scores";
+"model.f1Up" = "F1 Up";
+"model.f1Down" = "F1 Down";
+"model.f1Flat" = "F1 Flat";
+"model.inference" = "Inference";
+"model.latencyP50" = "Latency P50";
+"model.latencyP99" = "Latency P99";
+"model.inferenceLatency" = "Inference Latency";
+"model.backend" = "Backend";
+"model.healthBreakdown" = "Health Breakdown";
+"model.accuracy" = "Accuracy";
+"model.calibration" = "Calibration";
+"model.latency" = "Latency";
+"model.rlStability" = "RL Stability";
+"model.stable" = "Stable";
+"model.declining" = "Declining";
+"model.normal" = "Normal";
+"model.elevated" = "Elevated";
+"model.good" = "Good";
+"model.poor" = "Poor";
+"model.adequate" = "Adequate";
+"model.low" = "Low";
+"model.unstable" = "Unstable";
+
+// MARK: - Market Regime Center
+"regime.confidence" = "Confidence";
+"regime.volatility" = "Volatility";
+"regime.duration" = "Duration";
+"regime.stabilityScore" = "Stability Score";
+"regime.stability" = "Stability";
+"regime.transitionsHour" = "Transitions / Hour";
+"regime.avgDuration" = "Avg Duration";
+"regime.currentDuration" = "Current Duration";
+"regime.status" = "Status";
+"regime.stableLabel" = "Stable";
+"regime.unstableLabel" = "Unstable";
+"regime.detectorScores" = "Detector Scores";
+"regime.trendScore" = "Trend";
+"regime.mrScore" = "Mean Rev";
+"regime.liqScore" = "Liquidity";
+"regime.previous" = "Previous";
+"regime.distribution" = "Regime Distribution";
+"regime.dominant" = "Dominant Regime";
+"regime.performance" = "Regime Performance";
+"regime.transitions" = "Transition History";
+
+// MARK: - Allocation Intelligence
+"alloc.signal.strongReduce" = "STRONG REDUCE";
+"alloc.signal.reduce" = "REDUCE";
+"alloc.signal.hold" = "HOLD";
+"alloc.signal.increase" = "INCREASE";
+"alloc.signal.strongIncrease" = "STRONG INCREASE";
+"alloc.confidence" = "Confidence";
+"alloc.posScale" = "Position Scale";
+"alloc.compositeScore" = "Composite Score";
+"alloc.riskBudget" = "Risk Budget";
+"alloc.drawdown" = "Drawdown";
+"alloc.dailyLoss" = "Daily Loss";
+"alloc.position" = "Position";
+"alloc.leverage" = "Leverage";
+"alloc.var" = "VaR";
+"alloc.remaining" = "Budget Remaining";
+"alloc.signalQuality" = "Signal Quality";
+"alloc.grade" = "Grade";
+"alloc.recentAccuracy" = "Recent Accuracy";
+"alloc.modelConf" = "Model Confidence";
+"alloc.regimeConf" = "Regime Confidence";
+"alloc.execScore" = "Execution Score";
+"alloc.efficiency" = "Signal Efficiency";
+"alloc.regimeContext" = "Regime Context";
+"alloc.favorable" = "Favorable";
+"alloc.unfavorable" = "Unfavorable";
+"alloc.sizeScale" = "Size Scale";
+"alloc.thresholdAdj" = "Threshold Adj";
+"alloc.positionSizing" = "Position Sizing";
+"alloc.suggestedScale" = "Suggested Scale";
+"alloc.currentPos" = "Current Position";
+"alloc.maxPos" = "Max Position";
+"alloc.effectiveQty" = "Effective Qty";
+"alloc.rationale" = "Rationale";
+"alloc.noReasons" = "No specific recommendations";
+"alloc.regime.trending" = "Trending regime favors larger positions with lower thresholds";
+"alloc.regime.meanReverting" = "Mean-reverting regime: standard sizing applies";
+"alloc.regime.volatile" = "Volatile regime: reduce position size, raise thresholds";
+"alloc.regime.quiet" = "Quiet regime: fewer opportunities, reduce size significantly";
+"alloc.regime.choppy" = "Choppy regime: highest caution, minimal sizing";
+"alloc.reason.circuitBreaker" = "Circuit breaker active — halt all new positions";
+"alloc.reason.riskBudgetExhausted" = "Risk budget nearly exhausted (>90%)";
+"alloc.reason.riskBudgetHigh" = "Risk budget utilization high (>70%)";
+"alloc.reason.healthPoor" = "Strategy health score below threshold";
+"alloc.reason.regimeUnfavorable" = "Current regime unfavorable for strategy";
+"alloc.reason.signalQualityLow" = "Signal quality below acceptable threshold";
+"alloc.reason.regimeFavorable" = "Current regime favorable for strategy";
+"alloc.reason.signalQualityHigh" = "Signal quality above target threshold";
+"alloc.reason.budgetAvailable" = "Sufficient risk budget available";
+"alloc.reason.signalQualityGood" = "Signal quality acceptable";
+"alloc.reason.neutral" = "No strong directional signal";
+
+// MARK: - Strategy Research
+"research.totalTrades" = "Total Trades";
+"research.horizonComparison" = "Horizon Comparison";
+"research.horizon100ms" = "100ms";
+"research.horizon500ms" = "500ms";
+"research.horizon1s" = "1s";
+"research.horizon3s" = "3s";
+"research.bestHorizon" = "Best Horizon";
+"research.riskDecomp" = "Risk Decomposition";
+"research.currentDD" = "Current Drawdown";
+"research.var95" = "VaR 95%";
+"research.var99" = "VaR 99%";
+"research.cvar95" = "CVaR 95%";
+"research.execution" = "Execution Analysis";
+"research.execScore" = "Execution Score";
+"research.fillRate" = "Fill Rate";
+"research.slippage" = "Slippage";
+"research.latency" = "Latency";
+"research.impact" = "Impact";
+"research.signalEff" = "Signal Eff";
+"research.regimeCorrelation" = "Regime Correlation";
+"research.noTradeData" = "No trade data available";
+"research.regime" = "Regime";
+"research.trades" = "Trades";
+"research.winRateShort" = "Win%";
+"research.avgPnl" = "Avg PnL";
+"research.totalPnlShort" = "Total PnL";
+"research.tradeDistribution" = "Trade Distribution";
+"research.winning" = "Winning";
+"research.losing" = "Losing";
+"research.consWins" = "Max Wins";
+"research.consLosses" = "Max Losses";
+"research.bestTrade" = "Best";
+"research.worstTrade" = "Worst";
+"research.healthDecomp" = "Health Decomposition";
+"research.accScore" = "Accuracy";
+"research.pnlScore" = "PnL";
+"research.ddScore" = "Drawdown";
+"research.sharpeScore" = "Sharpe";
+"research.consistencyScore" = "Consistency";
+"research.fillRateScore" = "Fill Rate";
+
+// ==========================================
+// MARK: - Sprint 6: Onboarding
+// ==========================================
+"onboarding.welcomeTitle" = "Welcome to Lynrix";
+"onboarding.welcomeSubtitle" = "High-precision AI trading platform with real-time analytics, risk management, and research tools.";
+"onboarding.featureAI" = "AI-powered signal generation and regime detection";
+"onboarding.featureRisk" = "Multi-layer risk management and kill switches";
+"onboarding.featureExec" = "Execution intelligence and slippage analytics";
+"onboarding.featureResearch" = "Strategy research and model governance";
+"onboarding.prefsTitle" = "Preferences";
+"onboarding.language" = "Language";
+"onboarding.appearance" = "Appearance";
+"onboarding.safetyTitle" = "Safety Architecture";
+"onboarding.safetySubtitle" = "Lynrix includes multiple layers of protection to keep your trading safe.";
+"onboarding.safetyPaper" = "Paper Trading Default";
+"onboarding.safetyPaperDesc" = "The app starts in Paper mode. Live trading requires explicit confirmation.";
+"onboarding.safetyCircuit" = "Circuit Breakers";
+"onboarding.safetyCircuitDesc" = "Automatic halt on excessive loss, drawdown, or consecutive losing trades.";
+"onboarding.safetyKill" = "Kill Switches";
+"onboarding.safetyKillDesc" = "Global and per-strategy emergency halt. Blocks all trading instantly.";
+"onboarding.safetyKeys" = "Secure Key Storage";
+"onboarding.safetyKeysDesc" = "API credentials are stored in the macOS Keychain, never in plain text.";
+"onboarding.readyTitle" = "You're Ready";
+"onboarding.readySubtitle" = "Start by configuring your API keys and trading parameters in Settings.";
+"onboarding.tip1" = "Configure API keys in Settings → API Credentials";
+"onboarding.tip2" = "Review risk limits before starting the engine";
+"onboarding.tip3" = "Use Profiles to save and switch between configurations";
+"onboarding.getStarted" = "Get Started";
+"onboarding.reopenSetup" = "Reopen Setup";
+"common.next" = "Next";
+"common.back" = "Back";
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+
+// ==========================================
+// MARK: - Sprint 6: Notifications
+// ==========================================
+"notify.title" = "Notifications";
+"notify.critical" = "Critical";
+"notify.error" = "Error";
+"notify.warning" = "Warning";
+"notify.minSeverity" = "Minimum severity";
+"notify.notAuthorized" = "Notifications not authorized";
+"notify.authorize" = "Authorize";
+"notify.titleCritical" = "Critical Alert";
+"notify.titleError" = "Error";
+"notify.titleWarning" = "Warning";
+"notify.titleInfo" = "Info";
+
+// ==========================================
+// MARK: - Sprint 6: Profiles
+// ==========================================
+"profiles.title" = "Profiles";
+"profiles.description" = "Switch between configuration presets or save your own profiles.";
+"profiles.conservative" = "Conservative";
+"profiles.balanced" = "Balanced";
+"profiles.aggressive" = "Aggressive";
+"profiles.research" = "Research";
+"profiles.preset" = "Preset";
+"profiles.saveCurrent" = "Save Current";
+"profiles.saveTitle" = "Save Profile";
+"profiles.nameField" = "Profile name";
+
+// ==========================================
+// MARK: - Sprint 6: Export
+// ==========================================
+"menu.exportJournalCSV" = "Export Journal CSV";
+"menu.exportIncidentsCSV" = "Export Incidents CSV";
+
+// ==========================================
+// MARK: - Sprint 6: UX
+// ==========================================
+"settings.applied" = "Applied";
+
+// ==========================================
+// MARK: - Sprint 7A: Widget Visibility
+// ==========================================
+"layout.screen.dashboard" = "Dashboard";
+"layout.screen.sysmon" = "System Monitor";
+"layout.screen.diagnostics" = "Diagnostics";
+"layout.screen.execIntel" = "Execution Intelligence";
+"layout.screen.riskCenter" = "Risk Center";
+"layout.screen.tradeReview" = "Trade Review";
+"layout.screen.modelGov" = "Model Governance";
+"layout.screen.regimeCenter" = "Regime Center";
+"layout.screen.allocIntel" = "Allocation Intelligence";
+"layout.screen.stratResearch" = "Strategy Research";
+"layout.widget.hero" = "Price / Regime / Status";
+"layout.widget.pnl" = "PnL Summary";
+"layout.widget.quickBadges" = "Quick Badges";
+"layout.widget.equityCurve" = "Equity Curve";
+"layout.widget.throughput" = "Throughput";
+"layout.widget.latency" = "Latency";
+"layout.widget.aiPrediction" = "AI Prediction";
+"layout.widget.circuitBreaker" = "Circuit Breaker";
+"layout.widget.recentLogs" = "Recent Logs";
+"layout.widget.resources" = "Resources";
+"layout.widget.network" = "Network";
+"layout.widget.inference" = "ML Inference";
+"layout.widget.stageHistograms" = "Stage Histograms";
+"layout.widget.jitterAlerts" = "Jitter Alerts";
+"layout.widget.systemInfo" = "System Info";
+"layout.widget.engineState" = "Engine State";
+"layout.widget.dataState" = "Data State";
+"layout.widget.perfMetrics" = "Performance Metrics";
+"layout.widget.kpiSummary" = "KPI Summary";
+"layout.widget.execScore" = "Execution Score";
+"layout.widget.slippage" = "Slippage Analysis";
+"layout.widget.fillQuality" = "Fill Quality";
+"layout.widget.latencyDecomp" = "Latency Decomposition";
+"layout.widget.poorExecs" = "Poor Executions";
+"layout.widget.insights" = "Insights";
+"layout.widget.position" = "Position";
+"layout.widget.riskUtil" = "Risk Utilization";
+"layout.widget.varSummary" = "VaR Summary";
+"layout.widget.killSwitch" = "Kill Switch";
+"layout.resetDefaults" = "Reset to Defaults";
+
+// ==========================================
+// MARK: - Sprint 7A: Localization Fixes
+// ==========================================
+"exec.bpsAvg" = "bps avg";
+"settings.techStack" = "Swift 5.9 • C++23";
+"notify.info" = "Info";
+
+// ==========================================
+// MARK: - Sprint 8: Authentication & Account
+// ==========================================
+
+// Auth Gate — Welcome
+"auth.tagline" = "AI-Powered Trading Platform";
+"auth.googleSignIn" = "Continue with Google";
+"auth.signIn" = "Sign In";
+"auth.signingIn" = "Signing in…";
+"auth.or" = "or";
+"auth.version" = "Lynrix v2.5.0";
+"auth.copyright" = "© 2026 Lynrix. All rights reserved.";
+"auth.back" = "Back";
+"auth.createAccountLink" = "Create an account";
+"auth.noAccount" = "Don't have an account?";
+
+// Auth Gate — Email Login
+"auth.welcomeBack" = "Welcome Back";
+"auth.signInSubtitle" = "Sign in with your Lynrix account";
+"auth.emailSignIn" = "Sign in with Email";
+"auth.emailPlaceholder" = "Email address";
+"auth.passwordPlaceholder" = "Password";
+
+// Auth Gate — Registration
+"auth.createAccount" = "Create Account";
+"auth.registerSubtitle" = "Register a new Lynrix account";
+"auth.personalInfo" = "Personal Information";
+"auth.firstName" = "First name";
+"auth.lastName" = "Last name";
+"auth.gender" = "Gender";
+"auth.dateOfBirth" = "Date of Birth";
+"auth.credentials" = "Credentials";
+"auth.emailField" = "Email";
+"auth.usernameField" = "Username";
+"auth.usernamePlaceholder" = "Choose a username";
+"auth.usernameOptional" = "Optional — you can set this later";
+"auth.password" = "Password";
+"auth.confirmPassword" = "Confirm Password";
+"auth.confirmPasswordPlaceholder" = "Repeat password";
+"auth.register" = "Create Account";
+"auth.addPhoto" = "Photo";
+"auth.photoOptional" = "Optional";
+"auth.selectPhoto" = "Select profile photo";
+
+// Auth Errors
+"auth.error.invalidEmail" = "Please enter a valid email address";
+"auth.error.emailTaken" = "This email is already registered";
+"auth.error.passwordShort" = "Password must be at least 6 characters";
+"auth.error.passwordMismatch" = "Passwords do not match";
+"auth.error.userNotFound" = "No account found with this email";
+"auth.error.wrongPassword" = "Wrong password";
+"auth.error.accountDisabled" = "Account disabled. Contact support.";
+
+// Gender
+"gender.male" = "Male";
+"gender.female" = "Female";
+"gender.other" = "Other";
+
+// Account Section
+"account.title" = "ACCOUNT";
+"account.signOut" = "Sign Out";
+"account.signOutConfirm" = "Sign out of Lynrix?";
+"account.notSignedIn" = "Not signed in";
+"account.plan" = "Plan";
+"account.status" = "Status";
+"account.provider" = "Provider";
+
+// Subscription Plans
+"plan.free" = "Free";
+"plan.pro" = "Pro";
+"plan.enterprise" = "Enterprise";
+
+// Subscription States
+"sub.active" = "Active";
+"sub.expired" = "Expired";
+"sub.trial" = "Trial";
+"sub.cancelled" = "Cancelled";
+"sub.none" = "None";
+
+// ==========================================
+// MARK: - D1: Sidebar Restructure
+// ==========================================
+"section.analytics" = "ANALYTICS & RISK";
+"section.devTools" = "DEV TOOLS";
+
+// ==========================================
+// MARK: - D2: Onboarding Expansion
+// ==========================================
+"onboarding.apiKeysTitle" = "API Credentials";
+"onboarding.apiKeysSubtitle" = "Connect your Bybit account. Keys are stored securely in the macOS Keychain and never leave your device.";
+"onboarding.apiKey" = "API Key";
+"onboarding.apiSecret" = "API Secret";
+"onboarding.apiKeyPlaceholder" = "Enter your Bybit API key";
+"onboarding.apiSecretPlaceholder" = "Enter your API secret";
+"onboarding.keychainNote" = "Credentials are encrypted and stored in macOS Keychain";
+"onboarding.tradingModeTitle" = "Trading Mode";
+"onboarding.tradingModeSubtitle" = "Choose how Lynrix interacts with the market. You can change this anytime in Settings.";
+"onboarding.modePaper" = "Paper Trading";
+"onboarding.modePaperDesc" = "Simulated execution with real market data. No real orders placed.";
+"onboarding.modeTestnet" = "Testnet Trading";
+"onboarding.modeTestnetDesc" = "Real execution on Bybit testnet. Safe for testing with fake funds.";
+"onboarding.modeLive" = "Live Trading";
+"onboarding.modeLiveDesc" = "Real orders on Bybit. Requires API keys with trading permissions.";
+"onboarding.recommended" = "RECOMMENDED";
+"common.skip" = "Skip";
+
+// ==========================================
+// MARK: - D3: Event Notifications
+// ==========================================
+"notify.largeLoss" = "Large unrealized loss:";
+"notify.cbTripped" = "Circuit breaker tripped — all trading halted";
+"notify.disconnectPosition" = "WebSocket disconnected while holding position";
+"notify.orderFilled" = "Order filled:";
+"notify.info" = "Info";
+
+// ==========================================
+// MARK: - D5: Empty States
+// ==========================================
+"empty.engineStopped" = "Engine Stopped";
+"empty.engineStoppedDetail" = "Start the engine to begin receiving market data and analytics.";
+"empty.connecting" = "Connecting…";
+"empty.connectingDetail" = "Establishing connection to Bybit WebSocket feed.";
+"empty.loading" = "Loading Data…";
+"empty.loadingDetail" = "Waiting for initial market data snapshot.";
+"empty.noData" = "No Data";
+"empty.noDataDetail" = "No data available for this view yet.";
+
+// ==========================================
+// MARK: - D8: Connection Status
+// ==========================================
+"conn.connected" = "WS OK";
+"conn.degraded" = "WS SLOW";
+"conn.disconnected" = "WS DOWN";

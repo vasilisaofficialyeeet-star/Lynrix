@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023E5F7E4EC38A30F50A9312 /* MLDiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A2382CCC2966BB5A99942 /* MLDiagnosticsView.swift */; };
+		0E7880632DE93F640541E86C /* TradingCoreBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2D550D65F5D3E82450828333 /* TradingCoreBridge.mm */; settings = {COMPILER_FLAGS = "-x objective-c++"; }; };
+		167F3B6723F7EBBE6879BD32 /* LogPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5283D0AB9C9ED96132F5983 /* LogPanelView.swift */; };
+		254BD04CD3CCDA40A674E689 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68BB4E9214E5CA99CD3B58 /* KeychainManager.swift */; };
+		27AB2539DE46873F4058617E /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B05DE87EBFC95E6F5992F6 /* DiagnosticsView.swift */; };
+		34A5C172A39FB30D8A9C1B7C /* TradingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE53A9F3B8B789FCF97A4B9 /* TradingEngine.swift */; };
+		467C6E6D0AE672E9127189A7 /* BybitTraderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23000B236C429F018E54B9AF /* BybitTraderApp.swift */; };
+		4F9BE0B0F9AF504DC894A499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D2A21E8F27974BE9BA6C52 /* Assets.xcassets */; };
+		54429B5C9EE86CE7F177DDE4 /* SignalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D7BA43689E2D0D7D33B2E /* SignalsView.swift */; };
+		741556A27C93F8A4A49ADDD1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DE4E88DF7485D45C7145E /* SettingsView.swift */; };
+		88A3616EB1DDDF6790B7E5E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E6BBAC7F0A639C10712471 /* ContentView.swift */; };
+		88BD1C7696D92CAE26D91E76 /* TradeTapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6D76BB97A65998EF793C1 /* TradeTapeView.swift */; };
+		9DF60D0E8E1B97A3A0C12CAA /* AIDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B4DA517272371659B94E8F /* AIDashboardView.swift */; };
+		9EF3FB7030DBCF9B0B2E99F8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3202AAD2A234465A8EDF184 /* DashboardView.swift */; };
+		A03DE6E433AD9FF00BBC2E1F /* SystemMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D6BC88B32F2E664B36EA8 /* SystemMonitorView.swift */; };
+		D0AE5947D35FF66F4E2CBA74 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6549D48A6FE733F2A52EC35 /* PortfolioView.swift */; };
+		F369C2050DA6D83980DA30C8 /* StrategyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DB546FE2FAD9FD177B2E0 /* StrategyPerformanceView.swift */; };
+		F9F92349EE5E8A5F26E2C235 /* OrderBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D0B276BD0AD87B1C1C3E86 /* OrderBookView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009033DD8869175B4B36EF42 /* TradingCoreBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradingCoreBridge.h; sourceTree = "<group>"; };
+		21D2A21E8F27974BE9BA6C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23000B236C429F018E54B9AF /* BybitTraderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BybitTraderApp.swift; sourceTree = "<group>"; };
+		2D550D65F5D3E82450828333 /* TradingCoreBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TradingCoreBridge.mm; sourceTree = "<group>"; };
+		42B05DE87EBFC95E6F5992F6 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		49F44B46AA457AE45AE6A878 /* BybitTrader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BybitTrader.entitlements; sourceTree = "<group>"; };
+		657BFC6E2EA27FB34FB781DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7050B35D7BBA4A6959296DDC /* BybitTrader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BybitTrader-Bridging-Header.h"; sourceTree = "<group>"; };
+		736D6BC88B32F2E664B36EA8 /* SystemMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorView.swift; sourceTree = "<group>"; };
+		75B4DA517272371659B94E8F /* AIDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDashboardView.swift; sourceTree = "<group>"; };
+		7F4DB546FE2FAD9FD177B2E0 /* StrategyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPerformanceView.swift; sourceTree = "<group>"; };
+		89D0B276BD0AD87B1C1C3E86 /* OrderBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookView.swift; sourceTree = "<group>"; };
+		9CE53A9F3B8B789FCF97A4B9 /* TradingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingEngine.swift; sourceTree = "<group>"; };
+		A6549D48A6FE733F2A52EC35 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		B3202AAD2A234465A8EDF184 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B4C6D76BB97A65998EF793C1 /* TradeTapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTapeView.swift; sourceTree = "<group>"; };
+		B6E6BBAC7F0A639C10712471 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C57D7BA43689E2D0D7D33B2E /* SignalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsView.swift; sourceTree = "<group>"; };
+		E5283D0AB9C9ED96132F5983 /* LogPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPanelView.swift; sourceTree = "<group>"; };
+		F05A2382CCC2966BB5A99942 /* MLDiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLDiagnosticsView.swift; sourceTree = "<group>"; };
+		F25DE4E88DF7485D45C7145E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FB68BB4E9214E5CA99CD3B58 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		FF55BA37A461661822B72F36 /* BybitTrader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BybitTrader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		31DF64B27844CBB97E946FED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB68BB4E9214E5CA99CD3B58 /* KeychainManager.swift */,
+				9CE53A9F3B8B789FCF97A4B9 /* TradingEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C8762488C09C5A37F5D72D0 = {
+			isa = PBXGroup;
+			children = (
+				21D2A21E8F27974BE9BA6C52 /* Assets.xcassets */,
+				A9097A9514F2FC464D0451D5 /* App */,
+				8B6969D6EA1C05D5561A72AB /* Bridge */,
+				31DF64B27844CBB97E946FED /* Models */,
+				3F5124BB9388204EB571074D /* Views */,
+				89F76FBE36A0B48D9ECF66BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5124BB9388204EB571074D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75B4DA517272371659B94E8F /* AIDashboardView.swift */,
+				B3202AAD2A234465A8EDF184 /* DashboardView.swift */,
+				42B05DE87EBFC95E6F5992F6 /* DiagnosticsView.swift */,
+				E5283D0AB9C9ED96132F5983 /* LogPanelView.swift */,
+				F05A2382CCC2966BB5A99942 /* MLDiagnosticsView.swift */,
+				89D0B276BD0AD87B1C1C3E86 /* OrderBookView.swift */,
+				A6549D48A6FE733F2A52EC35 /* PortfolioView.swift */,
+				F25DE4E88DF7485D45C7145E /* SettingsView.swift */,
+				C57D7BA43689E2D0D7D33B2E /* SignalsView.swift */,
+				7F4DB546FE2FAD9FD177B2E0 /* StrategyPerformanceView.swift */,
+				736D6BC88B32F2E664B36EA8 /* SystemMonitorView.swift */,
+				B4C6D76BB97A65998EF793C1 /* TradeTapeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89F76FBE36A0B48D9ECF66BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF55BA37A461661822B72F36 /* BybitTrader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B6969D6EA1C05D5561A72AB /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				7050B35D7BBA4A6959296DDC /* BybitTrader-Bridging-Header.h */,
+				009033DD8869175B4B36EF42 /* TradingCoreBridge.h */,
+				2D550D65F5D3E82450828333 /* TradingCoreBridge.mm */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		A9097A9514F2FC464D0451D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49F44B46AA457AE45AE6A878 /* BybitTrader.entitlements */,
+				23000B236C429F018E54B9AF /* BybitTraderApp.swift */,
+				B6E6BBAC7F0A639C10712471 /* ContentView.swift */,
+				657BFC6E2EA27FB34FB781DD /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E704D8C48548959B60AEEC29 /* BybitTrader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECB3394565C21726947EA13 /* Build configuration list for PBXNativeTarget "BybitTrader" */;
+			buildPhases = (
+				2BFDB5E20352BC9DB768663C /* Build C++ Core */,
+				D071ADE40EFCF07874A42966 /* Sources */,
+				1B43CAB5D48F952FD79FFD7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BybitTrader;
+			packageProductDependencies = (
+			);
+			productName = BybitTrader;
+			productReference = FF55BA37A461661822B72F36 /* BybitTrader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178C134738348C920CDBE95A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 9C11BB382FE6B5B2A7D58574 /* Build configuration list for PBXProject "BybitTrader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3C8762488C09C5A37F5D72D0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E704D8C48548959B60AEEC29 /* BybitTrader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B43CAB5D48F952FD79FFD7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9BE0B0F9AF504DC894A499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BFDB5E20352BC9DB768663C /* Build C++ Core */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build C++ Core";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\"\ncd \"${PROJECT_DIR}/..\"\nif [ ! -f build/CMakeCache.txt ]; then\n  cmake -B build -DCMAKE_BUILD_TYPE=Release\nfi\ncmake --build build --target trading_core -j$(sysctl -n hw.ncpu)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D071ADE40EFCF07874A42966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF60D0E8E1B97A3A0C12CAA /* AIDashboardView.swift in Sources */,
+				467C6E6D0AE672E9127189A7 /* BybitTraderApp.swift in Sources */,
+				88A3616EB1DDDF6790B7E5E4 /* ContentView.swift in Sources */,
+				9EF3FB7030DBCF9B0B2E99F8 /* DashboardView.swift in Sources */,
+				27AB2539DE46873F4058617E /* DiagnosticsView.swift in Sources */,
+				254BD04CD3CCDA40A674E689 /* KeychainManager.swift in Sources */,
+				167F3B6723F7EBBE6879BD32 /* LogPanelView.swift in Sources */,
+				023E5F7E4EC38A30F50A9312 /* MLDiagnosticsView.swift in Sources */,
+				F9F92349EE5E8A5F26E2C235 /* OrderBookView.swift in Sources */,
+				D0AE5947D35FF66F4E2CBA74 /* PortfolioView.swift in Sources */,
+				741556A27C93F8A4A49ADDD1 /* SettingsView.swift in Sources */,
+				54429B5C9EE86CE7F177DDE4 /* SignalsView.swift in Sources */,
+				F369C2050DA6D83980DA30C8 /* StrategyPerformanceView.swift in Sources */,
+				A03DE6E433AD9FF00BBC2E1F /* SystemMonitorView.swift in Sources */,
+				88BD1C7696D92CAE26D91E76 /* TradeTapeView.swift in Sources */,
+				0E7880632DE93F640541E86C /* TradingCoreBridge.mm in Sources */,
+				34A5C172A39FB30D8A9C1B7C /* TradingEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03291EA97CA08E58049B8425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/BybitTrader.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../src/bridge",
+					"$(PROJECT_DIR)/../src",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-src/include",
+					"$(PROJECT_DIR)/../build/_deps/fmt-src/include",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-src/singleheader",
+					"$(PROJECT_DIR)/../build/_deps/nlohmann_json-src/include",
+					"/opt/homebrew/opt/openssl@3/include",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"/opt/homebrew/opt/openssl@3/lib",
+					/opt/homebrew/lib,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../build",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-build",
+					"$(PROJECT_DIR)/../build/_deps/fmt-build",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-build",
+					"/opt/homebrew/opt/openssl@3/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ltrading_core",
+					"-lspdlog",
+					"-lfmt",
+					"-lsimdjson",
+					"-lssl",
+					"-lcrypto",
+					"-lpthread",
+					"-framework Security",
+					"-framework AppKit",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybittrader.app;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/BybitTrader-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		90602E0ACE1CA46C2979D1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A0266FB68B72CAFBEB8E3CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/BybitTrader.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../src/bridge",
+					"$(PROJECT_DIR)/../src",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-src/include",
+					"$(PROJECT_DIR)/../build/_deps/fmt-src/include",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-src/singleheader",
+					"$(PROJECT_DIR)/../build/_deps/nlohmann_json-src/include",
+					"/opt/homebrew/opt/openssl@3/include",
+				);
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"/opt/homebrew/opt/openssl@3/lib",
+					/opt/homebrew/lib,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../build",
+					"$(PROJECT_DIR)/../build/_deps/spdlog-build",
+					"$(PROJECT_DIR)/../build/_deps/fmt-build",
+					"$(PROJECT_DIR)/../build/_deps/simdjson-build",
+					"/opt/homebrew/opt/openssl@3/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ltrading_core",
+					"-lspdlog",
+					"-lfmt",
+					"-lsimdjson",
+					"-lssl",
+					"-lcrypto",
+					"-lpthread",
+					"-framework Security",
+					"-framework AppKit",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bybittrader.app;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridge/BybitTrader-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C86EEBE03174A63D0C425A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ECB3394565C21726947EA13 /* Build configuration list for PBXNativeTarget "BybitTrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0266FB68B72CAFBEB8E3CFE /* Debug */,
+				03291EA97CA08E58049B8425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C11BB382FE6B5B2A7D58574 /* Build configuration list for PBXProject "BybitTrader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86EEBE03174A63D0C425A7C /* Debug */,
+				90602E0ACE1CA46C2979D1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178C134738348C920CDBE95A /* Project object */;
+}
